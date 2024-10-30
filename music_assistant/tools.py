@@ -1,4 +1,6 @@
 import json
+import spotipy
+from spotipy.oauth2 import SpotifyOAuth
 from random import randint
 from datetime import date, datetime, time
 from llama_index.core.tools import QueryEngineTool, FunctionTool, ToolMetadata
@@ -17,6 +19,20 @@ import lyricsgenius as lg
 
 SETTINGS = get_agent_settings()
 genius = lg.Genius(SETTINGS.genius_api_key)
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
+    client_id=SETTINGS.client_id,
+    client_secret=SETTINGS.client_secret,
+    redirect_uri=SETTINGS.redirect_uri,
+    scope='playlist-read-private playlist-modify-private' #TODO: Añadir mas scopes para poder ver albumes, canciones mas escuchadas, informacion de artista, album y canciones
+))
+
+def set_spotify_credentials(client_id: str, client_secret: str, redirect_uri: str):
+    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
+        client_id=client_id,
+        client_secret=client_secret,
+        redirect_uri=redirect_uri,
+        scope='playlist-read-private playlist-modify-private'
+    ))
 
 music_query_tool = QueryEngineTool(
     query_engine=MusicRAG(

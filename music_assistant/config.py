@@ -12,6 +12,9 @@ class AgentSettings(BaseSettings):
     openai_api_key: str = "OPENAI_API_KEY"
     log_file: str = "trip.json"
     genius_api_key: str = "GENIUS_SECRET"
+    client_id: str = "SPOTIFY_CLIENT_ID"
+    client_secret: str = "SPOTIFY_CLIENT_SECRET"
+    redirect_uri: str = "REDIRECT_URI"
 
 
 @cache
