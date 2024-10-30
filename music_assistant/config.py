@@ -15,6 +15,7 @@ class AgentSettings(BaseSettings):
     client_id: str = "SPOTIFY_CLIENT_ID"
     client_secret: str = "SPOTIFY_CLIENT_SECRET"
     redirect_uri: str = "REDIRECT_URI"
+    spotify_scope: str = "SPOTIFY_SCOPE"
 
 
 @cache

@@ -1,6 +1,5 @@
 import json
 import spotipy
-from spotipy.oauth2 import SpotifyOAuth
 from random import randint
 from datetime import date, datetime, time
 from llama_index.core.tools import QueryEngineTool, FunctionTool, ToolMetadata
@@ -13,26 +12,17 @@ from music_assistant.models import (
     HotelReservation,
     RestaurantReservation,
 )
+from music_assistant.objects import SpotifyObject
 #from music_assistant.utils import save_reservation
 import wikipediaapi
 import lyricsgenius as lg
 
 SETTINGS = get_agent_settings()
 genius = lg.Genius(SETTINGS.genius_api_key)
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id=SETTINGS.client_id,
-    client_secret=SETTINGS.client_secret,
-    redirect_uri=SETTINGS.redirect_uri,
-    scope='playlist-read-private playlist-modify-private' #TODO: Añadir mas scopes para poder ver albumes, canciones mas escuchadas, informacion de artista, album y canciones
-))
+spotify_object = SpotifyObject()
 
 def set_spotify_credentials(client_id: str, client_secret: str, redirect_uri: str):
-    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-        client_id=client_id,
-        client_secret=client_secret,
-        redirect_uri=redirect_uri,
-        scope='playlist-read-private playlist-modify-private'
-    ))
+    spotify_object.set_spotify_credentials(client_id, client_secret, redirect_uri)
 
 music_query_tool = QueryEngineTool(
     query_engine=MusicRAG(
@@ -86,7 +76,6 @@ def get_lyrics_from_genius(song_title: str, artist_name: str) -> str:
     - Use this tool to provide detailed lyrics about a song. The input to the tool is the title of the song and the name of the artist.
     """
     try:
-        # Search for the song
         song = genius.search_song(song_title, artist_name)
         if song:
             return song.lyrics
@@ -97,3 +86,13 @@ def get_lyrics_from_genius(song_title: str, artist_name: str) -> str:
         return None
 
 lyrics_genius_tool = FunctionTool.from_defaults(fn=get_lyrics_from_genius, return_direct=False)
+
+def create_Spotify_playlist(playlist_name: str, playlist_description: str, track_uris: list[str]):
+    sp = spotify_object.get_spotify_object()
+    user_id = sp.current_user()['id']
+    playlist_description = "Una playlist creada con Spotipy"
+    new_playlist = sp.user_playlist_create(user=user_id, name=playlist_name, public=False, description=playlist_description)
+    sp.playlist_add_items(playlist_id=new_playlist['id'], items=track_uris)
+
+create_Spotify_playlist_tool = FunctionTool.from_defaults(fn=create_Spotify_playlist, return_direct=False)
+
