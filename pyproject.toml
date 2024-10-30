@@ -1,7 +1,7 @@
 [project]
-name = "topicos-ia-2024-2do-parcial"
+name = "topicos-ia-2024-proyecto-final"
 version = "0.1.0"
-description = "Add your description here"
+description = "Final Project AI Topics 2024, Music Chatbot"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -11,6 +11,9 @@ dependencies = [
     "openai>=1.51.2",
     "pydantic-settings>=2.5.2",
     "piccolo[sqlite]>=1.20.0",
+    "spotipy>=2.24.0",
+    "lyricsgenius>=3.0.1",
+    "wikipedia-api>=0.7.1"
 ]
 
 [tool.uv]
@@ -18,20 +21,3 @@ dev-dependencies = [
     "gradio>=5.1.0",
     "ruff>=0.6.9",
 ]
-
-[tool.poetry]
-name = "final-proyect"
-version = "0.1.0"
-description = ""
-authors = ["Katzumi Urdininea <katurdininea02@gmail.com>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-spotipy = "^2.24.0"
-lyricsgenius = "^3.0.1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
