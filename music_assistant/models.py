@@ -4,34 +4,42 @@ from datetime import date, datetime
 from typing import Optional
 
 
-class TripType(str, Enum):
-    flight = "FLIGHT"
-    bus = "BUS"
+class Playlist(BaseModel):
+    id: str
+    name: str
+    num_tracks: int
 
 
-class TripReservation(BaseModel):
-    trip_type: TripType
-    date: date
-    departure: str
-    destination: str
-    cost: int
+class Song(BaseModel):
+    id:str
+    name: str
+    artist: str
+
+class Artist(BaseModel):
+    id: str
+    name: str
 
 
-class HotelReservation(BaseModel):
-    checkin_date: date
-    checkout_date: date
-    hotel_name: str
-    city: str
-    cost: int
+class PlaylistWithTracks(BaseModel):
+    playlist: Playlist
+    tracks: list[Song]
 
+class UserInformationTopTracks(BaseModel):
+    num: int
+    top_tracks: list[Song]
 
-class RestaurantReservation(BaseModel):
-    reservation_time: datetime
-    restaurant: str
-    city: str
-    dish: str
-    cost: int
+class UserInformationTopArtists(BaseModel):
+    num: int
+    top_artists: list[str]
 
+class UserInformationTopGenres(BaseModel):
+    num: int
+    top_genres: list[str]
+
+class UserInformation(BaseModel):
+    top_tracks: UserInformationTopTracks
+    top_artists: UserInformationTopArtists
+    top_genres: UserInformationTopGenres
 
 class AgentAPIResponse(BaseModel):
     status: str

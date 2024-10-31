@@ -7,10 +7,9 @@ from music_assistant.rags import MusicRAG
 from music_assistant.prompts import music_query_qa_tpl, music_query_description
 from music_assistant.config import get_agent_settings
 from music_assistant.models import (
-    TripReservation,
-    TripType,
-    HotelReservation,
-    RestaurantReservation,
+    Playlist,
+    PlaylistWithTracks,
+    Song
 )
 from music_assistant.objects import SpotifyObject
 #from music_assistant.utils import save_reservation
@@ -19,6 +18,7 @@ import lyricsgenius as lg
 
 SETTINGS = get_agent_settings()
 genius = lg.Genius(SETTINGS.genius_api_key)
+genius.remove_section_headers = True
 spotify_object = SpotifyObject()
 
 def set_spotify_credentials(client_id: str, client_secret: str, redirect_uri: str):
@@ -90,9 +90,53 @@ lyrics_genius_tool = FunctionTool.from_defaults(fn=get_lyrics_from_genius, retur
 def create_Spotify_playlist(playlist_name: str, playlist_description: str, track_uris: list[str]):
     sp = spotify_object.get_spotify_object()
     user_id = sp.current_user()['id']
-    playlist_description = "Una playlist creada con Spotipy"
+    playlist_description = "Una playlist creada con Spotipy por el bot de Music Assistant"
     new_playlist = sp.user_playlist_create(user=user_id, name=playlist_name, public=False, description=playlist_description)
     sp.playlist_add_items(playlist_id=new_playlist['id'], items=track_uris)
+    return Playlist(new_playlist['id'], new_playlist['name'], len(track_uris))
 
 create_Spotify_playlist_tool = FunctionTool.from_defaults(fn=create_Spotify_playlist, return_direct=False)
 
+def show_all_Spotify_playlists():
+    sp = spotify_object.get_spotify_object()
+    user_playlists = sp.current_user_playlists()
+    list_of_playlists = []
+    for playlist in user_playlists['items']:
+        list_of_playlists.append(Playlist(playlist['id'], playlist['name'], playlist['tracks']['total']))
+    return list_of_playlists
+
+show_all_Spotify_playlists_tool = FunctionTool.from_defaults(fn=show_all_Spotify_playlists, return_direct=False)
+
+def show_specific_Spotify_playlist_tracks(playlist_id: str):
+    sp = spotify_object.get_spotify_object()
+    playlist_tracks = sp.playlist_tracks(playlist_id)
+    list_of_tracks = []
+    for track in playlist_tracks['items']:
+        lyrics = get_lyrics_from_genius(track['track']['name'], track['track']['artists'][0]['name'])
+        list_of_tracks.append(Song(track['track']['id'], track['track']['name'], track['track']['artists'][0]['name'], lyrics))
+    return PlaylistWithTracks(Playlist(playlist_id, playlist_tracks['name'], playlist_tracks['total']), list_of_tracks)
+
+show_specific_Spotify_playlist_tracks_tool = FunctionTool.from_defaults(fn=show_specific_Spotify_playlist_tracks, return_direct=False)
+
+def get_user_information_top_tracks():
+    sp = spotify_object.get_spotify_object()
+    time_ranges=['short_term', 'medium_term', 'long_term']
+    song_ids = set()
+    songs = []
+    artists = []
+    tracks = []
+    lyrics = []
+    for time_range in time_ranges:
+        results = sp.current_user_top_tracks(limit=50, offset=0, time_range=time_range)
+        for song in results['items']:
+            if song['id'] in song_ids:
+                continue
+            song_ids.add(song['id'])
+            songs.append(song['name'])
+            artists.append(song['artists'][0]['name'])
+    for i in range(len(songs)):
+        lyrics_song = get_lyrics_from_genius(songs[i], artists[i])
+        lyrics.append(lyrics_song)
+        tracks.append(Song(song_ids[i], songs[i], artists[i], lyrics_song))
+    return tracks
+    
