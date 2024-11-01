@@ -9,10 +9,15 @@ from music_assistant.config import get_agent_settings
 from music_assistant.models import (
     Playlist,
     PlaylistWithTracks,
-    Song
+    Song,
+    Artist,
+    UserInformationTopTracks,
+    UserInformationTopGenres,
+    UserInformationTopArtists,
+    UserInformation
 )
 from music_assistant.objects import SpotifyObject
-#from music_assistant.utils import save_reservation
+from music_assistant.utils import save_user_information
 import wikipediaapi
 import lyricsgenius as lg
 
@@ -118,14 +123,32 @@ def show_specific_Spotify_playlist_tracks(playlist_id: str):
 
 show_specific_Spotify_playlist_tracks_tool = FunctionTool.from_defaults(fn=show_specific_Spotify_playlist_tracks, return_direct=False)
 
-def get_user_information_top_tracks():
+def get_artist_Spotify(id: str):
+    sp = spotify_object.get_spotify_object()
+    artist = sp.artist(id)
+    return Artist(artist['id'], artist['name'])
+
+get_artist_Spotify_tool = FunctionTool.from_defaults(fn=get_artist_Spotify, return_direct=False)
+
+def get_several_artists_Spotify(ids: list[str]):
+    sp = spotify_object.get_spotify_object()
+    artists = sp.artists(ids)
+    list_of_artists = []
+    for artist in artists['artists']:
+        list_of_artists.append(Artist(artist['id'], artist['name'], artist['genres']))
+    return list_of_artists
+
+get_several_artists_Spotify_tool = FunctionTool.from_defaults(fn=get_several_artists_Spotify, return_direct=False)
+
+def get_user_information_from_Spotify():
     sp = spotify_object.get_spotify_object()
     time_ranges=['short_term', 'medium_term', 'long_term']
     song_ids = set()
     songs = []
     artists = []
-    tracks = []
+    user_top_tracks = []
     lyrics = []
+    artists_ids_set = set()
     for time_range in time_ranges:
         results = sp.current_user_top_tracks(limit=50, offset=0, time_range=time_range)
         for song in results['items']:
@@ -133,10 +156,33 @@ def get_user_information_top_tracks():
                 continue
             song_ids.add(song['id'])
             songs.append(song['name'])
+            song['artists'][0]['name']
             artists.append(song['artists'][0]['name'])
+            artists_ids_set.append(song['artists'][0]['id'])
     for i in range(len(songs)):
         lyrics_song = get_lyrics_from_genius(songs[i], artists[i])
         lyrics.append(lyrics_song)
-        tracks.append(Song(song_ids[i], songs[i], artists[i], lyrics_song))
-    return tracks
+        user_top_tracks.append(Song(song_ids[i], songs[i], artists[i], lyrics_song))
+
+    if(len(artists_ids_set) >50):
+        artists_ids_set = artists_ids_set[:50]
+
+    user_top_artists = get_several_artists_Spotify(list(artists_ids_set))
+
+    user_top_genres = [genre for artist in user_top_artists for genre in artist.genres]
+    user_top_genres = set(user_top_genres)
+
+    user_top_tracks = UserInformationTopTracks(user_top_tracks)
+    user_top_artists = UserInformationTopArtists(user_top_artists)
+    user_top_genres = UserInformationTopGenres(user_top_genres)
+
+    user_information = UserInformation(SETTINGS.username, date.today(),user_top_tracks, user_top_artists, user_top_genres)
+    save_user_information(user_information)
+
+    return user_information
+
+get_user_information_tool = FunctionTool.from_defaults(fn=get_user_information_from_Spotify, return_direct=False)
+
+#def read_saved_user_information():
+
     

@@ -4,7 +4,12 @@ from datetime import date, datetime
 from music_assistant.models import (
     Playlist,
     PlaylistWithTracks,
-    Song
+    Song,
+    Artist,
+    UserInformationTopTracks,
+    UserInformationTopGenres,
+    UserInformationTopArtists,
+    UserInformation,
 )
 from music_assistant.config import get_agent_settings
 
@@ -18,23 +23,28 @@ def custom_serializer(obj):
 
 
 def save_user_information(
-    reservation: RestaurantReservation | TripReservation | HotelReservation,
+    information: UserInformation
 ):
-    reservation_dict = reservation.model_dump()
-    print(f"saving reservation: {reservation_dict}")
-    reservations = []
-    if os.path.exists(SETTINGS.log_file) and os.path.getsize(SETTINGS.log_file) > 0:
-        with open(SETTINGS.log_file, "r") as file:
+    information_dict = information.model_dump()
+    information_dict["object_type"] = information.__class__.__name__
+    information_dict["top_tracks"]["object_type"] = information.top_tracks.__class__.__name__
+    information_dict["top_artists"]["object_type"] = information.top_artists.__class__.__name__
+    information_dict["top_genres"]["object_type"] = information.top_genres.__class__.__name__
+    print(f"saving user {SETTINGS.username} information: {information_dict}")
+    filename = SETTINGS.username + SETTINGS.log_file
+    user_information=[]
+    if os.path.exists(filename) and os.path.getsize(filename) > 0:
+        with open(filename, "r") as file:
             try:
-                reservations = json.load(file)
+                user_information = json.load(file)
             except json.JSONDecodeError:
-                reservation = []
+                user_information = []
     else:
-        reservations = []
-    reservation_dict["reservation_type"] = reservation.__class__.__name__
-    reservations.append(reservation_dict)
+        user_information = []
+    
+    user_information.append(information_dict)
 
     with open(SETTINGS.log_file, "w") as file:
-        json.dump(reservations, file, indent=4, default=custom_serializer)
+        json.dump(user_information, file, indent=4, default=custom_serializer)
 
-    print(f"saved reservation!")
+    print(f"saved information!")

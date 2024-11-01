@@ -18,6 +18,7 @@ class Song(BaseModel):
 class Artist(BaseModel):
     id: str
     name: str
+    genres: list[str] | None
 
 
 class PlaylistWithTracks(BaseModel):
@@ -37,6 +38,8 @@ class UserInformationTopGenres(BaseModel):
     top_genres: list[str]
 
 class UserInformation(BaseModel):
+    username: str
+    date: date
     top_tracks: UserInformationTopTracks
     top_artists: UserInformationTopArtists
     top_genres: UserInformationTopGenres
