@@ -3,7 +3,13 @@ from llama_index.core.agent import ReActAgent
 from music_assistant.tools import (
     music_query_tool,
     wikipedia_tool,
-    lyrics_genius_tool
+    lyrics_genius_tool,
+    create_Spotify_playlist_tool,
+    show_all_Spotify_playlists_tool,
+    show_specific_Spotify_playlist_tracks_tool,
+    get_artist_Spotify_tool,
+    get_several_artists_Spotify_tool,
+    get_user_information_tool
 )
 
 class MusicAgent:
@@ -12,7 +18,13 @@ class MusicAgent:
             [
                 music_query_tool,
                 wikipedia_tool,
-                lyrics_genius_tool
+                lyrics_genius_tool,
+                create_Spotify_playlist_tool,
+                show_all_Spotify_playlists_tool,
+                show_specific_Spotify_playlist_tracks_tool,
+                get_artist_Spotify_tool,
+                get_several_artists_Spotify_tool,
+                get_user_information_tool
             ],
             verbose=True,
         )

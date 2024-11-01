@@ -31,12 +31,12 @@ def set_spotify_credentials(client_id: str, client_secret: str, redirect_uri: st
 
 music_query_tool = QueryEngineTool(
     query_engine=MusicRAG(
-        store_path=SETTINGS.travel_guide_store_path,
-        data_dir=SETTINGS.travel_guide_data_path,
+        store_path=SETTINGS.music_assistant_store_path,
+        data_dir=SETTINGS.music_assistant_data_path,
         qa_prompt_tpl=music_query_qa_tpl,
     ).get_query_engine(),
     metadata=ToolMetadata(
-        name="travel_guide", description=music_query_description, return_direct=False
+        name="music_assistant", description=music_query_description, return_direct=False
     ),
 )
 
