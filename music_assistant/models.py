@@ -31,7 +31,7 @@ class UserInformationTopTracks(BaseModel):
 
 class UserInformationTopArtists(BaseModel):
     num: int
-    top_artists: list[str]
+    top_artists: list[Artist]
 
 class UserInformationTopGenres(BaseModel):
     num: int

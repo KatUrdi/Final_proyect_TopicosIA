@@ -9,7 +9,9 @@ from music_assistant.tools import (
     show_specific_Spotify_playlist_tracks_tool,
     get_artist_Spotify_tool,
     get_several_artists_Spotify_tool,
-    get_user_information_tool
+    get_user_information_tool,
+    read_saved_user_information_tool,
+    create_recommendation_playlist_tool
 )
 
 class MusicAgent:
@@ -24,7 +26,9 @@ class MusicAgent:
                 show_specific_Spotify_playlist_tracks_tool,
                 get_artist_Spotify_tool,
                 get_several_artists_Spotify_tool,
-                get_user_information_tool
+                get_user_information_tool,
+                read_saved_user_information_tool,
+                create_recommendation_playlist_tool
             ],
             verbose=True,
         )
