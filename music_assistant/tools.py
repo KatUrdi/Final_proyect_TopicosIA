@@ -325,23 +325,26 @@ def read_saved_user_information() -> str:
 
 read_saved_user_information_tool = FunctionTool.from_defaults(fn=read_saved_user_information, return_direct=False)
 
+
 def create_recommendation_playlist(seed_artists: list[str] | None = None, seed_genres: list[str] | None = None, seed_tracks: list[str] | None = None) -> str:
     """
     This function creates a playlist of recommended tracks on Spotify based on seed artists, genres, and/or tracks.
 
     ### Usage
     - Input: This function accepts up to three optional parameters, at least one of which must be provided as a valid list:
-        1. **seed_artists** (list[str] | None): A list of Spotify artist IDs to seed recommendations.
-        2. **seed_genres** (list[str] | None): A list of genres to seed recommendations.
-        3. **seed_tracks** (list[str] | None): A list of Spotify track IDs to seed recommendations.
+        1. **seed_artists** (list[str] | None): A list of Spotify artist IDs to seed recommendations. *Use artist IDs from user data.*
+        2. **seed_genres** (list[str] | None): A list of genres to seed recommendations. *Directly use genre names.*
+        3. **seed_tracks** (list[str] | None): A list of Spotify track IDs to seed recommendations. *Use track IDs from user data.*
     
     ### Output
     - The function returns a string containing the playlist ID of the newly created recommendation playlist.
 
     ### Notes
+    - This tool should be used after reading the user's data.
     - The Spotify API requires at least one valid seed parameter to generate recommendations.
     - This function retrieves recommended tracks based on the provided seed(s), creates a playlist, and adds the recommended tracks to it.
     - Ensure the Spotify authorization object is properly initialized for user-specific actions.
+    - The user should select 5 artists, 5 songs, and/or 5 genres according to their preference for recommendations.
     """
 
     if not any([seed_artists, seed_genres, seed_tracks]):

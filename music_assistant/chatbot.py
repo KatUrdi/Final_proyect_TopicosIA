@@ -5,6 +5,8 @@ from music_assistant.agent import MusicAgent
 from music_assistant.config import get_agent_settings
 from music_assistant.tools import get_user_information_from_Spotify
 from llama_index.core.tools import FunctionTool
+
+from music_assistant.utils import save_user_information
 SETTINGS = get_agent_settings()
 agent = MusicAgent(agent_prompt_tpl).get_agent()
 

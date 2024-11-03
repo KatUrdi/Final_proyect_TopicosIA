@@ -31,7 +31,8 @@ def save_user_information(
     information_dict["top_artists"]["object_type"] = information.top_artists.__class__.__name__
     information_dict["top_genres"]["object_type"] = information.top_genres.__class__.__name__
     print(f"saving user {SETTINGS.username} information: {information_dict}")
-    filename = SETTINGS.username + SETTINGS.log_file
+    filename = SETTINGS.username + ".json"
+    print(f"filename: {filename} exists: {os.path.exists(filename)} ")
     user_information=[]
     if os.path.exists(filename) and os.path.getsize(filename) > 0:
         with open(filename, "r") as file:
@@ -44,7 +45,7 @@ def save_user_information(
     
     user_information.append(information_dict)
 
-    with open(SETTINGS.log_file, "w") as file:
+    with open(filename, "w") as file:
         json.dump(user_information, file, indent=4, default=custom_serializer)
 
     print(f"saved information!")
