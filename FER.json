@@ -1,0 +1,3591 @@
+[
+    {
+        "username": "FER",
+        "date": "2024-11-03",
+        "top_tracks": {
+            "num": 122,
+            "top_tracks": [
+                {
+                    "id": "4Dvkj6JhhA12EX05fT7y2e",
+                    "name": "As It Was",
+                    "artist": "Harry Styles"
+                },
+                {
+                    "id": "5c9tBmJKbTdn1vhzXHeAwW",
+                    "name": "Sympathy is a knife",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "5vNRhkKd0yEAg8suGBpjeY",
+                    "name": "APT.",
+                    "artist": "ROS\u00c9"
+                },
+                {
+                    "id": "0eM4CcU3AaE7m4FGH8vgql",
+                    "name": "Can\u2019t Let Go, Juno",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "7mDKRYiqejoHzP7dQGxLys",
+                    "name": "212",
+                    "artist": "Azealia Banks"
+                },
+                {
+                    "id": "3yhZkl1KZZBP2GcZgeRO3P",
+                    "name": "Space Ghost Coast To Coast - Stripped Back",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "34gNniPWXuNuTovRkzUKKT",
+                    "name": "Tonight I'm Yours (Don't Hurt Me)",
+                    "artist": "Rod Stewart"
+                },
+                {
+                    "id": "53mChDyESfwn9Dz8poHRf6",
+                    "name": "Taking What's Not Yours",
+                    "artist": "TV Girl"
+                },
+                {
+                    "id": "47Wo2LeGbzdZTdEFNRZXV0",
+                    "name": "The Bells of Notre Dame",
+                    "artist": "David Ogden Stiers"
+                },
+                {
+                    "id": "2U8NXPTXZWG2O0ye2sYRiH",
+                    "name": "I Love It (feat. Charli XCX)",
+                    "artist": "Icona Pop"
+                },
+                {
+                    "id": "3QaPy1KgI7nu9FJEQUgn6h",
+                    "name": "WILDFLOWER",
+                    "artist": "Billie Eilish"
+                },
+                {
+                    "id": "4TKlCLUfP5loEGrihCENwt",
+                    "name": "m'Lover",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "5PazwHXOIXEu80tYjx8bQF",
+                    "name": "Rosa Pastel",
+                    "artist": "Belanova"
+                },
+                {
+                    "id": "07oO1U722crtVcavi6frX6",
+                    "name": "Double Life - From \"Despicable Me 4\"",
+                    "artist": "Pharrell Williams"
+                },
+                {
+                    "id": "4HoOTJ8tM7ikMkEkoJTisX",
+                    "name": "Cold Reactor",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "4UVWEEgnuPXP3VuA4P6Djt",
+                    "name": "Why Don\u2019t You Answer Me",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "3kXoKlD84c6OmIcOLfrfEs",
+                    "name": "September",
+                    "artist": "Earth, Wind & Fire"
+                },
+                {
+                    "id": "7CHelZFdG67KvsIfXlFiMh",
+                    "name": "Tokyo Drifting",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "0YsMRoZD1nJVwlbIZme23I",
+                    "name": "Enter the Mirror",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0upFohXrGxIIAjyaJmCkMU",
+                    "name": "Tokyo Drift (Fast & Furious) - From \"The Fast And The Furious: Tokyo Drift\" Soundtrack",
+                    "artist": "Teriyaki Boyz"
+                },
+                {
+                    "id": "4c3ORntbG04PMGGucgwiLw",
+                    "name": "Your Love (D\u00e9j\u00e0 Vu)",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "3T59S3Vh3DOatsmTD8clqP",
+                    "name": "You Rock My World",
+                    "artist": "Michael Jackson"
+                },
+                {
+                    "id": "6dOtVTDdiauQNBQEDOtlAB",
+                    "name": "BIRDS OF A FEATHER",
+                    "artist": "Billie Eilish"
+                },
+                {
+                    "id": "0PFZCt7UNmpas24HejQGu8",
+                    "name": "I might say something stupid",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "3U5JVgI2x4rDyHGObzJfNf",
+                    "name": "Unwritten",
+                    "artist": "Natasha Bedingfield"
+                },
+                {
+                    "id": "3nQ24dxqvxZEVwlHTeuLz0",
+                    "name": "Sympathy is a knife featuring ariana grande",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "5oOZGQnZZToIHI55lw2E97",
+                    "name": "JOYRIDE",
+                    "artist": "Kesha"
+                },
+                {
+                    "id": "6LF6a9MXjsafSmqoNb0Fes",
+                    "name": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "0K1XXuhaJBPWMcgjj3ug3u",
+                    "name": "Las Avispas",
+                    "artist": "Juan Luis Guerra 4.40"
+                },
+                {
+                    "id": "199LDzwbUTc2wEroyRxhBM",
+                    "name": "Veo en ti la luz",
+                    "artist": "Chayanne"
+                },
+                {
+                    "id": "6eZ95ezk7CbOhAZq043Zke",
+                    "name": "Angeleyes",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "19RybK6XDbAVpcdxSbZL1o",
+                    "name": "Apple",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "2RXm45xWTrHVk3y3EDxAw0",
+                    "name": "The Reckoning",
+                    "artist": "Dom Fera"
+                },
+                {
+                    "id": "2aEuA8PSqLa17Y4hKPj5rr",
+                    "name": "Cheri Cheri Lady",
+                    "artist": "Modern Talking"
+                },
+                {
+                    "id": "34cOpn0VBjZdo9InXp1qTJ",
+                    "name": "Mamma Mia",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "5B0iPguskBzONMtfVspNFF",
+                    "name": "Northern Star",
+                    "artist": "Dom Fera"
+                },
+                {
+                    "id": "5N3hjp1WNayUPZrA8kJmJP",
+                    "name": "Please Please Please",
+                    "artist": "Sabrina Carpenter"
+                },
+                {
+                    "id": "3fAs1GvVMjMeMCTdjyQgyC",
+                    "name": "Brainchild",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "13Irp51zj01BZu2XtDrnAg",
+                    "name": "2 Be Loved (Am I Ready)",
+                    "artist": "Lizzo"
+                },
+                {
+                    "id": "1zFbBrZmJr1Z49HYe84dBg",
+                    "name": "Harvey",
+                    "artist": "Her's"
+                },
+                {
+                    "id": "3AHqaOkEFKZ6zEHdiplIv7",
+                    "name": "Tokyo Drifting (with Denzel Curry)",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "4L2F0LcDVtNrFc1K4lmx3m",
+                    "name": "Distant Past",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "6HJwPugn9QStgfhikxQ1d9",
+                    "name": "Biohacking My Technology",
+                    "artist": "Ferris Pier"
+                },
+                {
+                    "id": "7CMVo848b9LsUtVavIoiXC",
+                    "name": "Hopes And Dreams",
+                    "artist": "Toby Fox"
+                },
+                {
+                    "id": "4jhsuQCUCJKA5f0bXb6XdJ",
+                    "name": "It's My Life - 1997 Remaster",
+                    "artist": "Talk Talk"
+                },
+                {
+                    "id": "2Psw3yfupMoUAD5sIqYhoN",
+                    "name": "Statues in a Gallery",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "021JR08NX1Dt0i0MHaMkd4",
+                    "name": "Take A Chance On Me",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "0j2T0R9dR9qdJYsB7ciXhf",
+                    "name": "Stronger",
+                    "artist": "Kanye West"
+                },
+                {
+                    "id": "1X4FumlVsvMEYA9pLOjitH",
+                    "name": "Your Love (Deja Vu) - Stripped Back",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "1yqMgZNrevsWMLWfO2PRp5",
+                    "name": "Charlie Brown",
+                    "artist": "Coldplay"
+                },
+                {
+                    "id": "24SUWisv2lYQiB3bVpE1sn",
+                    "name": "Virtual Insanity",
+                    "artist": "Jamiroquai"
+                },
+                {
+                    "id": "4vXq5ukq78gSlKWBj5xOKA",
+                    "name": "I Want A Love Like This",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0WprcCQhZuJBU2KR1h8tRh",
+                    "name": "Cold Reactor",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "5vmRQ3zELMLUQPo2FLQ76x",
+                    "name": "Smalltown Boy",
+                    "artist": "Bronski Beat"
+                },
+                {
+                    "id": "0CtQMil54kzybZVGAFAZ0S",
+                    "name": "Jennifer",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0ofHAoxe9vBkTCp2UQIavz",
+                    "name": "Dreams - 2004 Remaster",
+                    "artist": "Fleetwood Mac"
+                },
+                {
+                    "id": "2UbuXuTdSC0oR0upCbiLx2",
+                    "name": "Pick U Up",
+                    "artist": "Foster The People"
+                },
+                {
+                    "id": "1yupbrI7ROhigIHpQBevPh",
+                    "name": "Chicago",
+                    "artist": "Sufjan Stevens"
+                },
+                {
+                    "id": "4UB3TaEGEY9WoOpxYNMgy4",
+                    "name": "The Safety Dance",
+                    "artist": "Men Without Hats"
+                },
+                {
+                    "id": "2gNfxysfBRfl9Lvi9T3v6R",
+                    "name": "Disciples",
+                    "artist": "Tame Impala"
+                },
+                {
+                    "id": "3YrjFJwsOPWShEkIvxbqwW",
+                    "name": "Say You Will",
+                    "artist": "Fleetwood Mac"
+                },
+                {
+                    "id": "5UGCvqctOKb1cC0b2hJi1q",
+                    "name": "The End of the Contender",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "1OutzYv6YiN93lrT3pJsWR",
+                    "name": "It's My Life",
+                    "artist": "No Doubt"
+                },
+                {
+                    "id": "2qSkIjg1o9h3YT9RAgYN75",
+                    "name": "Espresso",
+                    "artist": "Sabrina Carpenter"
+                },
+                {
+                    "id": "4ExPtFhZRX6wE0it3s7H2H",
+                    "name": "Too Polite To Fight",
+                    "artist": "Autoheart"
+                },
+                {
+                    "id": "5DN1QdgodyvoM4efdXUR1c",
+                    "name": "Regret",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "22sS7JkzeVeq4vOPCB6Fbj",
+                    "name": "Someone New",
+                    "artist": "Hozier"
+                },
+                {
+                    "id": "4xtOrlx513T58qXxUwo9ui",
+                    "name": "Wild Guess",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "6dBUzqjtbnIa1TwYbyw5CM",
+                    "name": "Lovers Rock",
+                    "artist": "TV Girl"
+                },
+                {
+                    "id": "7uttm8Iurm5uK67Vr9G2Sp",
+                    "name": "Almost (Sweet Music)",
+                    "artist": "Hozier"
+                },
+                {
+                    "id": "1To7WIYW7Od2r1JIKsFJnH",
+                    "name": "The Sailor Song - 2023 Remaster",
+                    "artist": "Autoheart"
+                },
+                {
+                    "id": "4Y7dvE2TmFBRAfwTYb7Qal",
+                    "name": "Say Goodbye",
+                    "artist": "Fleetwood Mac"
+                },
+                {
+                    "id": "53IRnAWx13PYmoVYtemUBS",
+                    "name": "Femininomenon",
+                    "artist": "Chappell Roan"
+                },
+                {
+                    "id": "41krZZovstMJKeJZJtbL78",
+                    "name": "Girl, so confusing",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "3vbxQpZdIXJ3oALBd8OyQ6",
+                    "name": "Come On! Feel the Illinoise! Part I: The World's Columbian Exposition Part II: Carl Sandburg Visits Me In A Dream",
+                    "artist": "Sufjan Stevens"
+                },
+                {
+                    "id": "5ruzrDWcT0vuJIOMW7gMnW",
+                    "name": "The Adults Are Talking",
+                    "artist": "The Strokes"
+                },
+                {
+                    "id": "1QqZwV3fCZAdTv5fEvaFvo",
+                    "name": "R U Happy?",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "6PBSZf43GwbmAT7fQH9yPq",
+                    "name": "Buddy, Come Over",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "4VpjW9LiXpwuPPVyfSbRtd",
+                    "name": "Wanna Be Startin' Somethin'",
+                    "artist": "Michael Jackson"
+                },
+                {
+                    "id": "7uGYWMwRy24dm7RUDDhUlD",
+                    "name": "My Boy Only Breaks His Favorite Toys",
+                    "artist": "Taylor Swift"
+                },
+                {
+                    "id": "7MRwp5rTiTDBPB81fkAyMU",
+                    "name": "The Mad Stone",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "44JEbGi3NxptsEuxDNGiAR",
+                    "name": "3's & 7's",
+                    "artist": "Queens of the Stone Age"
+                },
+                {
+                    "id": "1y5V5qja332UyMeUurFhDS",
+                    "name": "Private Idaho",
+                    "artist": "The B-52's"
+                },
+                {
+                    "id": "4r8lRYnoOGdEi6YyI5OC1o",
+                    "name": "Bye Bye Bye",
+                    "artist": "*NSYNC"
+                },
+                {
+                    "id": "0ggtOtlelbjiOavXz4HHHx",
+                    "name": "Bad Friday",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "5JqXtvd8bAyyPTjaK6cSDH",
+                    "name": "Static Space Lover",
+                    "artist": "Foster The People"
+                },
+                {
+                    "id": "0cuq829zRNq4AEdmDJA4aw",
+                    "name": "Two Princes",
+                    "artist": "Spin Doctors"
+                },
+                {
+                    "id": "3hAhnMsFcYTN5vmtWbCPCX",
+                    "name": "Carve A Name",
+                    "artist": "Mother Mother"
+                },
+                {
+                    "id": "4ylw8bmdEf7fdn47csjTzg",
+                    "name": "Against the Kitchen Floor",
+                    "artist": "Will Wood"
+                },
+                {
+                    "id": "3nLYjp5SaUZBx8Z0FZmftU",
+                    "name": "Something That Was Changing Your Mind",
+                    "artist": "Paper Twins"
+                },
+                {
+                    "id": "4UQMOPSUVJVicIQzjAcRRZ",
+                    "name": "Champion",
+                    "artist": "Kanye West"
+                },
+                {
+                    "id": "19kHhX6f6EfLU7rcO3RqjO",
+                    "name": "Back On 74",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "0GjEhVFGZW8afUYGChu3Rr",
+                    "name": "Dancing Queen",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "6EZDbjz2X5XzgIZCtbsrXh",
+                    "name": "The Passenger",
+                    "artist": "Siouxsie and the Banshees"
+                },
+                {
+                    "id": "5JWPUEov2wlX7c0jhYZpeB",
+                    "name": "Lost In Yesterday",
+                    "artist": "Tame Impala"
+                },
+                {
+                    "id": "1Ad2HcIX9zBqoWRvxtpYGf",
+                    "name": "Candle Flame",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "1oDAFTOXZGSQedBa6hXGhT",
+                    "name": "Tchaikovsky: The Nutcracker, Op. 71, Act 2: No. 14c, Pas de deux. Variation II \"Dance of the Sugar Plum Fairy\"",
+                    "artist": "Pyotr Ilyich Tchaikovsky"
+                },
+                {
+                    "id": "4Q7gnsxVer32pefk5cRupV",
+                    "name": "Good Omens Opening Title",
+                    "artist": "David Arnold"
+                },
+                {
+                    "id": "72yP0DUlWPyH8P7IoxskwN",
+                    "name": "Hold Me Closer",
+                    "artist": "Elton John"
+                },
+                {
+                    "id": "1tmRlF5pFo8G5OfJYUjWrR",
+                    "name": "Touch-Tone Telephone",
+                    "artist": "Lemon Demon"
+                },
+                {
+                    "id": "1ukHtC2BBs51jmSGaxoEeL",
+                    "name": "Got My Mind Set On You",
+                    "artist": "George Harrison"
+                },
+                {
+                    "id": "1lqj3wgPj8gHCdq46hUjvr",
+                    "name": "I / Me / Myself",
+                    "artist": "Will Wood"
+                },
+                {
+                    "id": "67oyFnjJnn78fZP9KjeZx0",
+                    "name": "Goodbye Stranger - 2010 Remastered",
+                    "artist": "Supertramp"
+                },
+                {
+                    "id": "1j7ll1vNFLdgU7XUagyFV0",
+                    "name": "Every Night",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "54A4aGA5rmDBJqD2yFAgJI",
+                    "name": "The Main Character",
+                    "artist": "Will Wood"
+                },
+                {
+                    "id": "0Dm43YLUlGdePpSbI1ct8h",
+                    "name": "Part-Time Lover",
+                    "artist": "Stevie Wonder"
+                },
+                {
+                    "id": "4iz9lGMjU1lXS51oPmUmTe",
+                    "name": "Homecoming",
+                    "artist": "Kanye West"
+                },
+                {
+                    "id": "1leXuBiWQMgbvOIIedqbLB",
+                    "name": "Kangaroo Court",
+                    "artist": "Capital Cities"
+                },
+                {
+                    "id": "2PpruBYCo4H7WOBJ7Q2EwM",
+                    "name": "Hey Ya!",
+                    "artist": "Outkast"
+                },
+                {
+                    "id": "6fbQ0UYHQS2CFQ85hOyXVM",
+                    "name": "Honeybody",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "1CgmY8fVN7kstVDZmsdM5k",
+                    "name": "P.Y.T. (Pretty Young Thing)",
+                    "artist": "Michael Jackson"
+                },
+                {
+                    "id": "0qksx8mV28lztYIZ1om8ml",
+                    "name": "Shiver",
+                    "artist": "Coldplay"
+                },
+                {
+                    "id": "2QEENkblf8Vho3IMdza6Ix",
+                    "name": "MAN IS LIKE A SPRING FLOWER",
+                    "artist": "Lingua Ignota"
+                },
+                {
+                    "id": "5yXf2ZVlBdgIGxbSKb6VFW",
+                    "name": "Don't Play",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "3uJMpB4esL49RpeSbB9a4E",
+                    "name": "Gospel",
+                    "artist": "MarchFourth Marching Band"
+                },
+                {
+                    "id": "0tLimqiQcY0HZ76eQXcqLK",
+                    "name": "Pizza Boy",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0WbMK4wrZ1wFSty9F7FCgu",
+                    "name": "Good Luck, Babe!",
+                    "artist": "Chappell Roan"
+                },
+                {
+                    "id": "4RVwu0g32PAqgUiJoXsdF8",
+                    "name": "Happier Than Ever",
+                    "artist": "Billie Eilish"
+                },
+                {
+                    "id": "3NYCaxkggl0Hh8vQptSUvV",
+                    "name": "Enola Gay - Remastered 2003",
+                    "artist": "Orchestral Manoeuvres In The Dark"
+                },
+                {
+                    "id": "0bePGTDjn0XuEKoN7rOMvV",
+                    "name": "Undercover Martyn",
+                    "artist": "Two Door Cinema Club"
+                },
+                {
+                    "id": "5cxnSTLzGD1t9xcdmJYFVB",
+                    "name": "No Children",
+                    "artist": "The Mountain Goats"
+                },
+                {
+                    "id": "457w5mJHizvkqO02OsWAsD",
+                    "name": "Ikarus (I Feel a Change)",
+                    "artist": "Hearts Hearts"
+                }
+            ],
+            "object_type": "UserInformationTopTracks"
+        },
+        "top_artists": {
+            "num": 50,
+            "top_artists": [
+                {
+                    "id": "3LVPGE5jPPwtbGslx07YR0",
+                    "name": "Kishi Bashi",
+                    "genres": [
+                        "chamber pop",
+                        "metropopolis",
+                        "shimmer pop",
+                        "stomp and whittle"
+                    ]
+                },
+                {
+                    "id": "3gdbcIdNypBsYNu3iiCjtN",
+                    "name": "The B-52's",
+                    "genres": [
+                        "album rock",
+                        "classic rock",
+                        "dance rock",
+                        "new romantic",
+                        "new wave",
+                        "new wave pop",
+                        "permanent wave",
+                        "post-punk",
+                        "rock",
+                        "zolo"
+                    ]
+                },
+                {
+                    "id": "4llAOeA6kEF4ytaB2fsmcW",
+                    "name": "Lemon Demon",
+                    "genres": [
+                        "indietronica",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "4gwpcMTbLWtBUlOijbVpuu",
+                    "name": "Capital Cities",
+                    "genres": [
+                        "metropopolis",
+                        "modern rock"
+                    ]
+                },
+                {
+                    "id": "5K4W6rqBFWDnAN6FQUkS6x",
+                    "name": "Kanye West",
+                    "genres": [
+                        "chicago rap",
+                        "hip hop",
+                        "rap"
+                    ]
+                },
+                {
+                    "id": "4Y1XOfsi9aKcT5Ez2iUVW3",
+                    "name": "MarchFourth Marching Band",
+                    "genres": [
+                        "brass band",
+                        "marching band",
+                        "street band"
+                    ]
+                },
+                {
+                    "id": "6LqNN22kT3074XbTVUrhzX",
+                    "name": "Kesha",
+                    "genres": [
+                        "dance pop",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "5kRhbeMGVzAciRwnQzyesH",
+                    "name": "Hearts Hearts",
+                    "genres": [
+                        "austrian indie",
+                        "austrian pop"
+                    ]
+                },
+                {
+                    "id": "3hyGGjxu73JuzBa757H6R5",
+                    "name": "The Mountain Goats",
+                    "genres": [
+                        "anti-folk",
+                        "chamber pop",
+                        "folk punk",
+                        "indie rock",
+                        "lo-fi",
+                        "melancholia",
+                        "new weird america"
+                    ]
+                },
+                {
+                    "id": "79bxUQsBIXO8nVLB9fYKf7",
+                    "name": "Modern Talking",
+                    "genres": [
+                        "europop",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "3PrjxwAe7Zn1cKf76CRRWt",
+                    "name": "Ferris Pier",
+                    "genres": []
+                },
+                {
+                    "id": "7HBai5xymOxIWoMWvWshe1",
+                    "name": "Teriyaki Boyz",
+                    "genres": [
+                        "japanese old school hip hop"
+                    ]
+                },
+                {
+                    "id": "4QQgXkCYTt3BlENzhyNETg",
+                    "name": "Earth, Wind & Fire",
+                    "genres": [
+                        "disco",
+                        "funk",
+                        "jazz funk",
+                        "motown",
+                        "soul"
+                    ]
+                },
+                {
+                    "id": "3oNy8cjBtJzLC07I70sklp",
+                    "name": "Belanova",
+                    "genres": [
+                        "latin arena pop",
+                        "latin pop",
+                        "mexican pop"
+                    ]
+                },
+                {
+                    "id": "0Y6dVaC9DZtPNH4591M42W",
+                    "name": "TV Girl",
+                    "genres": [
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "57DlMWmbVIf2ssJ8QBpBau",
+                    "name": "Toby Fox",
+                    "genres": [
+                        "indie game soundtrack",
+                        "otacore",
+                        "pixel"
+                    ]
+                },
+                {
+                    "id": "5INjqkS1o8h1imAzPqGZBb",
+                    "name": "Tame Impala",
+                    "genres": [
+                        "australian psych",
+                        "modern rock",
+                        "neo-psychedelic",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "3Q2RrKEOBdkWI2MJQgdt84",
+                    "name": "Lingua Ignota",
+                    "genres": [
+                        "death industrial",
+                        "gaian doom",
+                        "spectra"
+                    ]
+                },
+                {
+                    "id": "2PSiyldxmJze7xiqbz658m",
+                    "name": "Spin Doctors",
+                    "genres": [
+                        "pop rock",
+                        "post-grunge"
+                    ]
+                },
+                {
+                    "id": "7gP3bB2nilZXLfPHJhMdvc",
+                    "name": "Foster The People",
+                    "genres": [
+                        "indietronica",
+                        "modern alternative rock",
+                        "modern rock",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "0LcJLqbBmaGUft1e9Mm8HV",
+                    "name": "ABBA",
+                    "genres": [
+                        "europop",
+                        "swedish pop"
+                    ]
+                },
+                {
+                    "id": "6Ff53KvcvAj5U7Z1vojB5o",
+                    "name": "*NSYNC",
+                    "genres": [
+                        "boy band",
+                        "dance pop",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "4gzpq5DPGxSnKTe4SA8HAU",
+                    "name": "Coldplay",
+                    "genres": [
+                        "permanent wave",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "1VQ8riQ31zVHtlxiCC9EZE",
+                    "name": "Will Wood",
+                    "genres": [
+                        "pov: indie",
+                        "weirdcore"
+                    ]
+                },
+                {
+                    "id": "3MKCzCnpzw3TjUYs2v7vDA",
+                    "name": "Pyotr Ilyich Tchaikovsky",
+                    "genres": [
+                        "classical",
+                        "late romantic era",
+                        "russian romanticism"
+                    ]
+                },
+                {
+                    "id": "2wpWOzQE5TpA0dVnh5YD08",
+                    "name": "Bronski Beat",
+                    "genres": [
+                        "hi-nrg",
+                        "new romantic",
+                        "new wave",
+                        "new wave pop",
+                        "sophisti-pop",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "0mCdmt2O8dd8jJWv7m24EE",
+                    "name": "David Arnold",
+                    "genres": [
+                        "british soundtrack",
+                        "soundtrack"
+                    ]
+                },
+                {
+                    "id": "2FXC3k01G6Gw61bmprjgqS",
+                    "name": "Hozier",
+                    "genres": [
+                        "irish singer-songwriter",
+                        "modern rock",
+                        "pop",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "7guDJrEfX3qb6FEbdPA5qi",
+                    "name": "Stevie Wonder",
+                    "genres": [
+                        "motown",
+                        "soul"
+                    ]
+                },
+                {
+                    "id": "3eVa5w3URK5duf6eyVDbu9",
+                    "name": "ROS\u00c9",
+                    "genres": [
+                        "k-pop"
+                    ]
+                },
+                {
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "genres": [
+                        "alternative rock",
+                        "garage rock",
+                        "modern rock",
+                        "permanent wave",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "77mJc3M7ZT5oOVM7gNdXim",
+                    "name": "Her's",
+                    "genres": [
+                        "indie pop",
+                        "liverpool indie",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "34PLzyi7CdXUekiLHYyqXq",
+                    "name": "Men Without Hats",
+                    "genres": [
+                        "classic canadian rock",
+                        "new romantic",
+                        "new wave pop",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "536BYVgOnRky0xjsPT96zl",
+                    "name": "Two Door Cinema Club",
+                    "genres": [
+                        "indie rock",
+                        "indietronica",
+                        "irish rock",
+                        "modern alternative rock",
+                        "modern rock",
+                        "northern irish indie"
+                    ]
+                },
+                {
+                    "id": "6J7biCazzYhU3gM9j1wfid",
+                    "name": "Jamiroquai",
+                    "genres": [
+                        "dance pop"
+                    ]
+                },
+                {
+                    "id": "0e86yPdC41PGRkLp2Q1Bph",
+                    "name": "Mother Mother",
+                    "genres": [
+                        "canadian indie rock",
+                        "pov: indie",
+                        "vancouver indie"
+                    ]
+                },
+                {
+                    "id": "1VBflYyxBhnDc9uVib98rw",
+                    "name": "Icona Pop",
+                    "genres": [
+                        "candy pop",
+                        "dance pop",
+                        "electropop",
+                        "metropopolis",
+                        "swedish electropop",
+                        "swedish synthpop"
+                    ]
+                },
+                {
+                    "id": "6KImCVD70vtIoJWnq6nGn3",
+                    "name": "Harry Styles",
+                    "genres": [
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "7gRhy3MIPHQo5CXYfWaw9I",
+                    "name": "Azealia Banks",
+                    "genres": [
+                        "escape room",
+                        "hip house",
+                        "lgbtq+ hip hop",
+                        "trap queen"
+                    ]
+                },
+                {
+                    "id": "3973WPiIu6SYAoaEqBOfvg",
+                    "name": "Paper Twins",
+                    "genres": []
+                },
+                {
+                    "id": "59oA5WbbQvomJz2BuRG071",
+                    "name": "Jungle",
+                    "genres": [
+                        "indie soul",
+                        "uk contemporary r&b"
+                    ]
+                },
+                {
+                    "id": "3JsMj0DEzyWc0VDlHuy9Bx",
+                    "name": "Supertramp",
+                    "genres": [
+                        "album rock",
+                        "art rock",
+                        "classic rock",
+                        "glam rock",
+                        "mellow gold",
+                        "piano rock",
+                        "progressive rock",
+                        "rock",
+                        "soft rock",
+                        "symphonic rock"
+                    ]
+                },
+                {
+                    "id": "1G9G7WwrXka3Z1r7aIDjI7",
+                    "name": "Outkast",
+                    "genres": [
+                        "atl hip hop",
+                        "dirty south rap",
+                        "hip hop",
+                        "old school atlanta hip hop",
+                        "rap",
+                        "southern hip hop"
+                    ]
+                },
+                {
+                    "id": "56oDRnqbIiwx4mymNEv7dS",
+                    "name": "Lizzo",
+                    "genres": [
+                        "escape room",
+                        "minnesota hip hop",
+                        "pop",
+                        "trap queen"
+                    ]
+                },
+                {
+                    "id": "7wJ9NwdRWtN92NunmXuwBk",
+                    "name": "Orchestral Manoeuvres In The Dark",
+                    "genres": [
+                        "new romantic",
+                        "new wave",
+                        "new wave pop",
+                        "permanent wave",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "74KM79TiuVKeVCqs8QtB0B",
+                    "name": "Sabrina Carpenter",
+                    "genres": [
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "0N0dbr5s2y20PAo2cDAeVP",
+                    "name": "David Ogden Stiers",
+                    "genres": [
+                        "movie tunes"
+                    ]
+                },
+                {
+                    "id": "0cQbJU1aAzvbEmTuljWLlF",
+                    "name": "No Doubt",
+                    "genres": [
+                        "dance pop",
+                        "dance rock",
+                        "permanent wave",
+                        "pop rock",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "3nlpTZci9O5W8RsNoNH559",
+                    "name": "Juan Luis Guerra 4.40",
+                    "genres": [
+                        "bachata",
+                        "latin pop",
+                        "tropical"
+                    ]
+                },
+                {
+                    "id": "2y8Jo9CKhJvtfeKOsYzRdT",
+                    "name": "Rod Stewart",
+                    "genres": [
+                        "mellow gold",
+                        "soft rock"
+                    ]
+                }
+            ],
+            "object_type": "UserInformationTopArtists"
+        },
+        "top_genres": {
+            "num": 101,
+            "top_genres": [
+                "art rock",
+                "dirty south rap",
+                "old school atlanta hip hop",
+                "k-pop",
+                "minnesota hip hop",
+                "funk",
+                "indietronica",
+                "spectra",
+                "glam rock",
+                "swedish synthpop",
+                "pop",
+                "new weird america",
+                "vancouver indie",
+                "rap",
+                "otacore",
+                "late romantic era",
+                "folk punk",
+                "pop rock",
+                "europop",
+                "lgbtq+ hip hop",
+                "soul",
+                "soundtrack",
+                "synthpop",
+                "australian psych",
+                "symphonic rock",
+                "indie game soundtrack",
+                "metropopolis",
+                "lo-fi",
+                "atl hip hop",
+                "anti-folk",
+                "weirdcore",
+                "indie rock",
+                "latin arena pop",
+                "boy band",
+                "movie tunes",
+                "album rock",
+                "post-punk",
+                "stomp and whittle",
+                "neo-psychedelic",
+                "shimmer pop",
+                "northern irish indie",
+                "disco",
+                "russian romanticism",
+                "chicago rap",
+                "swedish electropop",
+                "jazz funk",
+                "pixel",
+                "brass band",
+                "new wave pop",
+                "austrian pop",
+                "electropop",
+                "soft rock",
+                "latin pop",
+                "modern alternative rock",
+                "mexican pop",
+                "marching band",
+                "liverpool indie",
+                "hi-nrg",
+                "alternative rock",
+                "hip house",
+                "death industrial",
+                "uk contemporary r&b",
+                "gaian doom",
+                "candy pop",
+                "austrian indie",
+                "melancholia",
+                "hip hop",
+                "japanese old school hip hop",
+                "progressive rock",
+                "modern rock",
+                "swedish pop",
+                "classical",
+                "street band",
+                "irish rock",
+                "classic canadian rock",
+                "permanent wave",
+                "new romantic",
+                "tropical",
+                "canadian indie rock",
+                "british soundtrack",
+                "new wave",
+                "motown",
+                "dance pop",
+                "post-grunge",
+                "trap queen",
+                "sophisti-pop",
+                "chamber pop",
+                "piano rock",
+                "classic rock",
+                "irish singer-songwriter",
+                "mellow gold",
+                "bachata",
+                "pov: indie",
+                "indie soul",
+                "dance rock",
+                "southern hip hop",
+                "garage rock",
+                "indie pop",
+                "escape room",
+                "zolo",
+                "rock"
+            ],
+            "object_type": "UserInformationTopGenres"
+        },
+        "object_type": "UserInformation"
+    },
+    {
+        "username": "FER",
+        "date": "2024-11-03",
+        "top_tracks": {
+            "num": 122,
+            "top_tracks": [
+                {
+                    "id": "4Dvkj6JhhA12EX05fT7y2e",
+                    "name": "As It Was",
+                    "artist": "Harry Styles"
+                },
+                {
+                    "id": "5c9tBmJKbTdn1vhzXHeAwW",
+                    "name": "Sympathy is a knife",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "5vNRhkKd0yEAg8suGBpjeY",
+                    "name": "APT.",
+                    "artist": "ROS\u00c9"
+                },
+                {
+                    "id": "0eM4CcU3AaE7m4FGH8vgql",
+                    "name": "Can\u2019t Let Go, Juno",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "7mDKRYiqejoHzP7dQGxLys",
+                    "name": "212",
+                    "artist": "Azealia Banks"
+                },
+                {
+                    "id": "3yhZkl1KZZBP2GcZgeRO3P",
+                    "name": "Space Ghost Coast To Coast - Stripped Back",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "34gNniPWXuNuTovRkzUKKT",
+                    "name": "Tonight I'm Yours (Don't Hurt Me)",
+                    "artist": "Rod Stewart"
+                },
+                {
+                    "id": "53mChDyESfwn9Dz8poHRf6",
+                    "name": "Taking What's Not Yours",
+                    "artist": "TV Girl"
+                },
+                {
+                    "id": "47Wo2LeGbzdZTdEFNRZXV0",
+                    "name": "The Bells of Notre Dame",
+                    "artist": "David Ogden Stiers"
+                },
+                {
+                    "id": "2U8NXPTXZWG2O0ye2sYRiH",
+                    "name": "I Love It (feat. Charli XCX)",
+                    "artist": "Icona Pop"
+                },
+                {
+                    "id": "3QaPy1KgI7nu9FJEQUgn6h",
+                    "name": "WILDFLOWER",
+                    "artist": "Billie Eilish"
+                },
+                {
+                    "id": "4TKlCLUfP5loEGrihCENwt",
+                    "name": "m'Lover",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "5PazwHXOIXEu80tYjx8bQF",
+                    "name": "Rosa Pastel",
+                    "artist": "Belanova"
+                },
+                {
+                    "id": "07oO1U722crtVcavi6frX6",
+                    "name": "Double Life - From \"Despicable Me 4\"",
+                    "artist": "Pharrell Williams"
+                },
+                {
+                    "id": "4HoOTJ8tM7ikMkEkoJTisX",
+                    "name": "Cold Reactor",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "4UVWEEgnuPXP3VuA4P6Djt",
+                    "name": "Why Don\u2019t You Answer Me",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "3kXoKlD84c6OmIcOLfrfEs",
+                    "name": "September",
+                    "artist": "Earth, Wind & Fire"
+                },
+                {
+                    "id": "7CHelZFdG67KvsIfXlFiMh",
+                    "name": "Tokyo Drifting",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "0YsMRoZD1nJVwlbIZme23I",
+                    "name": "Enter the Mirror",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0upFohXrGxIIAjyaJmCkMU",
+                    "name": "Tokyo Drift (Fast & Furious) - From \"The Fast And The Furious: Tokyo Drift\" Soundtrack",
+                    "artist": "Teriyaki Boyz"
+                },
+                {
+                    "id": "4c3ORntbG04PMGGucgwiLw",
+                    "name": "Your Love (D\u00e9j\u00e0 Vu)",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "3T59S3Vh3DOatsmTD8clqP",
+                    "name": "You Rock My World",
+                    "artist": "Michael Jackson"
+                },
+                {
+                    "id": "6dOtVTDdiauQNBQEDOtlAB",
+                    "name": "BIRDS OF A FEATHER",
+                    "artist": "Billie Eilish"
+                },
+                {
+                    "id": "0PFZCt7UNmpas24HejQGu8",
+                    "name": "I might say something stupid",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "3U5JVgI2x4rDyHGObzJfNf",
+                    "name": "Unwritten",
+                    "artist": "Natasha Bedingfield"
+                },
+                {
+                    "id": "3nQ24dxqvxZEVwlHTeuLz0",
+                    "name": "Sympathy is a knife featuring ariana grande",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "5oOZGQnZZToIHI55lw2E97",
+                    "name": "JOYRIDE",
+                    "artist": "Kesha"
+                },
+                {
+                    "id": "6LF6a9MXjsafSmqoNb0Fes",
+                    "name": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "0K1XXuhaJBPWMcgjj3ug3u",
+                    "name": "Las Avispas",
+                    "artist": "Juan Luis Guerra 4.40"
+                },
+                {
+                    "id": "199LDzwbUTc2wEroyRxhBM",
+                    "name": "Veo en ti la luz",
+                    "artist": "Chayanne"
+                },
+                {
+                    "id": "6eZ95ezk7CbOhAZq043Zke",
+                    "name": "Angeleyes",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "19RybK6XDbAVpcdxSbZL1o",
+                    "name": "Apple",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "2RXm45xWTrHVk3y3EDxAw0",
+                    "name": "The Reckoning",
+                    "artist": "Dom Fera"
+                },
+                {
+                    "id": "2aEuA8PSqLa17Y4hKPj5rr",
+                    "name": "Cheri Cheri Lady",
+                    "artist": "Modern Talking"
+                },
+                {
+                    "id": "34cOpn0VBjZdo9InXp1qTJ",
+                    "name": "Mamma Mia",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "5B0iPguskBzONMtfVspNFF",
+                    "name": "Northern Star",
+                    "artist": "Dom Fera"
+                },
+                {
+                    "id": "5N3hjp1WNayUPZrA8kJmJP",
+                    "name": "Please Please Please",
+                    "artist": "Sabrina Carpenter"
+                },
+                {
+                    "id": "3fAs1GvVMjMeMCTdjyQgyC",
+                    "name": "Brainchild",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "13Irp51zj01BZu2XtDrnAg",
+                    "name": "2 Be Loved (Am I Ready)",
+                    "artist": "Lizzo"
+                },
+                {
+                    "id": "1zFbBrZmJr1Z49HYe84dBg",
+                    "name": "Harvey",
+                    "artist": "Her's"
+                },
+                {
+                    "id": "3AHqaOkEFKZ6zEHdiplIv7",
+                    "name": "Tokyo Drifting (with Denzel Curry)",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "4L2F0LcDVtNrFc1K4lmx3m",
+                    "name": "Distant Past",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "6HJwPugn9QStgfhikxQ1d9",
+                    "name": "Biohacking My Technology",
+                    "artist": "Ferris Pier"
+                },
+                {
+                    "id": "7CMVo848b9LsUtVavIoiXC",
+                    "name": "Hopes And Dreams",
+                    "artist": "Toby Fox"
+                },
+                {
+                    "id": "4jhsuQCUCJKA5f0bXb6XdJ",
+                    "name": "It's My Life - 1997 Remaster",
+                    "artist": "Talk Talk"
+                },
+                {
+                    "id": "2Psw3yfupMoUAD5sIqYhoN",
+                    "name": "Statues in a Gallery",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "021JR08NX1Dt0i0MHaMkd4",
+                    "name": "Take A Chance On Me",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "0j2T0R9dR9qdJYsB7ciXhf",
+                    "name": "Stronger",
+                    "artist": "Kanye West"
+                },
+                {
+                    "id": "1X4FumlVsvMEYA9pLOjitH",
+                    "name": "Your Love (Deja Vu) - Stripped Back",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "1yqMgZNrevsWMLWfO2PRp5",
+                    "name": "Charlie Brown",
+                    "artist": "Coldplay"
+                },
+                {
+                    "id": "24SUWisv2lYQiB3bVpE1sn",
+                    "name": "Virtual Insanity",
+                    "artist": "Jamiroquai"
+                },
+                {
+                    "id": "4vXq5ukq78gSlKWBj5xOKA",
+                    "name": "I Want A Love Like This",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0WprcCQhZuJBU2KR1h8tRh",
+                    "name": "Cold Reactor",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "5vmRQ3zELMLUQPo2FLQ76x",
+                    "name": "Smalltown Boy",
+                    "artist": "Bronski Beat"
+                },
+                {
+                    "id": "0CtQMil54kzybZVGAFAZ0S",
+                    "name": "Jennifer",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0ofHAoxe9vBkTCp2UQIavz",
+                    "name": "Dreams - 2004 Remaster",
+                    "artist": "Fleetwood Mac"
+                },
+                {
+                    "id": "2UbuXuTdSC0oR0upCbiLx2",
+                    "name": "Pick U Up",
+                    "artist": "Foster The People"
+                },
+                {
+                    "id": "1yupbrI7ROhigIHpQBevPh",
+                    "name": "Chicago",
+                    "artist": "Sufjan Stevens"
+                },
+                {
+                    "id": "4UB3TaEGEY9WoOpxYNMgy4",
+                    "name": "The Safety Dance",
+                    "artist": "Men Without Hats"
+                },
+                {
+                    "id": "2gNfxysfBRfl9Lvi9T3v6R",
+                    "name": "Disciples",
+                    "artist": "Tame Impala"
+                },
+                {
+                    "id": "3YrjFJwsOPWShEkIvxbqwW",
+                    "name": "Say You Will",
+                    "artist": "Fleetwood Mac"
+                },
+                {
+                    "id": "5UGCvqctOKb1cC0b2hJi1q",
+                    "name": "The End of the Contender",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "1OutzYv6YiN93lrT3pJsWR",
+                    "name": "It's My Life",
+                    "artist": "No Doubt"
+                },
+                {
+                    "id": "2qSkIjg1o9h3YT9RAgYN75",
+                    "name": "Espresso",
+                    "artist": "Sabrina Carpenter"
+                },
+                {
+                    "id": "4ExPtFhZRX6wE0it3s7H2H",
+                    "name": "Too Polite To Fight",
+                    "artist": "Autoheart"
+                },
+                {
+                    "id": "5DN1QdgodyvoM4efdXUR1c",
+                    "name": "Regret",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "22sS7JkzeVeq4vOPCB6Fbj",
+                    "name": "Someone New",
+                    "artist": "Hozier"
+                },
+                {
+                    "id": "4xtOrlx513T58qXxUwo9ui",
+                    "name": "Wild Guess",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "6dBUzqjtbnIa1TwYbyw5CM",
+                    "name": "Lovers Rock",
+                    "artist": "TV Girl"
+                },
+                {
+                    "id": "7uttm8Iurm5uK67Vr9G2Sp",
+                    "name": "Almost (Sweet Music)",
+                    "artist": "Hozier"
+                },
+                {
+                    "id": "1To7WIYW7Od2r1JIKsFJnH",
+                    "name": "The Sailor Song - 2023 Remaster",
+                    "artist": "Autoheart"
+                },
+                {
+                    "id": "4Y7dvE2TmFBRAfwTYb7Qal",
+                    "name": "Say Goodbye",
+                    "artist": "Fleetwood Mac"
+                },
+                {
+                    "id": "53IRnAWx13PYmoVYtemUBS",
+                    "name": "Femininomenon",
+                    "artist": "Chappell Roan"
+                },
+                {
+                    "id": "41krZZovstMJKeJZJtbL78",
+                    "name": "Girl, so confusing",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "3vbxQpZdIXJ3oALBd8OyQ6",
+                    "name": "Come On! Feel the Illinoise! Part I: The World's Columbian Exposition Part II: Carl Sandburg Visits Me In A Dream",
+                    "artist": "Sufjan Stevens"
+                },
+                {
+                    "id": "5ruzrDWcT0vuJIOMW7gMnW",
+                    "name": "The Adults Are Talking",
+                    "artist": "The Strokes"
+                },
+                {
+                    "id": "1QqZwV3fCZAdTv5fEvaFvo",
+                    "name": "R U Happy?",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "6PBSZf43GwbmAT7fQH9yPq",
+                    "name": "Buddy, Come Over",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "4VpjW9LiXpwuPPVyfSbRtd",
+                    "name": "Wanna Be Startin' Somethin'",
+                    "artist": "Michael Jackson"
+                },
+                {
+                    "id": "7uGYWMwRy24dm7RUDDhUlD",
+                    "name": "My Boy Only Breaks His Favorite Toys",
+                    "artist": "Taylor Swift"
+                },
+                {
+                    "id": "7MRwp5rTiTDBPB81fkAyMU",
+                    "name": "The Mad Stone",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "44JEbGi3NxptsEuxDNGiAR",
+                    "name": "3's & 7's",
+                    "artist": "Queens of the Stone Age"
+                },
+                {
+                    "id": "1y5V5qja332UyMeUurFhDS",
+                    "name": "Private Idaho",
+                    "artist": "The B-52's"
+                },
+                {
+                    "id": "4r8lRYnoOGdEi6YyI5OC1o",
+                    "name": "Bye Bye Bye",
+                    "artist": "*NSYNC"
+                },
+                {
+                    "id": "0ggtOtlelbjiOavXz4HHHx",
+                    "name": "Bad Friday",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "5JqXtvd8bAyyPTjaK6cSDH",
+                    "name": "Static Space Lover",
+                    "artist": "Foster The People"
+                },
+                {
+                    "id": "0cuq829zRNq4AEdmDJA4aw",
+                    "name": "Two Princes",
+                    "artist": "Spin Doctors"
+                },
+                {
+                    "id": "3hAhnMsFcYTN5vmtWbCPCX",
+                    "name": "Carve A Name",
+                    "artist": "Mother Mother"
+                },
+                {
+                    "id": "4ylw8bmdEf7fdn47csjTzg",
+                    "name": "Against the Kitchen Floor",
+                    "artist": "Will Wood"
+                },
+                {
+                    "id": "3nLYjp5SaUZBx8Z0FZmftU",
+                    "name": "Something That Was Changing Your Mind",
+                    "artist": "Paper Twins"
+                },
+                {
+                    "id": "4UQMOPSUVJVicIQzjAcRRZ",
+                    "name": "Champion",
+                    "artist": "Kanye West"
+                },
+                {
+                    "id": "19kHhX6f6EfLU7rcO3RqjO",
+                    "name": "Back On 74",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "0GjEhVFGZW8afUYGChu3Rr",
+                    "name": "Dancing Queen",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "6EZDbjz2X5XzgIZCtbsrXh",
+                    "name": "The Passenger",
+                    "artist": "Siouxsie and the Banshees"
+                },
+                {
+                    "id": "5JWPUEov2wlX7c0jhYZpeB",
+                    "name": "Lost In Yesterday",
+                    "artist": "Tame Impala"
+                },
+                {
+                    "id": "1Ad2HcIX9zBqoWRvxtpYGf",
+                    "name": "Candle Flame",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "1oDAFTOXZGSQedBa6hXGhT",
+                    "name": "Tchaikovsky: The Nutcracker, Op. 71, Act 2: No. 14c, Pas de deux. Variation II \"Dance of the Sugar Plum Fairy\"",
+                    "artist": "Pyotr Ilyich Tchaikovsky"
+                },
+                {
+                    "id": "4Q7gnsxVer32pefk5cRupV",
+                    "name": "Good Omens Opening Title",
+                    "artist": "David Arnold"
+                },
+                {
+                    "id": "72yP0DUlWPyH8P7IoxskwN",
+                    "name": "Hold Me Closer",
+                    "artist": "Elton John"
+                },
+                {
+                    "id": "1tmRlF5pFo8G5OfJYUjWrR",
+                    "name": "Touch-Tone Telephone",
+                    "artist": "Lemon Demon"
+                },
+                {
+                    "id": "1ukHtC2BBs51jmSGaxoEeL",
+                    "name": "Got My Mind Set On You",
+                    "artist": "George Harrison"
+                },
+                {
+                    "id": "1lqj3wgPj8gHCdq46hUjvr",
+                    "name": "I / Me / Myself",
+                    "artist": "Will Wood"
+                },
+                {
+                    "id": "67oyFnjJnn78fZP9KjeZx0",
+                    "name": "Goodbye Stranger - 2010 Remastered",
+                    "artist": "Supertramp"
+                },
+                {
+                    "id": "1j7ll1vNFLdgU7XUagyFV0",
+                    "name": "Every Night",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "54A4aGA5rmDBJqD2yFAgJI",
+                    "name": "The Main Character",
+                    "artist": "Will Wood"
+                },
+                {
+                    "id": "0Dm43YLUlGdePpSbI1ct8h",
+                    "name": "Part-Time Lover",
+                    "artist": "Stevie Wonder"
+                },
+                {
+                    "id": "4iz9lGMjU1lXS51oPmUmTe",
+                    "name": "Homecoming",
+                    "artist": "Kanye West"
+                },
+                {
+                    "id": "1leXuBiWQMgbvOIIedqbLB",
+                    "name": "Kangaroo Court",
+                    "artist": "Capital Cities"
+                },
+                {
+                    "id": "2PpruBYCo4H7WOBJ7Q2EwM",
+                    "name": "Hey Ya!",
+                    "artist": "Outkast"
+                },
+                {
+                    "id": "6fbQ0UYHQS2CFQ85hOyXVM",
+                    "name": "Honeybody",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "1CgmY8fVN7kstVDZmsdM5k",
+                    "name": "P.Y.T. (Pretty Young Thing)",
+                    "artist": "Michael Jackson"
+                },
+                {
+                    "id": "0qksx8mV28lztYIZ1om8ml",
+                    "name": "Shiver",
+                    "artist": "Coldplay"
+                },
+                {
+                    "id": "2QEENkblf8Vho3IMdza6Ix",
+                    "name": "MAN IS LIKE A SPRING FLOWER",
+                    "artist": "Lingua Ignota"
+                },
+                {
+                    "id": "5yXf2ZVlBdgIGxbSKb6VFW",
+                    "name": "Don't Play",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "3uJMpB4esL49RpeSbB9a4E",
+                    "name": "Gospel",
+                    "artist": "MarchFourth Marching Band"
+                },
+                {
+                    "id": "0tLimqiQcY0HZ76eQXcqLK",
+                    "name": "Pizza Boy",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0WbMK4wrZ1wFSty9F7FCgu",
+                    "name": "Good Luck, Babe!",
+                    "artist": "Chappell Roan"
+                },
+                {
+                    "id": "4RVwu0g32PAqgUiJoXsdF8",
+                    "name": "Happier Than Ever",
+                    "artist": "Billie Eilish"
+                },
+                {
+                    "id": "3NYCaxkggl0Hh8vQptSUvV",
+                    "name": "Enola Gay - Remastered 2003",
+                    "artist": "Orchestral Manoeuvres In The Dark"
+                },
+                {
+                    "id": "0bePGTDjn0XuEKoN7rOMvV",
+                    "name": "Undercover Martyn",
+                    "artist": "Two Door Cinema Club"
+                },
+                {
+                    "id": "5cxnSTLzGD1t9xcdmJYFVB",
+                    "name": "No Children",
+                    "artist": "The Mountain Goats"
+                },
+                {
+                    "id": "457w5mJHizvkqO02OsWAsD",
+                    "name": "Ikarus (I Feel a Change)",
+                    "artist": "Hearts Hearts"
+                }
+            ],
+            "object_type": "UserInformationTopTracks"
+        },
+        "top_artists": {
+            "num": 50,
+            "top_artists": [
+                {
+                    "id": "3LVPGE5jPPwtbGslx07YR0",
+                    "name": "Kishi Bashi",
+                    "genres": [
+                        "chamber pop",
+                        "metropopolis",
+                        "shimmer pop",
+                        "stomp and whittle"
+                    ]
+                },
+                {
+                    "id": "3gdbcIdNypBsYNu3iiCjtN",
+                    "name": "The B-52's",
+                    "genres": [
+                        "album rock",
+                        "classic rock",
+                        "dance rock",
+                        "new romantic",
+                        "new wave",
+                        "new wave pop",
+                        "permanent wave",
+                        "post-punk",
+                        "rock",
+                        "zolo"
+                    ]
+                },
+                {
+                    "id": "4llAOeA6kEF4ytaB2fsmcW",
+                    "name": "Lemon Demon",
+                    "genres": [
+                        "indietronica",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "4gwpcMTbLWtBUlOijbVpuu",
+                    "name": "Capital Cities",
+                    "genres": [
+                        "metropopolis",
+                        "modern rock"
+                    ]
+                },
+                {
+                    "id": "5K4W6rqBFWDnAN6FQUkS6x",
+                    "name": "Kanye West",
+                    "genres": [
+                        "chicago rap",
+                        "hip hop",
+                        "rap"
+                    ]
+                },
+                {
+                    "id": "4Y1XOfsi9aKcT5Ez2iUVW3",
+                    "name": "MarchFourth Marching Band",
+                    "genres": [
+                        "brass band",
+                        "marching band",
+                        "street band"
+                    ]
+                },
+                {
+                    "id": "6LqNN22kT3074XbTVUrhzX",
+                    "name": "Kesha",
+                    "genres": [
+                        "dance pop",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "5kRhbeMGVzAciRwnQzyesH",
+                    "name": "Hearts Hearts",
+                    "genres": [
+                        "austrian indie",
+                        "austrian pop"
+                    ]
+                },
+                {
+                    "id": "3hyGGjxu73JuzBa757H6R5",
+                    "name": "The Mountain Goats",
+                    "genres": [
+                        "anti-folk",
+                        "chamber pop",
+                        "folk punk",
+                        "indie rock",
+                        "lo-fi",
+                        "melancholia",
+                        "new weird america"
+                    ]
+                },
+                {
+                    "id": "79bxUQsBIXO8nVLB9fYKf7",
+                    "name": "Modern Talking",
+                    "genres": [
+                        "europop",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "3PrjxwAe7Zn1cKf76CRRWt",
+                    "name": "Ferris Pier",
+                    "genres": []
+                },
+                {
+                    "id": "7HBai5xymOxIWoMWvWshe1",
+                    "name": "Teriyaki Boyz",
+                    "genres": [
+                        "japanese old school hip hop"
+                    ]
+                },
+                {
+                    "id": "4QQgXkCYTt3BlENzhyNETg",
+                    "name": "Earth, Wind & Fire",
+                    "genres": [
+                        "disco",
+                        "funk",
+                        "jazz funk",
+                        "motown",
+                        "soul"
+                    ]
+                },
+                {
+                    "id": "3oNy8cjBtJzLC07I70sklp",
+                    "name": "Belanova",
+                    "genres": [
+                        "latin arena pop",
+                        "latin pop",
+                        "mexican pop"
+                    ]
+                },
+                {
+                    "id": "0Y6dVaC9DZtPNH4591M42W",
+                    "name": "TV Girl",
+                    "genres": [
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "57DlMWmbVIf2ssJ8QBpBau",
+                    "name": "Toby Fox",
+                    "genres": [
+                        "indie game soundtrack",
+                        "otacore",
+                        "pixel"
+                    ]
+                },
+                {
+                    "id": "5INjqkS1o8h1imAzPqGZBb",
+                    "name": "Tame Impala",
+                    "genres": [
+                        "australian psych",
+                        "modern rock",
+                        "neo-psychedelic",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "3Q2RrKEOBdkWI2MJQgdt84",
+                    "name": "Lingua Ignota",
+                    "genres": [
+                        "death industrial",
+                        "gaian doom",
+                        "spectra"
+                    ]
+                },
+                {
+                    "id": "2PSiyldxmJze7xiqbz658m",
+                    "name": "Spin Doctors",
+                    "genres": [
+                        "pop rock",
+                        "post-grunge"
+                    ]
+                },
+                {
+                    "id": "7gP3bB2nilZXLfPHJhMdvc",
+                    "name": "Foster The People",
+                    "genres": [
+                        "indietronica",
+                        "modern alternative rock",
+                        "modern rock",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "0LcJLqbBmaGUft1e9Mm8HV",
+                    "name": "ABBA",
+                    "genres": [
+                        "europop",
+                        "swedish pop"
+                    ]
+                },
+                {
+                    "id": "6Ff53KvcvAj5U7Z1vojB5o",
+                    "name": "*NSYNC",
+                    "genres": [
+                        "boy band",
+                        "dance pop",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "4gzpq5DPGxSnKTe4SA8HAU",
+                    "name": "Coldplay",
+                    "genres": [
+                        "permanent wave",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "1VQ8riQ31zVHtlxiCC9EZE",
+                    "name": "Will Wood",
+                    "genres": [
+                        "pov: indie",
+                        "weirdcore"
+                    ]
+                },
+                {
+                    "id": "3MKCzCnpzw3TjUYs2v7vDA",
+                    "name": "Pyotr Ilyich Tchaikovsky",
+                    "genres": [
+                        "classical",
+                        "late romantic era",
+                        "russian romanticism"
+                    ]
+                },
+                {
+                    "id": "2wpWOzQE5TpA0dVnh5YD08",
+                    "name": "Bronski Beat",
+                    "genres": [
+                        "hi-nrg",
+                        "new romantic",
+                        "new wave",
+                        "new wave pop",
+                        "sophisti-pop",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "0mCdmt2O8dd8jJWv7m24EE",
+                    "name": "David Arnold",
+                    "genres": [
+                        "british soundtrack",
+                        "soundtrack"
+                    ]
+                },
+                {
+                    "id": "2FXC3k01G6Gw61bmprjgqS",
+                    "name": "Hozier",
+                    "genres": [
+                        "irish singer-songwriter",
+                        "modern rock",
+                        "pop",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "7guDJrEfX3qb6FEbdPA5qi",
+                    "name": "Stevie Wonder",
+                    "genres": [
+                        "motown",
+                        "soul"
+                    ]
+                },
+                {
+                    "id": "3eVa5w3URK5duf6eyVDbu9",
+                    "name": "ROS\u00c9",
+                    "genres": [
+                        "k-pop"
+                    ]
+                },
+                {
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "genres": [
+                        "alternative rock",
+                        "garage rock",
+                        "modern rock",
+                        "permanent wave",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "77mJc3M7ZT5oOVM7gNdXim",
+                    "name": "Her's",
+                    "genres": [
+                        "indie pop",
+                        "liverpool indie",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "34PLzyi7CdXUekiLHYyqXq",
+                    "name": "Men Without Hats",
+                    "genres": [
+                        "classic canadian rock",
+                        "new romantic",
+                        "new wave pop",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "536BYVgOnRky0xjsPT96zl",
+                    "name": "Two Door Cinema Club",
+                    "genres": [
+                        "indie rock",
+                        "indietronica",
+                        "irish rock",
+                        "modern alternative rock",
+                        "modern rock",
+                        "northern irish indie"
+                    ]
+                },
+                {
+                    "id": "6J7biCazzYhU3gM9j1wfid",
+                    "name": "Jamiroquai",
+                    "genres": [
+                        "dance pop"
+                    ]
+                },
+                {
+                    "id": "0e86yPdC41PGRkLp2Q1Bph",
+                    "name": "Mother Mother",
+                    "genres": [
+                        "canadian indie rock",
+                        "pov: indie",
+                        "vancouver indie"
+                    ]
+                },
+                {
+                    "id": "1VBflYyxBhnDc9uVib98rw",
+                    "name": "Icona Pop",
+                    "genres": [
+                        "candy pop",
+                        "dance pop",
+                        "electropop",
+                        "metropopolis",
+                        "swedish electropop",
+                        "swedish synthpop"
+                    ]
+                },
+                {
+                    "id": "6KImCVD70vtIoJWnq6nGn3",
+                    "name": "Harry Styles",
+                    "genres": [
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "7gRhy3MIPHQo5CXYfWaw9I",
+                    "name": "Azealia Banks",
+                    "genres": [
+                        "escape room",
+                        "hip house",
+                        "lgbtq+ hip hop",
+                        "trap queen"
+                    ]
+                },
+                {
+                    "id": "3973WPiIu6SYAoaEqBOfvg",
+                    "name": "Paper Twins",
+                    "genres": []
+                },
+                {
+                    "id": "59oA5WbbQvomJz2BuRG071",
+                    "name": "Jungle",
+                    "genres": [
+                        "indie soul",
+                        "uk contemporary r&b"
+                    ]
+                },
+                {
+                    "id": "3JsMj0DEzyWc0VDlHuy9Bx",
+                    "name": "Supertramp",
+                    "genres": [
+                        "album rock",
+                        "art rock",
+                        "classic rock",
+                        "glam rock",
+                        "mellow gold",
+                        "piano rock",
+                        "progressive rock",
+                        "rock",
+                        "soft rock",
+                        "symphonic rock"
+                    ]
+                },
+                {
+                    "id": "1G9G7WwrXka3Z1r7aIDjI7",
+                    "name": "Outkast",
+                    "genres": [
+                        "atl hip hop",
+                        "dirty south rap",
+                        "hip hop",
+                        "old school atlanta hip hop",
+                        "rap",
+                        "southern hip hop"
+                    ]
+                },
+                {
+                    "id": "56oDRnqbIiwx4mymNEv7dS",
+                    "name": "Lizzo",
+                    "genres": [
+                        "escape room",
+                        "minnesota hip hop",
+                        "pop",
+                        "trap queen"
+                    ]
+                },
+                {
+                    "id": "7wJ9NwdRWtN92NunmXuwBk",
+                    "name": "Orchestral Manoeuvres In The Dark",
+                    "genres": [
+                        "new romantic",
+                        "new wave",
+                        "new wave pop",
+                        "permanent wave",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "74KM79TiuVKeVCqs8QtB0B",
+                    "name": "Sabrina Carpenter",
+                    "genres": [
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "0N0dbr5s2y20PAo2cDAeVP",
+                    "name": "David Ogden Stiers",
+                    "genres": [
+                        "movie tunes"
+                    ]
+                },
+                {
+                    "id": "0cQbJU1aAzvbEmTuljWLlF",
+                    "name": "No Doubt",
+                    "genres": [
+                        "dance pop",
+                        "dance rock",
+                        "permanent wave",
+                        "pop rock",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "3nlpTZci9O5W8RsNoNH559",
+                    "name": "Juan Luis Guerra 4.40",
+                    "genres": [
+                        "bachata",
+                        "latin pop",
+                        "tropical"
+                    ]
+                },
+                {
+                    "id": "2y8Jo9CKhJvtfeKOsYzRdT",
+                    "name": "Rod Stewart",
+                    "genres": [
+                        "mellow gold",
+                        "soft rock"
+                    ]
+                }
+            ],
+            "object_type": "UserInformationTopArtists"
+        },
+        "top_genres": {
+            "num": 101,
+            "top_genres": [
+                "art rock",
+                "dirty south rap",
+                "old school atlanta hip hop",
+                "k-pop",
+                "minnesota hip hop",
+                "funk",
+                "indietronica",
+                "spectra",
+                "glam rock",
+                "swedish synthpop",
+                "pop",
+                "new weird america",
+                "vancouver indie",
+                "rap",
+                "otacore",
+                "late romantic era",
+                "folk punk",
+                "pop rock",
+                "europop",
+                "lgbtq+ hip hop",
+                "soul",
+                "soundtrack",
+                "synthpop",
+                "australian psych",
+                "symphonic rock",
+                "indie game soundtrack",
+                "metropopolis",
+                "lo-fi",
+                "atl hip hop",
+                "anti-folk",
+                "weirdcore",
+                "indie rock",
+                "latin arena pop",
+                "boy band",
+                "movie tunes",
+                "album rock",
+                "post-punk",
+                "stomp and whittle",
+                "neo-psychedelic",
+                "shimmer pop",
+                "northern irish indie",
+                "disco",
+                "russian romanticism",
+                "chicago rap",
+                "swedish electropop",
+                "jazz funk",
+                "pixel",
+                "brass band",
+                "new wave pop",
+                "austrian pop",
+                "electropop",
+                "soft rock",
+                "latin pop",
+                "modern alternative rock",
+                "mexican pop",
+                "marching band",
+                "liverpool indie",
+                "hi-nrg",
+                "alternative rock",
+                "hip house",
+                "death industrial",
+                "uk contemporary r&b",
+                "gaian doom",
+                "candy pop",
+                "austrian indie",
+                "melancholia",
+                "hip hop",
+                "japanese old school hip hop",
+                "progressive rock",
+                "modern rock",
+                "swedish pop",
+                "classical",
+                "street band",
+                "irish rock",
+                "classic canadian rock",
+                "permanent wave",
+                "new romantic",
+                "tropical",
+                "canadian indie rock",
+                "british soundtrack",
+                "new wave",
+                "motown",
+                "dance pop",
+                "post-grunge",
+                "trap queen",
+                "sophisti-pop",
+                "chamber pop",
+                "piano rock",
+                "classic rock",
+                "irish singer-songwriter",
+                "mellow gold",
+                "bachata",
+                "pov: indie",
+                "indie soul",
+                "dance rock",
+                "southern hip hop",
+                "garage rock",
+                "indie pop",
+                "escape room",
+                "zolo",
+                "rock"
+            ],
+            "object_type": "UserInformationTopGenres"
+        },
+        "object_type": "UserInformation"
+    },
+    {
+        "username": "FER",
+        "date": "2024-11-03",
+        "top_tracks": {
+            "num": 122,
+            "top_tracks": [
+                {
+                    "id": "4Dvkj6JhhA12EX05fT7y2e",
+                    "name": "As It Was",
+                    "artist": "Harry Styles"
+                },
+                {
+                    "id": "5c9tBmJKbTdn1vhzXHeAwW",
+                    "name": "Sympathy is a knife",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "5vNRhkKd0yEAg8suGBpjeY",
+                    "name": "APT.",
+                    "artist": "ROS\u00c9"
+                },
+                {
+                    "id": "0eM4CcU3AaE7m4FGH8vgql",
+                    "name": "Can\u2019t Let Go, Juno",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "7mDKRYiqejoHzP7dQGxLys",
+                    "name": "212",
+                    "artist": "Azealia Banks"
+                },
+                {
+                    "id": "3yhZkl1KZZBP2GcZgeRO3P",
+                    "name": "Space Ghost Coast To Coast - Stripped Back",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "34gNniPWXuNuTovRkzUKKT",
+                    "name": "Tonight I'm Yours (Don't Hurt Me)",
+                    "artist": "Rod Stewart"
+                },
+                {
+                    "id": "53mChDyESfwn9Dz8poHRf6",
+                    "name": "Taking What's Not Yours",
+                    "artist": "TV Girl"
+                },
+                {
+                    "id": "47Wo2LeGbzdZTdEFNRZXV0",
+                    "name": "The Bells of Notre Dame",
+                    "artist": "David Ogden Stiers"
+                },
+                {
+                    "id": "2U8NXPTXZWG2O0ye2sYRiH",
+                    "name": "I Love It (feat. Charli XCX)",
+                    "artist": "Icona Pop"
+                },
+                {
+                    "id": "3QaPy1KgI7nu9FJEQUgn6h",
+                    "name": "WILDFLOWER",
+                    "artist": "Billie Eilish"
+                },
+                {
+                    "id": "4TKlCLUfP5loEGrihCENwt",
+                    "name": "m'Lover",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "5PazwHXOIXEu80tYjx8bQF",
+                    "name": "Rosa Pastel",
+                    "artist": "Belanova"
+                },
+                {
+                    "id": "07oO1U722crtVcavi6frX6",
+                    "name": "Double Life - From \"Despicable Me 4\"",
+                    "artist": "Pharrell Williams"
+                },
+                {
+                    "id": "4HoOTJ8tM7ikMkEkoJTisX",
+                    "name": "Cold Reactor",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "4UVWEEgnuPXP3VuA4P6Djt",
+                    "name": "Why Don\u2019t You Answer Me",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "3kXoKlD84c6OmIcOLfrfEs",
+                    "name": "September",
+                    "artist": "Earth, Wind & Fire"
+                },
+                {
+                    "id": "7CHelZFdG67KvsIfXlFiMh",
+                    "name": "Tokyo Drifting",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "0YsMRoZD1nJVwlbIZme23I",
+                    "name": "Enter the Mirror",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0upFohXrGxIIAjyaJmCkMU",
+                    "name": "Tokyo Drift (Fast & Furious) - From \"The Fast And The Furious: Tokyo Drift\" Soundtrack",
+                    "artist": "Teriyaki Boyz"
+                },
+                {
+                    "id": "4c3ORntbG04PMGGucgwiLw",
+                    "name": "Your Love (D\u00e9j\u00e0 Vu)",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "3T59S3Vh3DOatsmTD8clqP",
+                    "name": "You Rock My World",
+                    "artist": "Michael Jackson"
+                },
+                {
+                    "id": "6dOtVTDdiauQNBQEDOtlAB",
+                    "name": "BIRDS OF A FEATHER",
+                    "artist": "Billie Eilish"
+                },
+                {
+                    "id": "0PFZCt7UNmpas24HejQGu8",
+                    "name": "I might say something stupid",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "3U5JVgI2x4rDyHGObzJfNf",
+                    "name": "Unwritten",
+                    "artist": "Natasha Bedingfield"
+                },
+                {
+                    "id": "3nQ24dxqvxZEVwlHTeuLz0",
+                    "name": "Sympathy is a knife featuring ariana grande",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "5oOZGQnZZToIHI55lw2E97",
+                    "name": "JOYRIDE",
+                    "artist": "Kesha"
+                },
+                {
+                    "id": "6LF6a9MXjsafSmqoNb0Fes",
+                    "name": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "0K1XXuhaJBPWMcgjj3ug3u",
+                    "name": "Las Avispas",
+                    "artist": "Juan Luis Guerra 4.40"
+                },
+                {
+                    "id": "199LDzwbUTc2wEroyRxhBM",
+                    "name": "Veo en ti la luz",
+                    "artist": "Chayanne"
+                },
+                {
+                    "id": "6eZ95ezk7CbOhAZq043Zke",
+                    "name": "Angeleyes",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "19RybK6XDbAVpcdxSbZL1o",
+                    "name": "Apple",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "2RXm45xWTrHVk3y3EDxAw0",
+                    "name": "The Reckoning",
+                    "artist": "Dom Fera"
+                },
+                {
+                    "id": "2aEuA8PSqLa17Y4hKPj5rr",
+                    "name": "Cheri Cheri Lady",
+                    "artist": "Modern Talking"
+                },
+                {
+                    "id": "34cOpn0VBjZdo9InXp1qTJ",
+                    "name": "Mamma Mia",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "5B0iPguskBzONMtfVspNFF",
+                    "name": "Northern Star",
+                    "artist": "Dom Fera"
+                },
+                {
+                    "id": "5N3hjp1WNayUPZrA8kJmJP",
+                    "name": "Please Please Please",
+                    "artist": "Sabrina Carpenter"
+                },
+                {
+                    "id": "3fAs1GvVMjMeMCTdjyQgyC",
+                    "name": "Brainchild",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "13Irp51zj01BZu2XtDrnAg",
+                    "name": "2 Be Loved (Am I Ready)",
+                    "artist": "Lizzo"
+                },
+                {
+                    "id": "1zFbBrZmJr1Z49HYe84dBg",
+                    "name": "Harvey",
+                    "artist": "Her's"
+                },
+                {
+                    "id": "3AHqaOkEFKZ6zEHdiplIv7",
+                    "name": "Tokyo Drifting (with Denzel Curry)",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "4L2F0LcDVtNrFc1K4lmx3m",
+                    "name": "Distant Past",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "6HJwPugn9QStgfhikxQ1d9",
+                    "name": "Biohacking My Technology",
+                    "artist": "Ferris Pier"
+                },
+                {
+                    "id": "7CMVo848b9LsUtVavIoiXC",
+                    "name": "Hopes And Dreams",
+                    "artist": "Toby Fox"
+                },
+                {
+                    "id": "4jhsuQCUCJKA5f0bXb6XdJ",
+                    "name": "It's My Life - 1997 Remaster",
+                    "artist": "Talk Talk"
+                },
+                {
+                    "id": "2Psw3yfupMoUAD5sIqYhoN",
+                    "name": "Statues in a Gallery",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "021JR08NX1Dt0i0MHaMkd4",
+                    "name": "Take A Chance On Me",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "0j2T0R9dR9qdJYsB7ciXhf",
+                    "name": "Stronger",
+                    "artist": "Kanye West"
+                },
+                {
+                    "id": "1X4FumlVsvMEYA9pLOjitH",
+                    "name": "Your Love (Deja Vu) - Stripped Back",
+                    "artist": "Glass Animals"
+                },
+                {
+                    "id": "1yqMgZNrevsWMLWfO2PRp5",
+                    "name": "Charlie Brown",
+                    "artist": "Coldplay"
+                },
+                {
+                    "id": "24SUWisv2lYQiB3bVpE1sn",
+                    "name": "Virtual Insanity",
+                    "artist": "Jamiroquai"
+                },
+                {
+                    "id": "4vXq5ukq78gSlKWBj5xOKA",
+                    "name": "I Want A Love Like This",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0WprcCQhZuJBU2KR1h8tRh",
+                    "name": "Cold Reactor",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "5vmRQ3zELMLUQPo2FLQ76x",
+                    "name": "Smalltown Boy",
+                    "artist": "Bronski Beat"
+                },
+                {
+                    "id": "0CtQMil54kzybZVGAFAZ0S",
+                    "name": "Jennifer",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0ofHAoxe9vBkTCp2UQIavz",
+                    "name": "Dreams - 2004 Remaster",
+                    "artist": "Fleetwood Mac"
+                },
+                {
+                    "id": "2UbuXuTdSC0oR0upCbiLx2",
+                    "name": "Pick U Up",
+                    "artist": "Foster The People"
+                },
+                {
+                    "id": "1yupbrI7ROhigIHpQBevPh",
+                    "name": "Chicago",
+                    "artist": "Sufjan Stevens"
+                },
+                {
+                    "id": "4UB3TaEGEY9WoOpxYNMgy4",
+                    "name": "The Safety Dance",
+                    "artist": "Men Without Hats"
+                },
+                {
+                    "id": "2gNfxysfBRfl9Lvi9T3v6R",
+                    "name": "Disciples",
+                    "artist": "Tame Impala"
+                },
+                {
+                    "id": "3YrjFJwsOPWShEkIvxbqwW",
+                    "name": "Say You Will",
+                    "artist": "Fleetwood Mac"
+                },
+                {
+                    "id": "5UGCvqctOKb1cC0b2hJi1q",
+                    "name": "The End of the Contender",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "1OutzYv6YiN93lrT3pJsWR",
+                    "name": "It's My Life",
+                    "artist": "No Doubt"
+                },
+                {
+                    "id": "2qSkIjg1o9h3YT9RAgYN75",
+                    "name": "Espresso",
+                    "artist": "Sabrina Carpenter"
+                },
+                {
+                    "id": "4ExPtFhZRX6wE0it3s7H2H",
+                    "name": "Too Polite To Fight",
+                    "artist": "Autoheart"
+                },
+                {
+                    "id": "5DN1QdgodyvoM4efdXUR1c",
+                    "name": "Regret",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "22sS7JkzeVeq4vOPCB6Fbj",
+                    "name": "Someone New",
+                    "artist": "Hozier"
+                },
+                {
+                    "id": "4xtOrlx513T58qXxUwo9ui",
+                    "name": "Wild Guess",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "6dBUzqjtbnIa1TwYbyw5CM",
+                    "name": "Lovers Rock",
+                    "artist": "TV Girl"
+                },
+                {
+                    "id": "7uttm8Iurm5uK67Vr9G2Sp",
+                    "name": "Almost (Sweet Music)",
+                    "artist": "Hozier"
+                },
+                {
+                    "id": "1To7WIYW7Od2r1JIKsFJnH",
+                    "name": "The Sailor Song - 2023 Remaster",
+                    "artist": "Autoheart"
+                },
+                {
+                    "id": "4Y7dvE2TmFBRAfwTYb7Qal",
+                    "name": "Say Goodbye",
+                    "artist": "Fleetwood Mac"
+                },
+                {
+                    "id": "53IRnAWx13PYmoVYtemUBS",
+                    "name": "Femininomenon",
+                    "artist": "Chappell Roan"
+                },
+                {
+                    "id": "41krZZovstMJKeJZJtbL78",
+                    "name": "Girl, so confusing",
+                    "artist": "Charli xcx"
+                },
+                {
+                    "id": "3vbxQpZdIXJ3oALBd8OyQ6",
+                    "name": "Come On! Feel the Illinoise! Part I: The World's Columbian Exposition Part II: Carl Sandburg Visits Me In A Dream",
+                    "artist": "Sufjan Stevens"
+                },
+                {
+                    "id": "5ruzrDWcT0vuJIOMW7gMnW",
+                    "name": "The Adults Are Talking",
+                    "artist": "The Strokes"
+                },
+                {
+                    "id": "1QqZwV3fCZAdTv5fEvaFvo",
+                    "name": "R U Happy?",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "6PBSZf43GwbmAT7fQH9yPq",
+                    "name": "Buddy, Come Over",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "4VpjW9LiXpwuPPVyfSbRtd",
+                    "name": "Wanna Be Startin' Somethin'",
+                    "artist": "Michael Jackson"
+                },
+                {
+                    "id": "7uGYWMwRy24dm7RUDDhUlD",
+                    "name": "My Boy Only Breaks His Favorite Toys",
+                    "artist": "Taylor Swift"
+                },
+                {
+                    "id": "7MRwp5rTiTDBPB81fkAyMU",
+                    "name": "The Mad Stone",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "44JEbGi3NxptsEuxDNGiAR",
+                    "name": "3's & 7's",
+                    "artist": "Queens of the Stone Age"
+                },
+                {
+                    "id": "1y5V5qja332UyMeUurFhDS",
+                    "name": "Private Idaho",
+                    "artist": "The B-52's"
+                },
+                {
+                    "id": "4r8lRYnoOGdEi6YyI5OC1o",
+                    "name": "Bye Bye Bye",
+                    "artist": "*NSYNC"
+                },
+                {
+                    "id": "0ggtOtlelbjiOavXz4HHHx",
+                    "name": "Bad Friday",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "5JqXtvd8bAyyPTjaK6cSDH",
+                    "name": "Static Space Lover",
+                    "artist": "Foster The People"
+                },
+                {
+                    "id": "0cuq829zRNq4AEdmDJA4aw",
+                    "name": "Two Princes",
+                    "artist": "Spin Doctors"
+                },
+                {
+                    "id": "3hAhnMsFcYTN5vmtWbCPCX",
+                    "name": "Carve A Name",
+                    "artist": "Mother Mother"
+                },
+                {
+                    "id": "4ylw8bmdEf7fdn47csjTzg",
+                    "name": "Against the Kitchen Floor",
+                    "artist": "Will Wood"
+                },
+                {
+                    "id": "3nLYjp5SaUZBx8Z0FZmftU",
+                    "name": "Something That Was Changing Your Mind",
+                    "artist": "Paper Twins"
+                },
+                {
+                    "id": "4UQMOPSUVJVicIQzjAcRRZ",
+                    "name": "Champion",
+                    "artist": "Kanye West"
+                },
+                {
+                    "id": "19kHhX6f6EfLU7rcO3RqjO",
+                    "name": "Back On 74",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "0GjEhVFGZW8afUYGChu3Rr",
+                    "name": "Dancing Queen",
+                    "artist": "ABBA"
+                },
+                {
+                    "id": "6EZDbjz2X5XzgIZCtbsrXh",
+                    "name": "The Passenger",
+                    "artist": "Siouxsie and the Banshees"
+                },
+                {
+                    "id": "5JWPUEov2wlX7c0jhYZpeB",
+                    "name": "Lost In Yesterday",
+                    "artist": "Tame Impala"
+                },
+                {
+                    "id": "1Ad2HcIX9zBqoWRvxtpYGf",
+                    "name": "Candle Flame",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "1oDAFTOXZGSQedBa6hXGhT",
+                    "name": "Tchaikovsky: The Nutcracker, Op. 71, Act 2: No. 14c, Pas de deux. Variation II \"Dance of the Sugar Plum Fairy\"",
+                    "artist": "Pyotr Ilyich Tchaikovsky"
+                },
+                {
+                    "id": "4Q7gnsxVer32pefk5cRupV",
+                    "name": "Good Omens Opening Title",
+                    "artist": "David Arnold"
+                },
+                {
+                    "id": "72yP0DUlWPyH8P7IoxskwN",
+                    "name": "Hold Me Closer",
+                    "artist": "Elton John"
+                },
+                {
+                    "id": "1tmRlF5pFo8G5OfJYUjWrR",
+                    "name": "Touch-Tone Telephone",
+                    "artist": "Lemon Demon"
+                },
+                {
+                    "id": "1ukHtC2BBs51jmSGaxoEeL",
+                    "name": "Got My Mind Set On You",
+                    "artist": "George Harrison"
+                },
+                {
+                    "id": "1lqj3wgPj8gHCdq46hUjvr",
+                    "name": "I / Me / Myself",
+                    "artist": "Will Wood"
+                },
+                {
+                    "id": "67oyFnjJnn78fZP9KjeZx0",
+                    "name": "Goodbye Stranger - 2010 Remastered",
+                    "artist": "Supertramp"
+                },
+                {
+                    "id": "1j7ll1vNFLdgU7XUagyFV0",
+                    "name": "Every Night",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "54A4aGA5rmDBJqD2yFAgJI",
+                    "name": "The Main Character",
+                    "artist": "Will Wood"
+                },
+                {
+                    "id": "0Dm43YLUlGdePpSbI1ct8h",
+                    "name": "Part-Time Lover",
+                    "artist": "Stevie Wonder"
+                },
+                {
+                    "id": "4iz9lGMjU1lXS51oPmUmTe",
+                    "name": "Homecoming",
+                    "artist": "Kanye West"
+                },
+                {
+                    "id": "1leXuBiWQMgbvOIIedqbLB",
+                    "name": "Kangaroo Court",
+                    "artist": "Capital Cities"
+                },
+                {
+                    "id": "2PpruBYCo4H7WOBJ7Q2EwM",
+                    "name": "Hey Ya!",
+                    "artist": "Outkast"
+                },
+                {
+                    "id": "6fbQ0UYHQS2CFQ85hOyXVM",
+                    "name": "Honeybody",
+                    "artist": "Kishi Bashi"
+                },
+                {
+                    "id": "1CgmY8fVN7kstVDZmsdM5k",
+                    "name": "P.Y.T. (Pretty Young Thing)",
+                    "artist": "Michael Jackson"
+                },
+                {
+                    "id": "0qksx8mV28lztYIZ1om8ml",
+                    "name": "Shiver",
+                    "artist": "Coldplay"
+                },
+                {
+                    "id": "2QEENkblf8Vho3IMdza6Ix",
+                    "name": "MAN IS LIKE A SPRING FLOWER",
+                    "artist": "Lingua Ignota"
+                },
+                {
+                    "id": "5yXf2ZVlBdgIGxbSKb6VFW",
+                    "name": "Don't Play",
+                    "artist": "Jungle"
+                },
+                {
+                    "id": "3uJMpB4esL49RpeSbB9a4E",
+                    "name": "Gospel",
+                    "artist": "MarchFourth Marching Band"
+                },
+                {
+                    "id": "0tLimqiQcY0HZ76eQXcqLK",
+                    "name": "Pizza Boy",
+                    "artist": "Everything Everything"
+                },
+                {
+                    "id": "0WbMK4wrZ1wFSty9F7FCgu",
+                    "name": "Good Luck, Babe!",
+                    "artist": "Chappell Roan"
+                },
+                {
+                    "id": "4RVwu0g32PAqgUiJoXsdF8",
+                    "name": "Happier Than Ever",
+                    "artist": "Billie Eilish"
+                },
+                {
+                    "id": "3NYCaxkggl0Hh8vQptSUvV",
+                    "name": "Enola Gay - Remastered 2003",
+                    "artist": "Orchestral Manoeuvres In The Dark"
+                },
+                {
+                    "id": "0bePGTDjn0XuEKoN7rOMvV",
+                    "name": "Undercover Martyn",
+                    "artist": "Two Door Cinema Club"
+                },
+                {
+                    "id": "5cxnSTLzGD1t9xcdmJYFVB",
+                    "name": "No Children",
+                    "artist": "The Mountain Goats"
+                },
+                {
+                    "id": "457w5mJHizvkqO02OsWAsD",
+                    "name": "Ikarus (I Feel a Change)",
+                    "artist": "Hearts Hearts"
+                }
+            ],
+            "object_type": "UserInformationTopTracks"
+        },
+        "top_artists": {
+            "num": 50,
+            "top_artists": [
+                {
+                    "id": "1VBflYyxBhnDc9uVib98rw",
+                    "name": "Icona Pop",
+                    "genres": [
+                        "candy pop",
+                        "dance pop",
+                        "electropop",
+                        "metropopolis",
+                        "swedish electropop",
+                        "swedish synthpop"
+                    ]
+                },
+                {
+                    "id": "2RdwBSPQiwcmiDo9kixcl8",
+                    "name": "Pharrell Williams",
+                    "genres": [
+                        "dance pop",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "7FIoB5PHdrMZVC3q2HE5MS",
+                    "name": "George Harrison",
+                    "genres": [
+                        "album rock",
+                        "classic rock",
+                        "folk rock",
+                        "mellow gold",
+                        "rock",
+                        "singer-songwriter",
+                        "soft rock"
+                    ]
+                },
+                {
+                    "id": "3oNy8cjBtJzLC07I70sklp",
+                    "name": "Belanova",
+                    "genres": [
+                        "latin arena pop",
+                        "latin pop",
+                        "mexican pop"
+                    ]
+                },
+                {
+                    "id": "4QQgXkCYTt3BlENzhyNETg",
+                    "name": "Earth, Wind & Fire",
+                    "genres": [
+                        "disco",
+                        "funk",
+                        "jazz funk",
+                        "motown",
+                        "soul"
+                    ]
+                },
+                {
+                    "id": "25uiPmTg16RbhZWAqwLBy5",
+                    "name": "Charli xcx",
+                    "genres": [
+                        "art pop",
+                        "candy pop",
+                        "metropopolis",
+                        "pop",
+                        "uk pop"
+                    ]
+                },
+                {
+                    "id": "0mCdmt2O8dd8jJWv7m24EE",
+                    "name": "David Arnold",
+                    "genres": [
+                        "british soundtrack",
+                        "soundtrack"
+                    ]
+                },
+                {
+                    "id": "3JsMj0DEzyWc0VDlHuy9Bx",
+                    "name": "Supertramp",
+                    "genres": [
+                        "album rock",
+                        "art rock",
+                        "classic rock",
+                        "glam rock",
+                        "mellow gold",
+                        "piano rock",
+                        "progressive rock",
+                        "rock",
+                        "soft rock",
+                        "symphonic rock"
+                    ]
+                },
+                {
+                    "id": "1G9G7WwrXka3Z1r7aIDjI7",
+                    "name": "Outkast",
+                    "genres": [
+                        "atl hip hop",
+                        "dirty south rap",
+                        "hip hop",
+                        "old school atlanta hip hop",
+                        "rap",
+                        "southern hip hop"
+                    ]
+                },
+                {
+                    "id": "7wJ9NwdRWtN92NunmXuwBk",
+                    "name": "Orchestral Manoeuvres In The Dark",
+                    "genres": [
+                        "new romantic",
+                        "new wave",
+                        "new wave pop",
+                        "permanent wave",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "6KImCVD70vtIoJWnq6nGn3",
+                    "name": "Harry Styles",
+                    "genres": [
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "2PSiyldxmJze7xiqbz658m",
+                    "name": "Spin Doctors",
+                    "genres": [
+                        "pop rock",
+                        "post-grunge"
+                    ]
+                },
+                {
+                    "id": "6LqNN22kT3074XbTVUrhzX",
+                    "name": "Kesha",
+                    "genres": [
+                        "dance pop",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "7guDJrEfX3qb6FEbdPA5qi",
+                    "name": "Stevie Wonder",
+                    "genres": [
+                        "motown",
+                        "soul"
+                    ]
+                },
+                {
+                    "id": "0N0dbr5s2y20PAo2cDAeVP",
+                    "name": "David Ogden Stiers",
+                    "genres": [
+                        "movie tunes"
+                    ]
+                },
+                {
+                    "id": "0Y6dVaC9DZtPNH4591M42W",
+                    "name": "TV Girl",
+                    "genres": [
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "3MKCzCnpzw3TjUYs2v7vDA",
+                    "name": "Pyotr Ilyich Tchaikovsky",
+                    "genres": [
+                        "classical",
+                        "late romantic era",
+                        "russian romanticism"
+                    ]
+                },
+                {
+                    "id": "7gRhy3MIPHQo5CXYfWaw9I",
+                    "name": "Azealia Banks",
+                    "genres": [
+                        "escape room",
+                        "hip house",
+                        "lgbtq+ hip hop",
+                        "trap queen"
+                    ]
+                },
+                {
+                    "id": "08GQAI4eElDnROBrJRGE0X",
+                    "name": "Fleetwood Mac",
+                    "genres": [
+                        "album rock",
+                        "classic rock",
+                        "rock",
+                        "soft rock",
+                        "yacht rock"
+                    ]
+                },
+                {
+                    "id": "0cQbJU1aAzvbEmTuljWLlF",
+                    "name": "No Doubt",
+                    "genres": [
+                        "dance pop",
+                        "dance rock",
+                        "permanent wave",
+                        "pop rock",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "7gP3bB2nilZXLfPHJhMdvc",
+                    "name": "Foster The People",
+                    "genres": [
+                        "indietronica",
+                        "modern alternative rock",
+                        "modern rock",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "3gdbcIdNypBsYNu3iiCjtN",
+                    "name": "The B-52's",
+                    "genres": [
+                        "album rock",
+                        "classic rock",
+                        "dance rock",
+                        "new romantic",
+                        "new wave",
+                        "new wave pop",
+                        "permanent wave",
+                        "post-punk",
+                        "rock",
+                        "zolo"
+                    ]
+                },
+                {
+                    "id": "2wpWOzQE5TpA0dVnh5YD08",
+                    "name": "Bronski Beat",
+                    "genres": [
+                        "hi-nrg",
+                        "new romantic",
+                        "new wave",
+                        "new wave pop",
+                        "sophisti-pop",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "3973WPiIu6SYAoaEqBOfvg",
+                    "name": "Paper Twins",
+                    "genres": []
+                },
+                {
+                    "id": "4gwpcMTbLWtBUlOijbVpuu",
+                    "name": "Capital Cities",
+                    "genres": [
+                        "metropopolis",
+                        "modern rock"
+                    ]
+                },
+                {
+                    "id": "6J7biCazzYhU3gM9j1wfid",
+                    "name": "Jamiroquai",
+                    "genres": [
+                        "dance pop"
+                    ]
+                },
+                {
+                    "id": "3fMbdgg4jU18AjLCKBhRSm",
+                    "name": "Michael Jackson",
+                    "genres": [
+                        "r&b",
+                        "soul"
+                    ]
+                },
+                {
+                    "id": "7GlBOeep6PqTfFi59PTUUN",
+                    "name": "Chappell Roan",
+                    "genres": [
+                        "indie pop"
+                    ]
+                },
+                {
+                    "id": "4Y1XOfsi9aKcT5Ez2iUVW3",
+                    "name": "MarchFourth Marching Band",
+                    "genres": [
+                        "brass band",
+                        "marching band",
+                        "street band"
+                    ]
+                },
+                {
+                    "id": "1JbemQ1fPt2YmSLjAFhPBv",
+                    "name": "Chayanne",
+                    "genres": [
+                        "latin pop",
+                        "puerto rican pop"
+                    ]
+                },
+                {
+                    "id": "4gzpq5DPGxSnKTe4SA8HAU",
+                    "name": "Coldplay",
+                    "genres": [
+                        "permanent wave",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "3hyGGjxu73JuzBa757H6R5",
+                    "name": "The Mountain Goats",
+                    "genres": [
+                        "anti-folk",
+                        "chamber pop",
+                        "folk punk",
+                        "indie rock",
+                        "lo-fi",
+                        "melancholia",
+                        "new weird america"
+                    ]
+                },
+                {
+                    "id": "2y8Jo9CKhJvtfeKOsYzRdT",
+                    "name": "Rod Stewart",
+                    "genres": [
+                        "mellow gold",
+                        "soft rock"
+                    ]
+                },
+                {
+                    "id": "3LVPGE5jPPwtbGslx07YR0",
+                    "name": "Kishi Bashi",
+                    "genres": [
+                        "chamber pop",
+                        "metropopolis",
+                        "shimmer pop",
+                        "stomp and whittle"
+                    ]
+                },
+                {
+                    "id": "34PLzyi7CdXUekiLHYyqXq",
+                    "name": "Men Without Hats",
+                    "genres": [
+                        "classic canadian rock",
+                        "new romantic",
+                        "new wave pop",
+                        "synthpop"
+                    ]
+                },
+                {
+                    "id": "1n65zfwYIj5kKEtNgxUlWb",
+                    "name": "Siouxsie and the Banshees",
+                    "genres": [
+                        "alternative rock",
+                        "dream pop",
+                        "new romantic",
+                        "new wave",
+                        "post-punk",
+                        "punk",
+                        "uk post-punk"
+                    ]
+                },
+                {
+                    "id": "56oDRnqbIiwx4mymNEv7dS",
+                    "name": "Lizzo",
+                    "genres": [
+                        "escape room",
+                        "minnesota hip hop",
+                        "pop",
+                        "trap queen"
+                    ]
+                },
+                {
+                    "id": "3eVa5w3URK5duf6eyVDbu9",
+                    "name": "ROS\u00c9",
+                    "genres": [
+                        "k-pop"
+                    ]
+                },
+                {
+                    "id": "2FXC3k01G6Gw61bmprjgqS",
+                    "name": "Hozier",
+                    "genres": [
+                        "irish singer-songwriter",
+                        "modern rock",
+                        "pop",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "7HBai5xymOxIWoMWvWshe1",
+                    "name": "Teriyaki Boyz",
+                    "genres": [
+                        "japanese old school hip hop"
+                    ]
+                },
+                {
+                    "id": "4yvcSjfu4PC0CYQyLy4wSq",
+                    "name": "Glass Animals",
+                    "genres": [
+                        "gauze pop",
+                        "indietronica",
+                        "modern rock",
+                        "pov: indie",
+                        "shiver pop"
+                    ]
+                },
+                {
+                    "id": "4llAOeA6kEF4ytaB2fsmcW",
+                    "name": "Lemon Demon",
+                    "genres": [
+                        "indietronica",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
+                    "genres": [
+                        "art pop",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "3PhoLpVuITZKcymswpck5b",
+                    "name": "Elton John",
+                    "genres": [
+                        "glam rock",
+                        "mellow gold",
+                        "piano rock",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "3Q2RrKEOBdkWI2MJQgdt84",
+                    "name": "Lingua Ignota",
+                    "genres": [
+                        "death industrial",
+                        "gaian doom",
+                        "spectra"
+                    ]
+                },
+                {
+                    "id": "7o95ZoZt5ZYn31e9z1Hc0a",
+                    "name": "Natasha Bedingfield",
+                    "genres": [
+                        "dance pop",
+                        "pop",
+                        "post-teen pop"
+                    ]
+                },
+                {
+                    "id": "74KM79TiuVKeVCqs8QtB0B",
+                    "name": "Sabrina Carpenter",
+                    "genres": [
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "6Ff53KvcvAj5U7Z1vojB5o",
+                    "name": "*NSYNC",
+                    "genres": [
+                        "boy band",
+                        "dance pop",
+                        "pop"
+                    ]
+                },
+                {
+                    "id": "5kRhbeMGVzAciRwnQzyesH",
+                    "name": "Hearts Hearts",
+                    "genres": [
+                        "austrian indie",
+                        "austrian pop"
+                    ]
+                },
+                {
+                    "id": "3nlpTZci9O5W8RsNoNH559",
+                    "name": "Juan Luis Guerra 4.40",
+                    "genres": [
+                        "bachata",
+                        "latin pop",
+                        "tropical"
+                    ]
+                }
+            ],
+            "object_type": "UserInformationTopArtists"
+        },
+        "top_genres": {
+            "num": 97,
+            "top_genres": [
+                "gauze pop",
+                "modern rock",
+                "punk",
+                "shimmer pop",
+                "mexican pop",
+                "soft rock",
+                "trap queen",
+                "irish singer-songwriter",
+                "movie tunes",
+                "hip house",
+                "minnesota hip hop",
+                "indie pop",
+                "tropical",
+                "motown",
+                "art pop",
+                "synthpop",
+                "indietronica",
+                "melancholia",
+                "atl hip hop",
+                "soul",
+                "yacht rock",
+                "classic rock",
+                "modern alternative rock",
+                "rock",
+                "mellow gold",
+                "k-pop",
+                "permanent wave",
+                "pov: indie",
+                "austrian indie",
+                "anti-folk",
+                "metropopolis",
+                "shiver pop",
+                "death industrial",
+                "stomp and whittle",
+                "old school atlanta hip hop",
+                "singer-songwriter",
+                "soundtrack",
+                "new wave pop",
+                "austrian pop",
+                "classic canadian rock",
+                "russian romanticism",
+                "uk post-punk",
+                "uk pop",
+                "folk punk",
+                "lgbtq+ hip hop",
+                "sophisti-pop",
+                "glam rock",
+                "rap",
+                "alternative rock",
+                "new wave",
+                "jazz funk",
+                "r&b",
+                "dream pop",
+                "dance pop",
+                "japanese old school hip hop",
+                "indie rock",
+                "bachata",
+                "zolo",
+                "candy pop",
+                "swedish synthpop",
+                "art rock",
+                "progressive rock",
+                "pop",
+                "post-teen pop",
+                "latin pop",
+                "street band",
+                "dirty south rap",
+                "disco",
+                "british soundtrack",
+                "puerto rican pop",
+                "gaian doom",
+                "new romantic",
+                "latin arena pop",
+                "piano rock",
+                "chamber pop",
+                "symphonic rock",
+                "marching band",
+                "classical",
+                "spectra",
+                "late romantic era",
+                "southern hip hop",
+                "boy band",
+                "escape room",
+                "dance rock",
+                "new weird america",
+                "folk rock",
+                "post-grunge",
+                "lo-fi",
+                "swedish electropop",
+                "brass band",
+                "electropop",
+                "post-punk",
+                "hip hop",
+                "pop rock",
+                "album rock",
+                "funk",
+                "hi-nrg"
+            ],
+            "object_type": "UserInformationTopGenres"
+        },
+        "object_type": "UserInformation"
+    }
+]

@@ -1,5 +1,7 @@
 import json
 import spotipy
+import os
+from pathlib import Path
 from random import randint
 from datetime import date, datetime, time
 from llama_index.core.tools import QueryEngineTool, FunctionTool, ToolMetadata
@@ -93,14 +95,14 @@ def get_lyrics_from_genius(song_title: str, artist_name: str) -> str:
 
 lyrics_genius_tool = FunctionTool.from_defaults(fn=get_lyrics_from_genius, return_direct=False)
 
-def create_Spotify_playlist(playlist_name: str, playlist_description: str, track_uris: list[str]):
+def create_Spotify_playlist(track_uris: list[str], playlist_name: str = "Music Assistant Recommendations", playlist_description: str = "Una playlist creada con Spotipy por el bot de Music Assistant"):
     """
         This function creates a new Spotify playlist for the authenticated user and adds specified tracks to it.
 
     ### Usage
     - Input: The function requires two inputs:
         1. **playlist_name**: The name you want to give to the new playlist.
-        2. **tracks**: A list of dictionaries, each containing the track ID and name to be included in the playlist.
+        2. **tracks**: A list of strings, each is a uri that identifies a track that should be added to the playlist.
         3. **playlist_description** (optional): A brief description of the playlist's content or purpose.
 
     ### Output
@@ -108,14 +110,15 @@ def create_Spotify_playlist(playlist_name: str, playlist_description: str, track
 
     ### Notes
     - This function is beneficial for users who wish to curate their own playlists based on specific themes, moods, or personal favorites.
+    - IT CAN ONLY BE USED AFTER ASKING FOR THE PLAYLIST NAME AND PLAYLIST DESCRIPTION, AND GETTING THE LIST OF URIS.
+    - Ask the user for the playlist name and description before using this tool.
 
     """
     sp = spotify_object.get_spotify_object()
     user_id = sp.current_user()['id']
-    playlist_description = "Una playlist creada con Spotipy por el bot de Music Assistant"
     new_playlist = sp.user_playlist_create(user=user_id, name=playlist_name, public=False, description=playlist_description)
     sp.playlist_add_items(playlist_id=new_playlist['id'], items=track_uris)
-    return Playlist(new_playlist['id'], new_playlist['name'], len(track_uris))
+    return Playlist(id=new_playlist['id'], name=new_playlist['name'], num_tracks=len(track_uris))
 
 create_Spotify_playlist_tool = FunctionTool.from_defaults(fn=create_Spotify_playlist, return_direct=False)
 
@@ -136,7 +139,7 @@ def show_all_Spotify_playlists():
     user_playlists = sp.current_user_playlists()
     list_of_playlists = []
     for playlist in user_playlists['items']:
-        list_of_playlists.append(Playlist(playlist['id'], playlist['name'], playlist['tracks']['total']))
+        list_of_playlists.append(Playlist(id=playlist['id'], name=playlist['name'], num_tracks=playlist['tracks']['total']))
     return list_of_playlists
 
 show_all_Spotify_playlists_tool = FunctionTool.from_defaults(fn=show_all_Spotify_playlists, return_direct=False)
@@ -161,7 +164,7 @@ def show_specific_Spotify_playlist_tracks(playlist_id: str):
     for track in playlist_tracks['items']:
         lyrics = get_lyrics_from_genius(track['track']['name'], track['track']['artists'][0]['name'])
         list_of_tracks.append(Song(track['track']['id'], track['track']['name'], track['track']['artists'][0]['name'], lyrics))
-    return PlaylistWithTracks(Playlist(playlist_id, playlist_tracks['name'], playlist_tracks['total']), list_of_tracks)
+    return PlaylistWithTracks(playlist=Playlist(id=playlist_id, name=playlist_tracks['name'], num_tracks=playlist_tracks['total']), tracks=list_of_tracks)
 
 show_specific_Spotify_playlist_tracks_tool = FunctionTool.from_defaults(fn=show_specific_Spotify_playlist_tracks, return_direct=False)
 
@@ -183,7 +186,7 @@ def get_artist_Spotify(id: str):
     """
     sp = spotify_object.get_spotify_object()
     artist = sp.artist(id)
-    return Artist(artist['id'], artist['name'])
+    return Artist(id=artist['id'], name=artist['name'])
 
 get_artist_Spotify_tool = FunctionTool.from_defaults(fn=get_artist_Spotify, return_direct=False)
 
@@ -205,89 +208,182 @@ def get_several_artists_Spotify(ids: list[str]):
     artists = sp.artists(ids)
     list_of_artists = []
     for artist in artists['artists']:
-        # Usa palabras clave para crear el objeto Artist en lugar de pasar múltiples argumentos posicionales
         list_of_artists.append(Artist(id=artist['id'], name=artist['name'], genres=artist['genres']))
     return list_of_artists
 
 get_several_artists_Spotify_tool = FunctionTool.from_defaults(fn=get_several_artists_Spotify, return_direct=False)
 
 def get_user_information_from_Spotify():
-    sp = spotify_object.get_spotify_object()
-    time_ranges = ['short_term', 'medium_term', 'long_term']
-    song_ids = []
-    songs = []
-    artists = []
-    user_top_tracks = []
-    artists_ids_set = set()
 
-    for time_range in time_ranges:
-        results = sp.current_user_top_tracks(limit=50, offset=0, time_range=time_range)
-        for song in results['items']:
-            if song['id'] in song_ids:
-                continue
-            song_ids.append(song['id']) 
-            songs.append(song['name'])
-            artists.append(song['artists'][0]['name'])
-            artists_ids_set.add(song['artists'][0]['id'])
-            
-            # Crea el objeto Song sin incluir letras
-            user_top_tracks.append(Song(id=song['id'], name=song['name'], artist=song['artists'][0]['name'], lyrics=""))
+    '''
+    This function retrieves user information from Spotify and stores it in a JSON file.
+    If the file already exists, it is skipped.
 
-    if len(artists_ids_set) > 50:
-        artists_ids_set = list(artists_ids_set)[:50]
+    ### Usage
+    - Input: This function does not require any input parameters.
+    ### Output: 
+    This function does not return any output. It stores user information in a JSON file.
 
-    # Obtiene la información de los artistas sin incluir letras
-    user_top_artists = get_several_artists_Spotify(list(artists_ids_set))
+    ### Notes
+    - This function is useful for storing user information in a JSON file for future use.
+    - It can only be executed if a json file with the same name as the username DOES NOT exist.
+    - If the file already exists, it is skipped.
+    - If it is skipped, you should use read_saved_user_Spotify_information_tool '''
 
-    # Extrae los géneros
-    user_top_genres = [genre for artist in user_top_artists for genre in artist.genres]
-    user_top_genres = set(user_top_genres)
+    filename = SETTINGS.username + ".json"
+    if not (os.path.exists(filename)):
+    
+        sp = spotify_object.get_spotify_object()
+        time_ranges = ['short_term', 'medium_term', 'long_term']
+        song_ids = []
+        songs = []
+        artists = []
+        user_top_tracks = []
+        artists_ids_set = set()
 
-    # Asegúrate de que user_top_tracks sea una lista de Song objects.
-    user_top_tracks_list = [Song(id=song.id, name=song.name, artist=song.artist) for song in user_top_tracks]
+        for time_range in time_ranges:
+            results = sp.current_user_top_tracks(limit=50, offset=0, time_range=time_range)
+            for song in results['items']:
+                if song['id'] in song_ids:
+                    continue
+                song_ids.append(song['id']) 
+                songs.append(song['name'])
+                artists.append(song['artists'][0]['name'])
+                artists_ids_set.add(song['artists'][0]['id'])
+                
+                user_top_tracks.append(Song(id=song['id'], name=song['name'], artist=song['artists'][0]['name']))
 
-    # Crea el objeto UserInformationTopTracks con la lista verificada
-    user_top_tracks = UserInformationTopTracks(
-    tracks=user_top_tracks_list, 
-    num=len(user_top_tracks_list),  # Ajusta esto según el campo `num` en tu definición
-    top_tracks=user_top_tracks_list  # Si `top_tracks` se refiere a la lista de canciones
-    )
+        if len(artists_ids_set) > 50:
+            artists_ids_set = list(artists_ids_set)[:50]
 
-    # Supongamos que user_top_artists es una lista de objetos Artist
-    user_top_artists_list = [artist.name for artist in user_top_artists]  # Extrae solo los nombres
+        user_top_artists = get_several_artists_Spotify(list(artists_ids_set))
 
-    # Ahora crea la instancia de UserInformationTopArtists con la lista de nombres
-    user_top_artists = UserInformationTopArtists(
-        num=len(user_top_artists_list),        # Número de artistas en la lista
-        top_artists=user_top_artists_list      # Lista de nombres de artistas
-    )
+        user_top_genres = [genre for artist in user_top_artists for genre in artist.genres]
+        user_top_genres = set(user_top_genres)
 
-    # Supongamos que user_top_genres es una lista de géneros
-    user_top_genres_list = list(user_top_genres)  # Asegúrate de que sea una lista
+        user_top_tracks_list = [Song(id=song.id, name=song.name, artist=song.artist) for song in user_top_tracks]
 
-    # Ahora crea la instancia de UserInformationTopGenres con el número y la lista de géneros
-    user_top_genres = UserInformationTopGenres(
-        num=len(user_top_genres_list),          # Número de géneros en la lista
-        top_genres=user_top_genres_list         # Lista de géneros
+        user_top_tracks = UserInformationTopTracks(
+        num=len(user_top_tracks_list),  
+        top_tracks=user_top_tracks_list
         )
 
+        user_top_artists = UserInformationTopArtists(
+            num=len(user_top_artists),
+            top_artists=user_top_artists
+        )
 
-    # Crea el objeto de información de usuario
-    user_information = UserInformation(
-        username=SETTINGS.username,
-        date=date.today(),
-        top_tracks=user_top_tracks,
-        top_artists=user_top_artists,
-        top_genres=user_top_genres
-    )
+        user_top_genres_list = list(user_top_genres)
 
-    save_user_information(user_information)
+        user_top_genres = UserInformationTopGenres(
+            num=len(user_top_genres_list),
+            top_genres=user_top_genres_list
+            )
 
-    return user_information
+        user_information = UserInformation(
+            username=SETTINGS.username,
+            date=date.today(),
+            top_tracks=user_top_tracks,
+            top_artists=user_top_artists,
+            top_genres=user_top_genres
+        )
+
+        save_user_information(user_information)
+
+        return user_information
 
 
 get_user_information_tool = FunctionTool.from_defaults(fn=get_user_information_from_Spotify, return_direct=False)
 
-#def read_saved_user_information():
+def read_saved_user_Spotify_information() -> str:
+    """
+    Reads user information from Spotify from a JSON file and generates a string for the AI agent to easily read it.
+    This user information contains the user's top tracks, top artists, and top genres.
+    You can safely assume these are the user's favorite songs, artists, and genres.
 
+    ### Usage
+    - Input: None
     
+    ###Output:
+    - str: A formatted string including all the user's Spotify data that was saved.
+    
+    ### Notes
+    - Assumes the JSON file matches the structure of the UserInformation model.
+    """
+    file_path = SETTINGS.username+ SETTINGS.log_file
+    file = Path(file_path)
+    if not file.is_file():
+        return "Error: User data file not found."
+
+    with open(file_path, "r") as file:
+        user_data_list = json.load(file)
+
+    summary = "User Spotify Information:\n\n"
+
+    for user_data in user_data_list:
+
+        # General Information
+        summary += f"[Username: {user_data.get('username', 'N/A')}\n"
+        summary += f"Date of Data Collection: {user_data.get('date', 'N/A')}\n\n"
+        
+        # Top Tracks
+        top_tracks = user_data.get('top_tracks', {})
+        summary += f"Top {top_tracks.get('num', 0)} Tracks:\n"
+        for track in top_tracks.get('top_tracks', []):
+            summary += f"  - ID: {track.get('id')}, Name: {track.get('name')} by {track.get('artist')}\n"
+        summary += "\n"
+
+        # Top Artists
+        top_artists = user_data.get('top_artists', {})
+        summary += f"Top {top_artists.get('num', 0)} Artists:\n"
+        for artist in top_artists.get('top_artists', []):
+            summary += f"  - ID: {artist.get('id')}, Name: {artist.get('name')} (Genres: {', '.join(artist.get('genres', [])) if artist.get('genres') else 'N/A'})\n"
+        summary += "\n"
+
+        # Top Genres
+        top_genres = user_data.get('top_genres', {})
+        summary += f"Top {top_genres.get('num', 0)} Genres:\n"
+        for genre in top_genres.get('top_genres', []):
+            summary += f"  - {genre}\n"
+
+        summary += "]\n"
+
+    return summary
+
+read_saved_user_Spotify_information_tool = FunctionTool.from_defaults(fn=read_saved_user_Spotify_information, return_direct=False)
+
+
+def get_recommendations_Spotify(seed_artists: list[str] | None = None, seed_genres: list[str] | None = None, seed_tracks: list[str] | None = None) -> list[str]:
+    """
+    This function gets recommended tracks from Spotify based on seed artists, genres, and/or tracks.
+    IT DOES NOT CREATE A PLAYLIST. IT JUST RETURNS A LIST OF TRACKS.
+    The output is a list of uri strings that identify each recommended track and should be passed to the `create_Spotify_playlist` function.
+
+    ### Usage
+    - Input: This function accepts up to three optional parameters, at least one of which must be provided as a valid list:
+        1. **seed_artists** (list[str] | None): A list of Spotify artist IDs to seed recommendations. *Use artist IDs from user data.* *Pick 5 artists at random, unless specified otherwise* *Send the artist ids as a list of strings. NOT AS A COMMA SEPARATED STRING*
+        2. **seed_genres** (list[str] | None): A list of genres to seed recommendations. *Directly use genre names.* *Pick 5 genres at random, unless specified otherwise* *Send the genre names as a list of strings. NOT AS A COMMA SEPARATED STRING*
+        3. **seed_tracks** (list[str] | None): A list of Spotify track IDs to seed recommendations. *Use track IDs from user data.* *Pick 5 tracks at random, unless specified otherwise* *Send the track ids as a list of strings. NOT AS A COMMA SEPARATED STRING*
+    
+    ### Output
+    - The function returns an array of uri strings that identify each recommended track.
+
+    ### Notes
+    - This tool should be used after reading the user's data.
+    - The Spotify API requires at least one valid seed parameter to generate recommendations.
+    - This function retrieves recommended tracks based on the provided seed(s). You must use another tool to create the playlist with the tracks.
+    - Ensure the Spotify authorization object is properly initialized for user-specific actions.
+    - You should select 5 artists, 5 songs, and/or 5 genres according to their saved Spotify data.
+    """
+
+    if not any([seed_artists, seed_genres, seed_tracks]):
+        raise ValueError("At least one of seed_artists, seed_genres, or seed_tracks must be provided and not None.")
+
+    sp = spotify_object.get_spotify_object()
+
+    recommendations = sp.recommendations(seed_artists=seed_artists, seed_genres=seed_genres, seed_tracks=seed_tracks, limit=50)
+    track_uris = [track['uri'] for track in recommendations['tracks']]
+
+    return track_uris
+
+get_recommendations_Spotify_tool = FunctionTool.from_defaults(fn=get_recommendations_Spotify, return_direct=False)

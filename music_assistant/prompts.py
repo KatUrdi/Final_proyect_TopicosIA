@@ -25,8 +25,12 @@ music_query_qa_str = """
     is part of your context, also.
 
     To look for lyrics to specific songs, use your genius tool. These lyrics should be returned as is, without translation. They are also part of your context.
+
+    You also have access to the user's Spotify information. It will be saved in a JSON file with the username as its name. You can read this file with one of your tools: read_saved_user_Spotify_information_tool.
+
+    If the user asks you to create a playlist, fetch song recommendations URIs using get_recommendations_Spotify, and use the URIs to create a new playlist with create_Spotify_playlist.
     
-    Your music advice ad information should be returned with the following format:
+    Your music advice and information should be returned with the following format:
 
     Album: {Name of the Album}
     Artista: {Name of the Artist}
@@ -60,6 +64,9 @@ agent_prompt_str = """
     You can use the following tools to provide thorough and personalized responses:
     - Wikipedia tool: For general information on music topics like artist biographies, genre backgrounds, and album contexts.
     - Genius tool: For retrieving song lyrics verbatim, as well as information on specific songs and albums.
+    - read_saved_user_Spotify_information_tool: For retrieving user's Spotify information from a JSON file.
+    - get_recommendations_Spotify: For generating song recommendations based on user's Spotify information.
+    - create_Spotify_playlist: For creating a playlist on Spotify when provided with a list of URIs.
 
     **Important**: When responding:
     - **Do not translate song titles or lyrics**; keep them in their original language.
@@ -97,6 +104,28 @@ agent_prompt_str = """
     ```
     Thought: I cannot answer the question with the provided tools.
     Answer: [your answer here in the user's language]
+    ```
+
+    After each tool action, expect the following format from the user:
+
+    ```
+    Observation: [tool response]
+    ```
+
+    **For Playlist Requests**:
+    - If the user requests a playlist, ask for a playlist name and a playlist description, then use `get_recommendations_Spotify` to gather a list of song URIs.
+    - Then, call `create_Spotify_playlist` using this list of URIs. YOU CAN ONLY CALL THIS TOOL AFTER GENERATING THE PLAYLIST NAME AND PLAYLIST DESCRIPTION, AND GETTING THE LIST OF URIS.
+    
+    **Example Response for Playlist Creation**:
+
+    - First read the user's Spotify information using `read_saved_user_Spotify_information_tool` and ask for a playlist name and description.
+    - Then use `get_recommendations_Spotify` to gather a list of song URIs.
+    - After obtaining song recommendations (URIs), if creating a playlist, proceed as follows:
+    
+    ```
+    Thought: I have the recommended song URIs. I will now use `create_Spotify_playlist` to generate the playlist.
+    Action: create_Spotify_playlist
+    Action Input: [action input for create_Spotify_playlist]
     ```
 
     ## Current Conversation

@@ -1,0 +1,2252 @@
+[
+    {
+        "username": "Mateo Michel",
+        "date": "2024-11-03",
+        "top_tracks": {
+            "num": 124,
+            "top_tracks": [
+                {
+                    "id": "583nKvZJmUVTVFHdIrF6LX",
+                    "name": "Broken Belief",
+                    "artist": "Bob Moses"
+                },
+                {
+                    "id": "2BFnfCnAW6O1a1vZ8NZvkO",
+                    "name": "Midnight Ride",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "37ss0UmAXwDicqdqRf1cN9",
+                    "name": "Drunk and Alone",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "3nHuKdFJZm78CoeBnDcFKe",
+                    "name": "Bad Dreams",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "1WRNwhOwNDBxKpkXMeV1zK",
+                    "name": "Happy Trails",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "2175PkxzwUmUdeJc3J1d0p",
+                    "name": "Already Had It (From Twisters: The Album)",
+                    "artist": "Tucker Wetmore"
+                },
+                {
+                    "id": "2bfudvuGIJ76M26uOtwR4w",
+                    "name": "If You Have Ghosts - Live at the Forum / 2023",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "5ZLL6wYXeqg0k35ZkDRfhZ",
+                    "name": "Pour Me A Drink (Feat. Blake Shelton)",
+                    "artist": "Post Malone"
+                },
+                {
+                    "id": "70Iv0DGdoPCCjE6L2uTq28",
+                    "name": "It Ain't Right",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "2p5LjvjZlMSxxwNUtDyG5x",
+                    "name": "All My Life",
+                    "artist": "Falling In Reverse"
+                },
+                {
+                    "id": "7zXm5RfPShKDVnbMQb7gJ7",
+                    "name": "Leave The Light On (feat. Alexandra Kay)",
+                    "artist": "Jelly Roll"
+                },
+                {
+                    "id": "6GG4yyk3UATdBfTHVgI8PB",
+                    "name": "Ain't No Love In Oklahoma (From Twisters: The Album)",
+                    "artist": "Luke Combs"
+                },
+                {
+                    "id": "4pIKFpwflOdhYNIRmPTj3E",
+                    "name": "Dance Macabre",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "76dStyGzFOTpz24OgSsKcM",
+                    "name": "Gin & Juice - Another Shot From Dr. Dre",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "2oMRghXavYBErsyBIPNm0i",
+                    "name": "The Cards I've Been Dealt (From Twisters: The Album)",
+                    "artist": "Warren Zeiders"
+                },
+                {
+                    "id": "3IjDDbc4BAlOFpHLrFuCiu",
+                    "name": "Permanently Lonely (From \"Skincare\")",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "0MZ7Qj5BoJNTsFYDLPufVt",
+                    "name": "Boots Don't",
+                    "artist": "Shania Twain"
+                },
+                {
+                    "id": "0UT58DMxUfSb8ECS85tgn3",
+                    "name": "Southern Rock",
+                    "artist": "Travis Denning"
+                },
+                {
+                    "id": "3dj4wgM3cPeuLwMNHDuBon",
+                    "name": "The Door",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "7221xIgOnuakPdLqT0F3nP",
+                    "name": "I Had Some Help (Feat. Morgan Wallen)",
+                    "artist": "Post Malone"
+                },
+                {
+                    "id": "5MvnMWN5Jc1s5APGipJGP4",
+                    "name": "Drunk (And I Don't Wanna Go Home) - Acoustic",
+                    "artist": "Elle King"
+                },
+                {
+                    "id": "2QQDH8gt4nyxFu2XX6bhG8",
+                    "name": "Judas",
+                    "artist": "Fozzy"
+                },
+                {
+                    "id": "3kvgQZmOgwjfVnuduPPDZG",
+                    "name": "Someone In This Room (feat. Bailey Zimmerman)",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "4KgI52UdIGZC5YdMpVYAOS",
+                    "name": "PSYCHO",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "4ZmX8elKMkH0MfniNi0Adu",
+                    "name": "House of The Rising Sun",
+                    "artist": "Five Finger Death Punch"
+                },
+                {
+                    "id": "4djnw5Fd9KSs718VXHXfmL",
+                    "name": "Rather Die",
+                    "artist": "Barns Courtney"
+                },
+                {
+                    "id": "5D5heO1PsYu1ThDAXzWkpw",
+                    "name": "Bang Bang (The Ballad Of Amy Fisher)",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "74gUN3LUQhqzfTLAP09ejk",
+                    "name": "Griftwood",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "7hP0ZdjUG33YnOJPyahDYy",
+                    "name": "Someone Like You",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "0Tr5G2mE56eLUGvCaXRM8I",
+                    "name": "No Good",
+                    "artist": "KALEO"
+                },
+                {
+                    "id": "0jqblvsI9LBY4irmLVqqEO",
+                    "name": "Welcome to the Family",
+                    "artist": "Avenged Sevenfold"
+                },
+                {
+                    "id": "1WjcX541kITk0ACPf5K6Bp",
+                    "name": "Rats",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "1ghd6vlE9xC6ryQF6TDmv1",
+                    "name": "Already Had It",
+                    "artist": "Tucker Wetmore"
+                },
+                {
+                    "id": "1unTSILv272aGjufNBJjQj",
+                    "name": "Dead End Road",
+                    "artist": "Jelly Roll"
+                },
+                {
+                    "id": "41uRcFai0Ta90sBnYB4OgK",
+                    "name": "This Is The Way (feat. DMX)",
+                    "artist": "Five Finger Death Punch"
+                },
+                {
+                    "id": "4RmigACdwE02FV3yP5xXlP",
+                    "name": "Faith",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "5fZJQrFKWQLb7FpJXZ1g7K",
+                    "name": "A Bar Song (Tipsy)",
+                    "artist": "Shaboozey"
+                },
+                {
+                    "id": "6Zz5S1Qz5QIS1XX33vJMxv",
+                    "name": "Feelin' Country (From Twisters: The Album)",
+                    "artist": "Thomas Rhett"
+                },
+                {
+                    "id": "17phhZDn6oGtzMe56NuWvj",
+                    "name": "Lose Control",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "1fQaoh3imrMunWVZh5kf90",
+                    "name": "Shepherd of Fire",
+                    "artist": "Avenged Sevenfold"
+                },
+                {
+                    "id": "1hrfvLgEC9lci0kB89QEQ0",
+                    "name": "Carry On",
+                    "artist": "Avenged Sevenfold"
+                },
+                {
+                    "id": "1mUNW7iGd2qLERsvHtwJuJ",
+                    "name": "Wetwork",
+                    "artist": "Le Castle Vania"
+                },
+                {
+                    "id": "1vxw6aYJls2oq3gW0DujAo",
+                    "name": "Crazy",
+                    "artist": "Gnarls Barkley"
+                },
+                {
+                    "id": "3SWqGa1J0M7hSBUDM0KePD",
+                    "name": "Legend",
+                    "artist": "The Score"
+                },
+                {
+                    "id": "3dlkeKPc3pCveXvMFVJasK",
+                    "name": "The Worst Country Song Of All Time",
+                    "artist": "Brantley Gilbert"
+                },
+                {
+                    "id": "40gGeC397vLmz4eETZDSrG",
+                    "name": "AfterLife",
+                    "artist": "Five Finger Death Punch"
+                },
+                {
+                    "id": "4AGbGF8JPcaH43eCMuANXG",
+                    "name": "She Keeps Me Up",
+                    "artist": "Nickelback"
+                },
+                {
+                    "id": "4RlwjtqpZN6TC3ILPLrI9G",
+                    "name": "La Sin Sentimientos",
+                    "artist": "Alex Ponce"
+                },
+                {
+                    "id": "5DQ4vnta3DKcOujiKVS4C9",
+                    "name": "Feelin' Country",
+                    "artist": "Thomas Rhett"
+                },
+                {
+                    "id": "5aANEtfccAdMVeDnJzgcfn",
+                    "name": "LIGHTS ON NOBODY'S HOME",
+                    "artist": "Graham Barham"
+                },
+                {
+                    "id": "1OQxJiHrr5HAmTaqAhn39c",
+                    "name": "The Future Is A Foreign Land",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "4unP3OQSZTJR7A2xG5Os9J",
+                    "name": "Mi\u00e9nteme",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "54emogqDyh8F3d79dCc7y7",
+                    "name": "PSYCHO",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "6pWmnSmn9EqCRDb2Qg1ngj",
+                    "name": "SIX FEET UNDER (Caleigh\u2019s Song)",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "55ikcenXPbQdzCnO1sOuYg",
+                    "name": "I Was Made For Lovin\u2019 You - from The Fall Guy",
+                    "artist": "YUNGBLUD"
+                },
+                {
+                    "id": "08unC8N1V1dEcqiyi06g6W",
+                    "name": "Dead of Night",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "3YeBXUEWIjCtcsv0tULpz8",
+                    "name": "Devil in a Dress",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "2ZAEbGGj1yXJRCoVaEn16K",
+                    "name": "Dirty (feat. Teddy Swims)",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "66ZgPEKKoNuu5x0LeI53Wc",
+                    "name": "Roses Are Falling",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "7s11p7SLOoJTYtxXwHtCbY",
+                    "name": "Liquor Talkin'",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "38VwdKSfQLDLR1UvA6piCX",
+                    "name": "Unknown Stuntman (Fall Guy Theme)",
+                    "artist": "Blake Shelton"
+                },
+                {
+                    "id": "3n8f3NS6Afg016kSpaETnQ",
+                    "name": "Queen of the Rodeo",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "64XIYOsE3bhiebWkxRpvGl",
+                    "name": "Ever You're Gone",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "767hNt8JatQqBsJYdZWjAO",
+                    "name": "Sounds Like Something I\u2019d Do",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "5WhdOYLmpNgENGhtzyvEXc",
+                    "name": "The Curse of the Blackened Eye",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "7KaCtOjnF9W1qztV4Kv3nj",
+                    "name": "Born This Way - The Country Road Version",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "1golLrmqyxDWedF7YUHCOD",
+                    "name": "edamame",
+                    "artist": "bbno$"
+                },
+                {
+                    "id": "3usFKA7XXOtaIqDdH6mUx9",
+                    "name": "Outta Time",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "3yNoG3OiD2k27lF5N9ryg5",
+                    "name": "The Devil's In The Temple",
+                    "artist": "Bon Jovi"
+                },
+                {
+                    "id": "4PjZsEf8bCIVyf4VXd57wS",
+                    "name": "Unholy War",
+                    "artist": "Jacob Banks"
+                },
+                {
+                    "id": "6F6bUsLOJMoaTUky7LftrP",
+                    "name": "Take You Back (The Iron Hoof Cattle Call)",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "3v8l8N78qWDgXfHrxppF5D",
+                    "name": "Saturday Night's Alright (For Fighting)",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "4Cod7bFMVp6orPWGDJvndI",
+                    "name": "Stronger Than the Whiskey",
+                    "artist": "Poor Man's Poison"
+                },
+                {
+                    "id": "67swXHVknS142T5tIcNFkl",
+                    "name": "C'mon Baby, Cry",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "5Q4IcXiVP73HuOz82O7mV9",
+                    "name": "Winds Change",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "0mYDmAlfKvnSigoH2h9XbZ",
+                    "name": "Honky Tonkin' About",
+                    "artist": "The Reklaws"
+                },
+                {
+                    "id": "2ViFO3hmIkNUsvoUebYTEm",
+                    "name": "Turn to Hate",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "0PY70NiuO5yDhn9FjdtPvr",
+                    "name": "WHISKEY WHISKEY",
+                    "artist": "Graham Barham"
+                },
+                {
+                    "id": "3MGrDQiB3KrfPELCzOJlE2",
+                    "name": "I Hope It Hurts",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "5mqzhMuUpvnMfwNz6iepmO",
+                    "name": "Welcome to the Party (with French Montana & Lil Pump, feat. Zhavia Ward) - from Deadpool 2",
+                    "artist": "Diplo"
+                },
+                {
+                    "id": "53SdnccFe7DkCuY4DoKFvS",
+                    "name": "Hope to Die",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "7aqYYifyPQmuwWo7g4XWkR",
+                    "name": "Some Things Never Change (feat. HARDY)",
+                    "artist": "Dallas Smith"
+                },
+                {
+                    "id": "1UwriLz98ILbRhrtohTca1",
+                    "name": "The Wanderer",
+                    "artist": "Dion"
+                },
+                {
+                    "id": "2RtIK8NXQr9hILPatp9qrh",
+                    "name": "zombieland (feat. HARDY)",
+                    "artist": "Jax"
+                },
+                {
+                    "id": "2p3QvyvrdHGntOeBwQNJQP",
+                    "name": "She's Crazy but She's Mine",
+                    "artist": "Alex Sparrow"
+                },
+                {
+                    "id": "73KAidtqbDftZjy8AD0H04",
+                    "name": "High Road (feat. Jessie Murph)",
+                    "artist": "Koe Wetzel"
+                },
+                {
+                    "id": "0poKbTUdYz7lXFd15XuHiC",
+                    "name": "Use Me (Brutal Hearts) (feat. Sturgill Simpson, Dove Cameron & Johnny Blue Skies)",
+                    "artist": "Diplo"
+                },
+                {
+                    "id": "1WzAeadSKJhqykZFbJNmQv",
+                    "name": "Your Man",
+                    "artist": "Josh Turner"
+                },
+                {
+                    "id": "0woKDRMZzsFWeHppNQnGlS",
+                    "name": "Golden",
+                    "artist": "Barns Courtney"
+                },
+                {
+                    "id": "6Ahy5fItdBfXRVWYOLo7pM",
+                    "name": "Fires Don't Start Themselves",
+                    "artist": "Darius Rucker"
+                },
+                {
+                    "id": "2kE2HFBFkJ0VMw3igxYohz",
+                    "name": "Wild Ones (feat. Jelly Roll)",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "2PjLRDmHtURyQfTna5sfaU",
+                    "name": "Kiss Goodbye All Night",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "7HH2qGXywdgAn5b2WHnkQq",
+                    "name": "High Heels",
+                    "artist": "Flo Rida"
+                },
+                {
+                    "id": "5OeF6XbsPBDmhKXD30CKEZ",
+                    "name": "WHERE TO FIND ME",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "0pnKcAh5binHOP9HexWwnZ",
+                    "name": "Dancin' In The Moonlight",
+                    "artist": "Chris Lane"
+                },
+                {
+                    "id": "054er1MIyPW8UeRAHmyuzw",
+                    "name": "Bury Me Upside Down",
+                    "artist": "Brantley Gilbert"
+                },
+                {
+                    "id": "53UjKcJcwNzavswl2JG64s",
+                    "name": "I Got A Problem (Full Length)",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "1K3dJsDTQouwqmTC5tfpzg",
+                    "name": "Ay, Ay, Ay",
+                    "artist": "David Bisbal"
+                },
+                {
+                    "id": "4q4ITrTmB4LyoNw9yjb2Ic",
+                    "name": "JACK",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "0ux8xs7l9rh1Hr8SgExguM",
+                    "name": "More Than Friends (feat. Lainey Wilson)",
+                    "artist": "Lukas Nelson and Promise of the Real"
+                },
+                {
+                    "id": "6usohdchdzW9oML7VC4Uhk",
+                    "name": "Lose Control",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "1PHvwEhB9EUajUKTTIc5Vs",
+                    "name": "Creep (feat. Tom Ellis)",
+                    "artist": "Lucifer Cast"
+                },
+                {
+                    "id": "3FUlqltjiMMJdyEPaYAUqK",
+                    "name": "What A Night",
+                    "artist": "Flo Rida"
+                },
+                {
+                    "id": "0BuPyhhnaTvmq5PYlKemQC",
+                    "name": "You, Me, And Whiskey",
+                    "artist": "Justin Moore"
+                },
+                {
+                    "id": "3b5Nwa1602MIuh3sU0qlv9",
+                    "name": "Jukebox Songs and Barstool Beers",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "6uMlDbkMx22aWyoWgyCbTo",
+                    "name": "You In A Honky Tonk",
+                    "artist": "Randall King"
+                },
+                {
+                    "id": "6zdCtcxxM97wDhmbg96tg3",
+                    "name": "WHERE YA AT",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "4N3mpuGDYO39LYh4XepwbO",
+                    "name": "Sin So Sweet",
+                    "artist": "Warren Zeiders"
+                },
+                {
+                    "id": "1IuV2JJG9u3fqL5GYT3FEM",
+                    "name": "Neon You",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "4Bee3PcNdfeqO1B80dDgFn",
+                    "name": "Save Me (with Lainey Wilson)",
+                    "artist": "Jelly Roll"
+                },
+                {
+                    "id": "0RRMFJUWVI7Iu0Wd0DkHTs",
+                    "name": "Over Drinkin\u2019 Under Thinkin\u2019",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "3jhV8I9sIPXsjPs2ZOnSaf",
+                    "name": "But I Got A Beer In My Hand",
+                    "artist": "Luke Bryan"
+                },
+                {
+                    "id": "5X9G3iIyegabYrQQLuzFIs",
+                    "name": "Prop Me Up Beside The Jukebox (If I Die) [feat. The Difftones]",
+                    "artist": "HIXTAPE"
+                },
+                {
+                    "id": "6HhZDGrpQuj2iLiN1JCpyl",
+                    "name": "Cowboys And Angels",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "3VRDOBp0jfm3QU1L4I56P4",
+                    "name": "Wrote The Book Around Here",
+                    "artist": "Brantley Gilbert"
+                },
+                {
+                    "id": "70eDxAyAraNTiD6lx2ZEnH",
+                    "name": "Ex's & Oh's",
+                    "artist": "Elle King"
+                },
+                {
+                    "id": "3cBsEDNhFI9E82vPj3kvi3",
+                    "name": "Wasted On You",
+                    "artist": "Morgan Wallen"
+                },
+                {
+                    "id": "69YTuACgrMGedLai9jPI9N",
+                    "name": "Wicked Game (feat. Tom Ellis)",
+                    "artist": "Lucifer Cast"
+                },
+                {
+                    "id": "25YocRUD8VvCuG916pue6a",
+                    "name": "Hating Everything She Tries On",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "3tSmTelJM5NTGjPC1lTCDo",
+                    "name": "happy",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "4dEWNRlqu2qBJo5j0EERlR",
+                    "name": "What I Couldn\u2019t Forget",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "1BquNUtf3tpIY1XaAPrXkk",
+                    "name": "Classic Again",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "4sx9MW2TS0KnvgT4bU0Hs0",
+                    "name": "She\u2019s The One",
+                    "artist": "Brantley Gilbert"
+                },
+                {
+                    "id": "5jhY1n1cTKSxx8lEujMcAS",
+                    "name": "ROCKSTAR",
+                    "artist": "HARDY"
+                }
+            ],
+            "object_type": "UserInformationTopTracks"
+        },
+        "top_artists": {
+            "num": 50,
+            "top_artists": [
+                {
+                    "id": "0nmQIMXWTXfhgOBdNzhGOs",
+                    "name": "Avenged Sevenfold",
+                    "genres": [
+                        "alternative metal"
+                    ]
+                },
+                {
+                    "id": "1Qp56T7n950O3EGMsSl81D",
+                    "name": "Ghost",
+                    "genres": [
+                        "hard rock",
+                        "metal"
+                    ]
+                },
+                {
+                    "id": "2KrXlzpSX4wWvJ2555FWLv",
+                    "name": "Le Castle Vania",
+                    "genres": [
+                        "electro trash"
+                    ]
+                },
+                {
+                    "id": "4sCKpwwEsgReZxjtKFm2A0",
+                    "name": "Tucker Wetmore",
+                    "genres": [
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "5q8HGNo0BjLWaTAhRtbwxa",
+                    "name": "Brantley Gilbert",
+                    "genres": [
+                        "contemporary country",
+                        "country",
+                        "country road",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "30e8DmahrEamvLbFRPdWmk",
+                    "name": "Justin Moore",
+                    "genres": [
+                        "arkansas country",
+                        "contemporary country",
+                        "country",
+                        "country road"
+                    ]
+                },
+                {
+                    "id": "37lYaYPWOHjKXBD33S6LNv",
+                    "name": "The Reklaws",
+                    "genres": [
+                        "canadian contemporary country",
+                        "canadian country"
+                    ]
+                },
+                {
+                    "id": "5e4Dhzv426EvQe3aDb64jL",
+                    "name": "Shania Twain",
+                    "genres": [
+                        "canadian country",
+                        "canadian pop",
+                        "contemporary country",
+                        "country",
+                        "country dawn"
+                    ]
+                },
+                {
+                    "id": "2q3GG88dVwuQPF4FmySr9I",
+                    "name": "The Score",
+                    "genres": [
+                        "modern alternative rock",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "4mskfuiHWZ3nX3qAdeaGiR",
+                    "name": "Drake Milligan",
+                    "genres": []
+                },
+                {
+                    "id": "0YHgnSkV3S5mvSSCTRWDi5",
+                    "name": "Poor Man's Poison",
+                    "genres": [
+                        "deathgrass"
+                    ]
+                },
+                {
+                    "id": "5t28BP42x2axFnqOOMg3CM",
+                    "name": "Five Finger Death Punch",
+                    "genres": [
+                        "alternative metal",
+                        "groove metal",
+                        "nu metal"
+                    ]
+                },
+                {
+                    "id": "6deZN1bslXzeGvOLaLMOIF",
+                    "name": "Nickelback",
+                    "genres": [
+                        "alternative metal",
+                        "canadian rock",
+                        "post-grunge"
+                    ]
+                },
+                {
+                    "id": "3y2cIKLjiOlp1Np37WiUdH",
+                    "name": "Shaboozey",
+                    "genres": [
+                        "modern country pop",
+                        "pop rap"
+                    ]
+                },
+                {
+                    "id": "7jdFEYD2LTYjfwxOdlVjmc",
+                    "name": "KALEO",
+                    "genres": [
+                        "icelandic indie",
+                        "icelandic rock",
+                        "modern alternative rock"
+                    ]
+                },
+                {
+                    "id": "3bhu7P5PfngueRHiB9hjcx",
+                    "name": "Elle King",
+                    "genres": [
+                        "modern blues rock"
+                    ]
+                },
+                {
+                    "id": "718COspgdWOnwOFpJHRZHS",
+                    "name": "Luke Combs",
+                    "genres": [
+                        "contemporary country",
+                        "country"
+                    ]
+                },
+                {
+                    "id": "1Tie3AZgLQZqYEp8Fv4zOZ",
+                    "name": "Koe Wetzel",
+                    "genres": [
+                        "classic texas country",
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "6LHsnRBUYhFyt01PdKXAF5",
+                    "name": "Bob Moses",
+                    "genres": [
+                        "canadian electronic",
+                        "canadian house"
+                    ]
+                },
+                {
+                    "id": "58lV9VcRSjABbAbfWS6skp",
+                    "name": "Bon Jovi",
+                    "genres": [
+                        "glam metal",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "5gOJTI4TusSENizxhcG7jB",
+                    "name": "David Bisbal",
+                    "genres": [
+                        "latin arena pop",
+                        "latin pop",
+                        "spanish pop",
+                        "spanish pop rock"
+                    ]
+                },
+                {
+                    "id": "0jnsk9HBra6NMjO2oANoPY",
+                    "name": "Flo Rida",
+                    "genres": [
+                        "dance pop",
+                        "miami hip hop",
+                        "pop",
+                        "pop rap"
+                    ]
+                },
+                {
+                    "id": "0AepkoQhYvkjEzzwIcGxdV",
+                    "name": "Jacob Banks",
+                    "genres": [
+                        "uk contemporary r&b"
+                    ]
+                },
+                {
+                    "id": "5QNm7E7RU2m64l6Gliu8Oy",
+                    "name": "HARDY",
+                    "genres": [
+                        "contemporary country",
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "19k8AgwwTSxeaxkOuCQEJs",
+                    "name": "Jelly Roll",
+                    "genres": [
+                        "country rap",
+                        "modern country pop",
+                        "nashville hip hop",
+                        "tennessee hip hop"
+                    ]
+                },
+                {
+                    "id": "46auOkH1pk28rWrSoUNhLo",
+                    "name": "Orville Peck",
+                    "genres": [
+                        "alternative country",
+                        "queer country"
+                    ]
+                },
+                {
+                    "id": "15FyiY3ChN0QRspHIQYq0W",
+                    "name": "Dion",
+                    "genres": [
+                        "doo-wop",
+                        "rock-and-roll",
+                        "rockabilly"
+                    ]
+                },
+                {
+                    "id": "0BvkDsjIUla7X0k6CSWh1I",
+                    "name": "Luke Bryan",
+                    "genres": [
+                        "contemporary country",
+                        "country",
+                        "country road",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "5fMUXHkw8R8eOP2RNVYEZX",
+                    "name": "Diplo",
+                    "genres": [
+                        "dance pop",
+                        "edm",
+                        "electro house",
+                        "moombahton",
+                        "pop dance"
+                    ]
+                },
+                {
+                    "id": "6CegFHnUqJcOBipgphZ2CJ",
+                    "name": "Travis Denning",
+                    "genres": [
+                        "contemporary country",
+                        "country pop",
+                        "modern country pop",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "2HgKf6VcQtGmAKpNXidtiC",
+                    "name": "Dallas Smith",
+                    "genres": [
+                        "canadian contemporary country",
+                        "canadian country"
+                    ]
+                },
+                {
+                    "id": "6x2LnllRG5uGarZMsD4iO8",
+                    "name": "Thomas Rhett",
+                    "genres": [
+                        "contemporary country",
+                        "country",
+                        "country road",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "66BdiVdIoCkmjVxqQzDlJ0",
+                    "name": "Lucifer Cast",
+                    "genres": []
+                },
+                {
+                    "id": "2CmaKO2zEGJ1NWpS1yfVGz",
+                    "name": "Falling In Reverse",
+                    "genres": [
+                        "alternative metal",
+                        "rap metal"
+                    ]
+                },
+                {
+                    "id": "33qOK5uJ8AR2xuQQAhHump",
+                    "name": "Teddy Swims",
+                    "genres": []
+                },
+                {
+                    "id": "5LICWu7uFLkdJVcEiTnRBX",
+                    "name": "Don Louis",
+                    "genres": [
+                        "texas country"
+                    ]
+                },
+                {
+                    "id": "7DQYAz99eM3Y5PkP9WtUew",
+                    "name": "Jax",
+                    "genres": [
+                        "gen z singer-songwriter",
+                        "singer-songwriter pop"
+                    ]
+                },
+                {
+                    "id": "2Z9xsgKEjZF8ueZ96rV6nH",
+                    "name": "Alex Sparrow",
+                    "genres": []
+                },
+                {
+                    "id": "5iXYJYmMcjlTFL1qA8UfgY",
+                    "name": "Lukas Nelson and Promise of the Real",
+                    "genres": [
+                        "modern blues",
+                        "new americana",
+                        "roots rock"
+                    ]
+                },
+                {
+                    "id": "41X1TR6hrK8Q2ZCpp2EqCz",
+                    "name": "bbno$",
+                    "genres": [
+                        "canadian hip hop",
+                        "dark trap",
+                        "meme rap"
+                    ]
+                },
+                {
+                    "id": "68abRTdO4meYReMWHvBYb0",
+                    "name": "Chris Lane",
+                    "genres": [
+                        "contemporary country",
+                        "country",
+                        "country road",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "4Uux6BdaCNrVFQ0bqGRtfh",
+                    "name": "Randall King",
+                    "genres": [
+                        "classic texas country",
+                        "red dirt",
+                        "texas country"
+                    ]
+                },
+                {
+                    "id": "4Y8LpEiP4uKTP02lSYEWJV",
+                    "name": "HIXTAPE",
+                    "genres": [
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "2rtnKY7iQJHIEBnOd66DCO",
+                    "name": "Alex Ponce",
+                    "genres": [
+                        "ecuadorian pop"
+                    ]
+                },
+                {
+                    "id": "7kplJl06UmldxLKseURAYi",
+                    "name": "Warren Zeiders",
+                    "genres": [
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "246dkjvS1zLTtiykXe5h60",
+                    "name": "Post Malone",
+                    "genres": [
+                        "dfw rap",
+                        "melodic rap",
+                        "pop",
+                        "rap"
+                    ]
+                },
+                {
+                    "id": "6Ad91Jof8Niiw0lGLLi3NW",
+                    "name": "YUNGBLUD",
+                    "genres": [
+                        "british indie rock",
+                        "modern rock",
+                        "pov: indie",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "2yLzlEFtIS0Q9UkyBZdQA7",
+                    "name": "Jessie Murph",
+                    "genres": [
+                        "modern country pop",
+                        "singer-songwriter pop"
+                    ]
+                },
+                {
+                    "id": "5SbkVQYYzlw1kte75QIabH",
+                    "name": "Gnarls Barkley",
+                    "genres": [
+                        "atl hip hop",
+                        "neo soul"
+                    ]
+                },
+                {
+                    "id": "3WHWgx8Dh0IqQT1BMDTeE3",
+                    "name": "Graham Barham",
+                    "genres": [
+                        "modern country pop"
+                    ]
+                }
+            ],
+            "object_type": "UserInformationTopArtists"
+        },
+        "top_genres": {
+            "num": 70,
+            "top_genres": [
+                "modern blues",
+                "deathgrass",
+                "modern country pop",
+                "country dawn",
+                "icelandic indie",
+                "post-grunge",
+                "latin arena pop",
+                "canadian rock",
+                "spanish pop",
+                "spanish pop rock",
+                "dance pop",
+                "doo-wop",
+                "rap metal",
+                "alternative country",
+                "dark trap",
+                "ecuadorian pop",
+                "moombahton",
+                "alternative metal",
+                "electro trash",
+                "meme rap",
+                "country road",
+                "canadian contemporary country",
+                "melodic rap",
+                "dfw rap",
+                "modern rock",
+                "glam metal",
+                "modern alternative rock",
+                "uk contemporary r&b",
+                "roots rock",
+                "red dirt",
+                "country",
+                "latin pop",
+                "pop rap",
+                "country rap",
+                "atl hip hop",
+                "nashville hip hop",
+                "groove metal",
+                "electro house",
+                "canadian hip hop",
+                "queer country",
+                "nu metal",
+                "icelandic rock",
+                "rap",
+                "pop",
+                "modern blues rock",
+                "arkansas country",
+                "tennessee hip hop",
+                "classic texas country",
+                "canadian electronic",
+                "pov: indie",
+                "rock",
+                "new americana",
+                "rockabilly",
+                "texas country",
+                "british indie rock",
+                "edm",
+                "miami hip hop",
+                "contemporary country",
+                "canadian house",
+                "neo soul",
+                "modern country rock",
+                "pop dance",
+                "hard rock",
+                "canadian pop",
+                "canadian country",
+                "gen z singer-songwriter",
+                "country pop",
+                "rock-and-roll",
+                "metal",
+                "singer-songwriter pop"
+            ],
+            "object_type": "UserInformationTopGenres"
+        },
+        "object_type": "UserInformation"
+    },
+    {
+        "username": "Mateo Michel",
+        "date": "2024-11-03",
+        "top_tracks": {
+            "num": 124,
+            "top_tracks": [
+                {
+                    "id": "583nKvZJmUVTVFHdIrF6LX",
+                    "name": "Broken Belief",
+                    "artist": "Bob Moses"
+                },
+                {
+                    "id": "2BFnfCnAW6O1a1vZ8NZvkO",
+                    "name": "Midnight Ride",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "37ss0UmAXwDicqdqRf1cN9",
+                    "name": "Drunk and Alone",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "3nHuKdFJZm78CoeBnDcFKe",
+                    "name": "Bad Dreams",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "1WRNwhOwNDBxKpkXMeV1zK",
+                    "name": "Happy Trails",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "2175PkxzwUmUdeJc3J1d0p",
+                    "name": "Already Had It (From Twisters: The Album)",
+                    "artist": "Tucker Wetmore"
+                },
+                {
+                    "id": "2bfudvuGIJ76M26uOtwR4w",
+                    "name": "If You Have Ghosts - Live at the Forum / 2023",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "5ZLL6wYXeqg0k35ZkDRfhZ",
+                    "name": "Pour Me A Drink (Feat. Blake Shelton)",
+                    "artist": "Post Malone"
+                },
+                {
+                    "id": "70Iv0DGdoPCCjE6L2uTq28",
+                    "name": "It Ain't Right",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "2p5LjvjZlMSxxwNUtDyG5x",
+                    "name": "All My Life",
+                    "artist": "Falling In Reverse"
+                },
+                {
+                    "id": "7zXm5RfPShKDVnbMQb7gJ7",
+                    "name": "Leave The Light On (feat. Alexandra Kay)",
+                    "artist": "Jelly Roll"
+                },
+                {
+                    "id": "6GG4yyk3UATdBfTHVgI8PB",
+                    "name": "Ain't No Love In Oklahoma (From Twisters: The Album)",
+                    "artist": "Luke Combs"
+                },
+                {
+                    "id": "4pIKFpwflOdhYNIRmPTj3E",
+                    "name": "Dance Macabre",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "76dStyGzFOTpz24OgSsKcM",
+                    "name": "Gin & Juice - Another Shot From Dr. Dre",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "2oMRghXavYBErsyBIPNm0i",
+                    "name": "The Cards I've Been Dealt (From Twisters: The Album)",
+                    "artist": "Warren Zeiders"
+                },
+                {
+                    "id": "3IjDDbc4BAlOFpHLrFuCiu",
+                    "name": "Permanently Lonely (From \"Skincare\")",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "0MZ7Qj5BoJNTsFYDLPufVt",
+                    "name": "Boots Don't",
+                    "artist": "Shania Twain"
+                },
+                {
+                    "id": "0UT58DMxUfSb8ECS85tgn3",
+                    "name": "Southern Rock",
+                    "artist": "Travis Denning"
+                },
+                {
+                    "id": "3dj4wgM3cPeuLwMNHDuBon",
+                    "name": "The Door",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "7221xIgOnuakPdLqT0F3nP",
+                    "name": "I Had Some Help (Feat. Morgan Wallen)",
+                    "artist": "Post Malone"
+                },
+                {
+                    "id": "5MvnMWN5Jc1s5APGipJGP4",
+                    "name": "Drunk (And I Don't Wanna Go Home) - Acoustic",
+                    "artist": "Elle King"
+                },
+                {
+                    "id": "2QQDH8gt4nyxFu2XX6bhG8",
+                    "name": "Judas",
+                    "artist": "Fozzy"
+                },
+                {
+                    "id": "3kvgQZmOgwjfVnuduPPDZG",
+                    "name": "Someone In This Room (feat. Bailey Zimmerman)",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "4KgI52UdIGZC5YdMpVYAOS",
+                    "name": "PSYCHO",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "4ZmX8elKMkH0MfniNi0Adu",
+                    "name": "House of The Rising Sun",
+                    "artist": "Five Finger Death Punch"
+                },
+                {
+                    "id": "4djnw5Fd9KSs718VXHXfmL",
+                    "name": "Rather Die",
+                    "artist": "Barns Courtney"
+                },
+                {
+                    "id": "5D5heO1PsYu1ThDAXzWkpw",
+                    "name": "Bang Bang (The Ballad Of Amy Fisher)",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "74gUN3LUQhqzfTLAP09ejk",
+                    "name": "Griftwood",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "7hP0ZdjUG33YnOJPyahDYy",
+                    "name": "Someone Like You",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "0Tr5G2mE56eLUGvCaXRM8I",
+                    "name": "No Good",
+                    "artist": "KALEO"
+                },
+                {
+                    "id": "0jqblvsI9LBY4irmLVqqEO",
+                    "name": "Welcome to the Family",
+                    "artist": "Avenged Sevenfold"
+                },
+                {
+                    "id": "1WjcX541kITk0ACPf5K6Bp",
+                    "name": "Rats",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "1ghd6vlE9xC6ryQF6TDmv1",
+                    "name": "Already Had It",
+                    "artist": "Tucker Wetmore"
+                },
+                {
+                    "id": "1unTSILv272aGjufNBJjQj",
+                    "name": "Dead End Road",
+                    "artist": "Jelly Roll"
+                },
+                {
+                    "id": "41uRcFai0Ta90sBnYB4OgK",
+                    "name": "This Is The Way (feat. DMX)",
+                    "artist": "Five Finger Death Punch"
+                },
+                {
+                    "id": "4RmigACdwE02FV3yP5xXlP",
+                    "name": "Faith",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "5fZJQrFKWQLb7FpJXZ1g7K",
+                    "name": "A Bar Song (Tipsy)",
+                    "artist": "Shaboozey"
+                },
+                {
+                    "id": "6Zz5S1Qz5QIS1XX33vJMxv",
+                    "name": "Feelin' Country (From Twisters: The Album)",
+                    "artist": "Thomas Rhett"
+                },
+                {
+                    "id": "17phhZDn6oGtzMe56NuWvj",
+                    "name": "Lose Control",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "1fQaoh3imrMunWVZh5kf90",
+                    "name": "Shepherd of Fire",
+                    "artist": "Avenged Sevenfold"
+                },
+                {
+                    "id": "1hrfvLgEC9lci0kB89QEQ0",
+                    "name": "Carry On",
+                    "artist": "Avenged Sevenfold"
+                },
+                {
+                    "id": "1mUNW7iGd2qLERsvHtwJuJ",
+                    "name": "Wetwork",
+                    "artist": "Le Castle Vania"
+                },
+                {
+                    "id": "1vxw6aYJls2oq3gW0DujAo",
+                    "name": "Crazy",
+                    "artist": "Gnarls Barkley"
+                },
+                {
+                    "id": "3SWqGa1J0M7hSBUDM0KePD",
+                    "name": "Legend",
+                    "artist": "The Score"
+                },
+                {
+                    "id": "3dlkeKPc3pCveXvMFVJasK",
+                    "name": "The Worst Country Song Of All Time",
+                    "artist": "Brantley Gilbert"
+                },
+                {
+                    "id": "40gGeC397vLmz4eETZDSrG",
+                    "name": "AfterLife",
+                    "artist": "Five Finger Death Punch"
+                },
+                {
+                    "id": "4AGbGF8JPcaH43eCMuANXG",
+                    "name": "She Keeps Me Up",
+                    "artist": "Nickelback"
+                },
+                {
+                    "id": "4RlwjtqpZN6TC3ILPLrI9G",
+                    "name": "La Sin Sentimientos",
+                    "artist": "Alex Ponce"
+                },
+                {
+                    "id": "5DQ4vnta3DKcOujiKVS4C9",
+                    "name": "Feelin' Country",
+                    "artist": "Thomas Rhett"
+                },
+                {
+                    "id": "5aANEtfccAdMVeDnJzgcfn",
+                    "name": "LIGHTS ON NOBODY'S HOME",
+                    "artist": "Graham Barham"
+                },
+                {
+                    "id": "1OQxJiHrr5HAmTaqAhn39c",
+                    "name": "The Future Is A Foreign Land",
+                    "artist": "Ghost"
+                },
+                {
+                    "id": "4unP3OQSZTJR7A2xG5Os9J",
+                    "name": "Mi\u00e9nteme",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "54emogqDyh8F3d79dCc7y7",
+                    "name": "PSYCHO",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "6pWmnSmn9EqCRDb2Qg1ngj",
+                    "name": "SIX FEET UNDER (Caleigh\u2019s Song)",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "55ikcenXPbQdzCnO1sOuYg",
+                    "name": "I Was Made For Lovin\u2019 You - from The Fall Guy",
+                    "artist": "YUNGBLUD"
+                },
+                {
+                    "id": "08unC8N1V1dEcqiyi06g6W",
+                    "name": "Dead of Night",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "3YeBXUEWIjCtcsv0tULpz8",
+                    "name": "Devil in a Dress",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "2ZAEbGGj1yXJRCoVaEn16K",
+                    "name": "Dirty (feat. Teddy Swims)",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "66ZgPEKKoNuu5x0LeI53Wc",
+                    "name": "Roses Are Falling",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "7s11p7SLOoJTYtxXwHtCbY",
+                    "name": "Liquor Talkin'",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "38VwdKSfQLDLR1UvA6piCX",
+                    "name": "Unknown Stuntman (Fall Guy Theme)",
+                    "artist": "Blake Shelton"
+                },
+                {
+                    "id": "3n8f3NS6Afg016kSpaETnQ",
+                    "name": "Queen of the Rodeo",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "64XIYOsE3bhiebWkxRpvGl",
+                    "name": "Ever You're Gone",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "767hNt8JatQqBsJYdZWjAO",
+                    "name": "Sounds Like Something I\u2019d Do",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "5WhdOYLmpNgENGhtzyvEXc",
+                    "name": "The Curse of the Blackened Eye",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "7KaCtOjnF9W1qztV4Kv3nj",
+                    "name": "Born This Way - The Country Road Version",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "1golLrmqyxDWedF7YUHCOD",
+                    "name": "edamame",
+                    "artist": "bbno$"
+                },
+                {
+                    "id": "3usFKA7XXOtaIqDdH6mUx9",
+                    "name": "Outta Time",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "3yNoG3OiD2k27lF5N9ryg5",
+                    "name": "The Devil's In The Temple",
+                    "artist": "Bon Jovi"
+                },
+                {
+                    "id": "4PjZsEf8bCIVyf4VXd57wS",
+                    "name": "Unholy War",
+                    "artist": "Jacob Banks"
+                },
+                {
+                    "id": "6F6bUsLOJMoaTUky7LftrP",
+                    "name": "Take You Back (The Iron Hoof Cattle Call)",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "3v8l8N78qWDgXfHrxppF5D",
+                    "name": "Saturday Night's Alright (For Fighting)",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "4Cod7bFMVp6orPWGDJvndI",
+                    "name": "Stronger Than the Whiskey",
+                    "artist": "Poor Man's Poison"
+                },
+                {
+                    "id": "67swXHVknS142T5tIcNFkl",
+                    "name": "C'mon Baby, Cry",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "5Q4IcXiVP73HuOz82O7mV9",
+                    "name": "Winds Change",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "0mYDmAlfKvnSigoH2h9XbZ",
+                    "name": "Honky Tonkin' About",
+                    "artist": "The Reklaws"
+                },
+                {
+                    "id": "2ViFO3hmIkNUsvoUebYTEm",
+                    "name": "Turn to Hate",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "0PY70NiuO5yDhn9FjdtPvr",
+                    "name": "WHISKEY WHISKEY",
+                    "artist": "Graham Barham"
+                },
+                {
+                    "id": "3MGrDQiB3KrfPELCzOJlE2",
+                    "name": "I Hope It Hurts",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "5mqzhMuUpvnMfwNz6iepmO",
+                    "name": "Welcome to the Party (with French Montana & Lil Pump, feat. Zhavia Ward) - from Deadpool 2",
+                    "artist": "Diplo"
+                },
+                {
+                    "id": "53SdnccFe7DkCuY4DoKFvS",
+                    "name": "Hope to Die",
+                    "artist": "Orville Peck"
+                },
+                {
+                    "id": "7aqYYifyPQmuwWo7g4XWkR",
+                    "name": "Some Things Never Change (feat. HARDY)",
+                    "artist": "Dallas Smith"
+                },
+                {
+                    "id": "1UwriLz98ILbRhrtohTca1",
+                    "name": "The Wanderer",
+                    "artist": "Dion"
+                },
+                {
+                    "id": "2RtIK8NXQr9hILPatp9qrh",
+                    "name": "zombieland (feat. HARDY)",
+                    "artist": "Jax"
+                },
+                {
+                    "id": "2p3QvyvrdHGntOeBwQNJQP",
+                    "name": "She's Crazy but She's Mine",
+                    "artist": "Alex Sparrow"
+                },
+                {
+                    "id": "73KAidtqbDftZjy8AD0H04",
+                    "name": "High Road (feat. Jessie Murph)",
+                    "artist": "Koe Wetzel"
+                },
+                {
+                    "id": "0poKbTUdYz7lXFd15XuHiC",
+                    "name": "Use Me (Brutal Hearts) (feat. Sturgill Simpson, Dove Cameron & Johnny Blue Skies)",
+                    "artist": "Diplo"
+                },
+                {
+                    "id": "1WzAeadSKJhqykZFbJNmQv",
+                    "name": "Your Man",
+                    "artist": "Josh Turner"
+                },
+                {
+                    "id": "0woKDRMZzsFWeHppNQnGlS",
+                    "name": "Golden",
+                    "artist": "Barns Courtney"
+                },
+                {
+                    "id": "6Ahy5fItdBfXRVWYOLo7pM",
+                    "name": "Fires Don't Start Themselves",
+                    "artist": "Darius Rucker"
+                },
+                {
+                    "id": "2kE2HFBFkJ0VMw3igxYohz",
+                    "name": "Wild Ones (feat. Jelly Roll)",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "2PjLRDmHtURyQfTna5sfaU",
+                    "name": "Kiss Goodbye All Night",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "7HH2qGXywdgAn5b2WHnkQq",
+                    "name": "High Heels",
+                    "artist": "Flo Rida"
+                },
+                {
+                    "id": "5OeF6XbsPBDmhKXD30CKEZ",
+                    "name": "WHERE TO FIND ME",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "0pnKcAh5binHOP9HexWwnZ",
+                    "name": "Dancin' In The Moonlight",
+                    "artist": "Chris Lane"
+                },
+                {
+                    "id": "054er1MIyPW8UeRAHmyuzw",
+                    "name": "Bury Me Upside Down",
+                    "artist": "Brantley Gilbert"
+                },
+                {
+                    "id": "53UjKcJcwNzavswl2JG64s",
+                    "name": "I Got A Problem (Full Length)",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "1K3dJsDTQouwqmTC5tfpzg",
+                    "name": "Ay, Ay, Ay",
+                    "artist": "David Bisbal"
+                },
+                {
+                    "id": "4q4ITrTmB4LyoNw9yjb2Ic",
+                    "name": "JACK",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "0ux8xs7l9rh1Hr8SgExguM",
+                    "name": "More Than Friends (feat. Lainey Wilson)",
+                    "artist": "Lukas Nelson and Promise of the Real"
+                },
+                {
+                    "id": "6usohdchdzW9oML7VC4Uhk",
+                    "name": "Lose Control",
+                    "artist": "Teddy Swims"
+                },
+                {
+                    "id": "1PHvwEhB9EUajUKTTIc5Vs",
+                    "name": "Creep (feat. Tom Ellis)",
+                    "artist": "Lucifer Cast"
+                },
+                {
+                    "id": "3FUlqltjiMMJdyEPaYAUqK",
+                    "name": "What A Night",
+                    "artist": "Flo Rida"
+                },
+                {
+                    "id": "0BuPyhhnaTvmq5PYlKemQC",
+                    "name": "You, Me, And Whiskey",
+                    "artist": "Justin Moore"
+                },
+                {
+                    "id": "3b5Nwa1602MIuh3sU0qlv9",
+                    "name": "Jukebox Songs and Barstool Beers",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "6uMlDbkMx22aWyoWgyCbTo",
+                    "name": "You In A Honky Tonk",
+                    "artist": "Randall King"
+                },
+                {
+                    "id": "6zdCtcxxM97wDhmbg96tg3",
+                    "name": "WHERE YA AT",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "4N3mpuGDYO39LYh4XepwbO",
+                    "name": "Sin So Sweet",
+                    "artist": "Warren Zeiders"
+                },
+                {
+                    "id": "1IuV2JJG9u3fqL5GYT3FEM",
+                    "name": "Neon You",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "4Bee3PcNdfeqO1B80dDgFn",
+                    "name": "Save Me (with Lainey Wilson)",
+                    "artist": "Jelly Roll"
+                },
+                {
+                    "id": "0RRMFJUWVI7Iu0Wd0DkHTs",
+                    "name": "Over Drinkin\u2019 Under Thinkin\u2019",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "3jhV8I9sIPXsjPs2ZOnSaf",
+                    "name": "But I Got A Beer In My Hand",
+                    "artist": "Luke Bryan"
+                },
+                {
+                    "id": "5X9G3iIyegabYrQQLuzFIs",
+                    "name": "Prop Me Up Beside The Jukebox (If I Die) [feat. The Difftones]",
+                    "artist": "HIXTAPE"
+                },
+                {
+                    "id": "6HhZDGrpQuj2iLiN1JCpyl",
+                    "name": "Cowboys And Angels",
+                    "artist": "Jessie Murph"
+                },
+                {
+                    "id": "3VRDOBp0jfm3QU1L4I56P4",
+                    "name": "Wrote The Book Around Here",
+                    "artist": "Brantley Gilbert"
+                },
+                {
+                    "id": "70eDxAyAraNTiD6lx2ZEnH",
+                    "name": "Ex's & Oh's",
+                    "artist": "Elle King"
+                },
+                {
+                    "id": "3cBsEDNhFI9E82vPj3kvi3",
+                    "name": "Wasted On You",
+                    "artist": "Morgan Wallen"
+                },
+                {
+                    "id": "69YTuACgrMGedLai9jPI9N",
+                    "name": "Wicked Game (feat. Tom Ellis)",
+                    "artist": "Lucifer Cast"
+                },
+                {
+                    "id": "25YocRUD8VvCuG916pue6a",
+                    "name": "Hating Everything She Tries On",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "3tSmTelJM5NTGjPC1lTCDo",
+                    "name": "happy",
+                    "artist": "HARDY"
+                },
+                {
+                    "id": "4dEWNRlqu2qBJo5j0EERlR",
+                    "name": "What I Couldn\u2019t Forget",
+                    "artist": "Drake Milligan"
+                },
+                {
+                    "id": "1BquNUtf3tpIY1XaAPrXkk",
+                    "name": "Classic Again",
+                    "artist": "Don Louis"
+                },
+                {
+                    "id": "4sx9MW2TS0KnvgT4bU0Hs0",
+                    "name": "She\u2019s The One",
+                    "artist": "Brantley Gilbert"
+                },
+                {
+                    "id": "5jhY1n1cTKSxx8lEujMcAS",
+                    "name": "ROCKSTAR",
+                    "artist": "HARDY"
+                }
+            ],
+            "object_type": "UserInformationTopTracks"
+        },
+        "top_artists": {
+            "num": 50,
+            "top_artists": [
+                {
+                    "id": "0nmQIMXWTXfhgOBdNzhGOs",
+                    "name": "Avenged Sevenfold",
+                    "genres": [
+                        "alternative metal"
+                    ]
+                },
+                {
+                    "id": "1Qp56T7n950O3EGMsSl81D",
+                    "name": "Ghost",
+                    "genres": [
+                        "hard rock",
+                        "metal"
+                    ]
+                },
+                {
+                    "id": "2KrXlzpSX4wWvJ2555FWLv",
+                    "name": "Le Castle Vania",
+                    "genres": [
+                        "electro trash"
+                    ]
+                },
+                {
+                    "id": "4sCKpwwEsgReZxjtKFm2A0",
+                    "name": "Tucker Wetmore",
+                    "genres": [
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "5q8HGNo0BjLWaTAhRtbwxa",
+                    "name": "Brantley Gilbert",
+                    "genres": [
+                        "contemporary country",
+                        "country",
+                        "country road",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "30e8DmahrEamvLbFRPdWmk",
+                    "name": "Justin Moore",
+                    "genres": [
+                        "arkansas country",
+                        "contemporary country",
+                        "country",
+                        "country road"
+                    ]
+                },
+                {
+                    "id": "37lYaYPWOHjKXBD33S6LNv",
+                    "name": "The Reklaws",
+                    "genres": [
+                        "canadian contemporary country",
+                        "canadian country"
+                    ]
+                },
+                {
+                    "id": "5e4Dhzv426EvQe3aDb64jL",
+                    "name": "Shania Twain",
+                    "genres": [
+                        "canadian country",
+                        "canadian pop",
+                        "contemporary country",
+                        "country",
+                        "country dawn"
+                    ]
+                },
+                {
+                    "id": "2q3GG88dVwuQPF4FmySr9I",
+                    "name": "The Score",
+                    "genres": [
+                        "modern alternative rock",
+                        "pov: indie"
+                    ]
+                },
+                {
+                    "id": "4mskfuiHWZ3nX3qAdeaGiR",
+                    "name": "Drake Milligan",
+                    "genres": []
+                },
+                {
+                    "id": "0YHgnSkV3S5mvSSCTRWDi5",
+                    "name": "Poor Man's Poison",
+                    "genres": [
+                        "deathgrass"
+                    ]
+                },
+                {
+                    "id": "5t28BP42x2axFnqOOMg3CM",
+                    "name": "Five Finger Death Punch",
+                    "genres": [
+                        "alternative metal",
+                        "groove metal",
+                        "nu metal"
+                    ]
+                },
+                {
+                    "id": "6deZN1bslXzeGvOLaLMOIF",
+                    "name": "Nickelback",
+                    "genres": [
+                        "alternative metal",
+                        "canadian rock",
+                        "post-grunge"
+                    ]
+                },
+                {
+                    "id": "3y2cIKLjiOlp1Np37WiUdH",
+                    "name": "Shaboozey",
+                    "genres": [
+                        "modern country pop",
+                        "pop rap"
+                    ]
+                },
+                {
+                    "id": "7jdFEYD2LTYjfwxOdlVjmc",
+                    "name": "KALEO",
+                    "genres": [
+                        "icelandic indie",
+                        "icelandic rock",
+                        "modern alternative rock"
+                    ]
+                },
+                {
+                    "id": "3bhu7P5PfngueRHiB9hjcx",
+                    "name": "Elle King",
+                    "genres": [
+                        "modern blues rock"
+                    ]
+                },
+                {
+                    "id": "718COspgdWOnwOFpJHRZHS",
+                    "name": "Luke Combs",
+                    "genres": [
+                        "contemporary country",
+                        "country"
+                    ]
+                },
+                {
+                    "id": "1Tie3AZgLQZqYEp8Fv4zOZ",
+                    "name": "Koe Wetzel",
+                    "genres": [
+                        "classic texas country",
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "6LHsnRBUYhFyt01PdKXAF5",
+                    "name": "Bob Moses",
+                    "genres": [
+                        "canadian electronic",
+                        "canadian house"
+                    ]
+                },
+                {
+                    "id": "58lV9VcRSjABbAbfWS6skp",
+                    "name": "Bon Jovi",
+                    "genres": [
+                        "glam metal",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "5gOJTI4TusSENizxhcG7jB",
+                    "name": "David Bisbal",
+                    "genres": [
+                        "latin arena pop",
+                        "latin pop",
+                        "spanish pop",
+                        "spanish pop rock"
+                    ]
+                },
+                {
+                    "id": "0jnsk9HBra6NMjO2oANoPY",
+                    "name": "Flo Rida",
+                    "genres": [
+                        "dance pop",
+                        "miami hip hop",
+                        "pop",
+                        "pop rap"
+                    ]
+                },
+                {
+                    "id": "0AepkoQhYvkjEzzwIcGxdV",
+                    "name": "Jacob Banks",
+                    "genres": [
+                        "uk contemporary r&b"
+                    ]
+                },
+                {
+                    "id": "5QNm7E7RU2m64l6Gliu8Oy",
+                    "name": "HARDY",
+                    "genres": [
+                        "contemporary country",
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "19k8AgwwTSxeaxkOuCQEJs",
+                    "name": "Jelly Roll",
+                    "genres": [
+                        "country rap",
+                        "modern country pop",
+                        "nashville hip hop",
+                        "tennessee hip hop"
+                    ]
+                },
+                {
+                    "id": "46auOkH1pk28rWrSoUNhLo",
+                    "name": "Orville Peck",
+                    "genres": [
+                        "alternative country",
+                        "queer country"
+                    ]
+                },
+                {
+                    "id": "15FyiY3ChN0QRspHIQYq0W",
+                    "name": "Dion",
+                    "genres": [
+                        "doo-wop",
+                        "rock-and-roll",
+                        "rockabilly"
+                    ]
+                },
+                {
+                    "id": "0BvkDsjIUla7X0k6CSWh1I",
+                    "name": "Luke Bryan",
+                    "genres": [
+                        "contemporary country",
+                        "country",
+                        "country road",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "5fMUXHkw8R8eOP2RNVYEZX",
+                    "name": "Diplo",
+                    "genres": [
+                        "dance pop",
+                        "edm",
+                        "electro house",
+                        "moombahton",
+                        "pop dance"
+                    ]
+                },
+                {
+                    "id": "6CegFHnUqJcOBipgphZ2CJ",
+                    "name": "Travis Denning",
+                    "genres": [
+                        "contemporary country",
+                        "country pop",
+                        "modern country pop",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "2HgKf6VcQtGmAKpNXidtiC",
+                    "name": "Dallas Smith",
+                    "genres": [
+                        "canadian contemporary country",
+                        "canadian country"
+                    ]
+                },
+                {
+                    "id": "6x2LnllRG5uGarZMsD4iO8",
+                    "name": "Thomas Rhett",
+                    "genres": [
+                        "contemporary country",
+                        "country",
+                        "country road",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "66BdiVdIoCkmjVxqQzDlJ0",
+                    "name": "Lucifer Cast",
+                    "genres": []
+                },
+                {
+                    "id": "2CmaKO2zEGJ1NWpS1yfVGz",
+                    "name": "Falling In Reverse",
+                    "genres": [
+                        "alternative metal",
+                        "rap metal"
+                    ]
+                },
+                {
+                    "id": "33qOK5uJ8AR2xuQQAhHump",
+                    "name": "Teddy Swims",
+                    "genres": []
+                },
+                {
+                    "id": "5LICWu7uFLkdJVcEiTnRBX",
+                    "name": "Don Louis",
+                    "genres": [
+                        "texas country"
+                    ]
+                },
+                {
+                    "id": "7DQYAz99eM3Y5PkP9WtUew",
+                    "name": "Jax",
+                    "genres": [
+                        "gen z singer-songwriter",
+                        "singer-songwriter pop"
+                    ]
+                },
+                {
+                    "id": "2Z9xsgKEjZF8ueZ96rV6nH",
+                    "name": "Alex Sparrow",
+                    "genres": []
+                },
+                {
+                    "id": "5iXYJYmMcjlTFL1qA8UfgY",
+                    "name": "Lukas Nelson and Promise of the Real",
+                    "genres": [
+                        "modern blues",
+                        "new americana",
+                        "roots rock"
+                    ]
+                },
+                {
+                    "id": "41X1TR6hrK8Q2ZCpp2EqCz",
+                    "name": "bbno$",
+                    "genres": [
+                        "canadian hip hop",
+                        "dark trap",
+                        "meme rap"
+                    ]
+                },
+                {
+                    "id": "68abRTdO4meYReMWHvBYb0",
+                    "name": "Chris Lane",
+                    "genres": [
+                        "contemporary country",
+                        "country",
+                        "country road",
+                        "modern country rock"
+                    ]
+                },
+                {
+                    "id": "4Uux6BdaCNrVFQ0bqGRtfh",
+                    "name": "Randall King",
+                    "genres": [
+                        "classic texas country",
+                        "red dirt",
+                        "texas country"
+                    ]
+                },
+                {
+                    "id": "4Y8LpEiP4uKTP02lSYEWJV",
+                    "name": "HIXTAPE",
+                    "genres": [
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "2rtnKY7iQJHIEBnOd66DCO",
+                    "name": "Alex Ponce",
+                    "genres": [
+                        "ecuadorian pop"
+                    ]
+                },
+                {
+                    "id": "7kplJl06UmldxLKseURAYi",
+                    "name": "Warren Zeiders",
+                    "genres": [
+                        "modern country pop"
+                    ]
+                },
+                {
+                    "id": "246dkjvS1zLTtiykXe5h60",
+                    "name": "Post Malone",
+                    "genres": [
+                        "dfw rap",
+                        "melodic rap",
+                        "pop",
+                        "rap"
+                    ]
+                },
+                {
+                    "id": "6Ad91Jof8Niiw0lGLLi3NW",
+                    "name": "YUNGBLUD",
+                    "genres": [
+                        "british indie rock",
+                        "modern rock",
+                        "pov: indie",
+                        "rock"
+                    ]
+                },
+                {
+                    "id": "2yLzlEFtIS0Q9UkyBZdQA7",
+                    "name": "Jessie Murph",
+                    "genres": [
+                        "modern country pop",
+                        "singer-songwriter pop"
+                    ]
+                },
+                {
+                    "id": "5SbkVQYYzlw1kte75QIabH",
+                    "name": "Gnarls Barkley",
+                    "genres": [
+                        "atl hip hop",
+                        "neo soul"
+                    ]
+                },
+                {
+                    "id": "3WHWgx8Dh0IqQT1BMDTeE3",
+                    "name": "Graham Barham",
+                    "genres": [
+                        "modern country pop"
+                    ]
+                }
+            ],
+            "object_type": "UserInformationTopArtists"
+        },
+        "top_genres": {
+            "num": 70,
+            "top_genres": [
+                "modern blues",
+                "deathgrass",
+                "modern country pop",
+                "country dawn",
+                "icelandic indie",
+                "post-grunge",
+                "latin arena pop",
+                "canadian rock",
+                "spanish pop",
+                "spanish pop rock",
+                "dance pop",
+                "doo-wop",
+                "rap metal",
+                "alternative country",
+                "dark trap",
+                "ecuadorian pop",
+                "moombahton",
+                "alternative metal",
+                "electro trash",
+                "meme rap",
+                "country road",
+                "canadian contemporary country",
+                "melodic rap",
+                "dfw rap",
+                "modern rock",
+                "glam metal",
+                "modern alternative rock",
+                "uk contemporary r&b",
+                "roots rock",
+                "red dirt",
+                "country",
+                "latin pop",
+                "pop rap",
+                "country rap",
+                "atl hip hop",
+                "nashville hip hop",
+                "groove metal",
+                "electro house",
+                "canadian hip hop",
+                "queer country",
+                "nu metal",
+                "icelandic rock",
+                "rap",
+                "pop",
+                "modern blues rock",
+                "arkansas country",
+                "tennessee hip hop",
+                "classic texas country",
+                "canadian electronic",
+                "pov: indie",
+                "rock",
+                "new americana",
+                "rockabilly",
+                "texas country",
+                "british indie rock",
+                "edm",
+                "miami hip hop",
+                "contemporary country",
+                "canadian house",
+                "neo soul",
+                "modern country rock",
+                "pop dance",
+                "hard rock",
+                "canadian pop",
+                "canadian country",
+                "gen z singer-songwriter",
+                "country pop",
+                "rock-and-roll",
+                "metal",
+                "singer-songwriter pop"
+            ],
+            "object_type": "UserInformationTopGenres"
+        },
+        "object_type": "UserInformation"
+    }
+]
