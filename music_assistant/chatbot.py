@@ -19,7 +19,6 @@ def agent_response(message, history):
 if __name__ == "__main__":
     spotify_object.set_spotify_credentials(SETTINGS.client_id, SETTINGS.client_secret, SETTINGS.redirect_uri)
     get_user_information_from_Spotify()
-    get_user_information_tool = FunctionTool.from_defaults(fn=get_user_information_from_Spotify, return_direct=False)
     demo = gr.ChatInterface(agent_response, type="messages")
     demo.launch()
 
