@@ -20,9 +20,16 @@ class Artist(BaseModel):
     name: str
     genres: list[str] | None
 
+class Album(BaseModel):
+    id: str
+    name: str
+    artist: str
+    tracks: list[Song]
+
 
 class PlaylistWithTracks(BaseModel):
-    playlist: Playlist
+    id: str
+    total: int
     tracks: list[Song]
 
 class UserInformationTopTracks(BaseModel):
@@ -43,30 +50,3 @@ class UserInformation(BaseModel):
     top_tracks: UserInformationTopTracks
     top_artists: UserInformationTopArtists
     top_genres: UserInformationTopGenres
-
-class AgentAPIResponse(BaseModel):
-    status: str
-    agent_response: str
-    timestamp: datetime = Field(default_factory=datetime.now)
-
-class RecommendationRequest(BaseModel):
-    object: str
-    notes: Optional[list[str]] = Field(None)
-
-class ReservationRequest(BaseModel):
-    origin: str
-    destination: str
-    date: str
-
-class HotelReservationRequest(BaseModel):
-    checkin_date: str
-    checkout_date: str
-    hotel: str
-    city: str
-
-class RestaurantReservationRequest(BaseModel):
-    date: str
-    time: str
-    restaurant: str
-    city: str
-    dish: Optional[str] = Field(None)

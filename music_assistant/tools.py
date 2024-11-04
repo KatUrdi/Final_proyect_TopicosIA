@@ -13,6 +13,7 @@ from music_assistant.models import (
     PlaylistWithTracks,
     Song,
     Artist,
+    Album,
     UserInformationTopTracks,
     UserInformationTopGenres,
     UserInformationTopArtists,
@@ -162,9 +163,8 @@ def show_specific_Spotify_playlist_tracks(playlist_id: str):
     playlist_tracks = sp.playlist_tracks(playlist_id)
     list_of_tracks = []
     for track in playlist_tracks['items']:
-        lyrics = get_lyrics_from_genius(track['track']['name'], track['track']['artists'][0]['name'])
-        list_of_tracks.append(Song(track['track']['id'], track['track']['name'], track['track']['artists'][0]['name'], lyrics))
-    return PlaylistWithTracks(playlist=Playlist(id=playlist_id, name=playlist_tracks['name'], num_tracks=playlist_tracks['total']), tracks=list_of_tracks)
+        list_of_tracks.append(Song(id=track['track']['id'], name=track['track']['name'], artist=track['track']['artists'][0]['name']))
+    return PlaylistWithTracks(id=playlist_id, total=playlist_tracks['total'], tracks=list_of_tracks)
 
 show_specific_Spotify_playlist_tracks_tool = FunctionTool.from_defaults(fn=show_specific_Spotify_playlist_tracks, return_direct=False)
 
@@ -186,7 +186,7 @@ def get_artist_Spotify(id: str):
     """
     sp = spotify_object.get_spotify_object()
     artist = sp.artist(id)
-    return Artist(id=artist['id'], name=artist['name'])
+    return Artist(id=artist['id'], name=artist['name'], genres=artist['genres'])
 
 get_artist_Spotify_tool = FunctionTool.from_defaults(fn=get_artist_Spotify, return_direct=False)
 
@@ -387,3 +387,81 @@ def get_recommendations_Spotify(seed_artists: list[str] | None = None, seed_genr
     return track_uris
 
 get_recommendations_Spotify_tool = FunctionTool.from_defaults(fn=get_recommendations_Spotify, return_direct=False)
+
+def search_Spotify( type: str,artist: str | None = None, album: str | None = None, track: str | None = None, genre: str | None = None, limit: int = 10) -> list[str]:
+    """
+    This function searches Spotify for tracks, artists, and albums based on the provided query.
+
+    ### Usage
+    - Input: This function requires one input:
+        1. **type** (str): The type of search to be performed. Can be "track", "artist", or "album". NOTHING ELSE. This is a required parameter. If you're building a playlist, use "track" to get a list or URI's.
+        2. **artist** (str | None): The name of the artist to search for.
+        3. **album** (str | None): The name of the album to search for.
+        4. **track** (str | None): The name of the track to search for.
+        5. **genre** (str | None): The name of the genre to search for.
+        6. **limit** (int): The maximum number of search results to return. Default is 10. The minimum is 1. The maximum is 50. For a playlist, I suggest you give limit a value of 20, unless otherwise specified by the user.
+
+    ### Output
+    - The function returns an array of uri strings that identify each search result.
+
+    ### Notes
+    - This function searches Spotify for tracks, artists, and albums based on the provided query.
+    - At least one of the parameters **artist**, **album**, **track** or **genre** must be provided and not None.
+    """
+
+    sp = spotify_object.get_spotify_object()
+    terms_for_query = []
+    if(artist):
+        terms_for_query.append(f"artist:{artist}")
+    if(album):
+        terms_for_query.append(f"album:{album}")
+    if(track):
+        terms_for_query.append(f"track:{track}")
+    if(genre):
+        terms_for_query.append(f"genre:{genre}")
+    query = " ".join(terms_for_query)
+
+    result = sp.search(q=query, type=type)
+
+    list_uris=[]
+
+    if(type == "track"):
+        list_uris= [track['uri'] for track in result['tracks']['items']]
+    if(type == "artist"):
+        list_uris= [artist['uri'] for artist in result['artists']['items']]
+    if(type == "album"):
+        list_uris= [album['uri'] for album in result['albums']['items']]
+
+    return list_uris
+
+
+search_Spotify_tool = FunctionTool.from_defaults(fn=search_Spotify, return_direct=False)
+
+def get_album_Spotify(album_uri: str) -> Album:
+    """
+    This function retrieves the tracks in an album and album information from Spotify.
+
+    ### Usage
+    - Input: This function requires one input:
+        1. **album_uri** (str): The URI of the album to retrieve tracks from. This is a required parameter.
+
+    ### Output
+    - The function returns an `Album` object containing the album details and a list of `Song` objects, each with information about the song.
+
+    ### Notes
+    - This function retrieves the tracks in an album from Spotify.
+    - The Spotify authorization object is required for this function.
+    """
+
+    sp = spotify_object.get_spotify_object()
+
+    results_album = sp.album(album_uri)
+    album = Album(
+        name=results_album['name'],
+        artist=results_album['artists'][0]['name'],
+        id=results_album['id'],
+        tracks=[Song(id= track['id'], name=track['name'], artist=track['artists'][0]['name']) for track in results_album['tracks']['items']],
+    )
+    return album
+
+get_album_Spotify_tool = FunctionTool.from_defaults(fn=get_album_Spotify, return_direct=False)
