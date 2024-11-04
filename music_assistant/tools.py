@@ -118,7 +118,7 @@ def create_Spotify_playlist(track_uris: list[str], playlist_name: str = "Music A
     user_id = sp.current_user()['id']
     new_playlist = sp.user_playlist_create(user=user_id, name=playlist_name, public=False, description=playlist_description)
     sp.playlist_add_items(playlist_id=new_playlist['id'], items=track_uris)
-    return Playlist(new_playlist['id'], new_playlist['name'], len(track_uris))
+    return Playlist(id=new_playlist['id'], name=new_playlist['name'], num_tracks=len(track_uris))
 
 create_Spotify_playlist_tool = FunctionTool.from_defaults(fn=create_Spotify_playlist, return_direct=False)
 
@@ -139,7 +139,7 @@ def show_all_Spotify_playlists():
     user_playlists = sp.current_user_playlists()
     list_of_playlists = []
     for playlist in user_playlists['items']:
-        list_of_playlists.append(Playlist(playlist['id'], playlist['name'], playlist['tracks']['total']))
+        list_of_playlists.append(Playlist(id=playlist['id'], name=playlist['name'], num_tracks=playlist['tracks']['total']))
     return list_of_playlists
 
 show_all_Spotify_playlists_tool = FunctionTool.from_defaults(fn=show_all_Spotify_playlists, return_direct=False)
@@ -164,7 +164,7 @@ def show_specific_Spotify_playlist_tracks(playlist_id: str):
     for track in playlist_tracks['items']:
         lyrics = get_lyrics_from_genius(track['track']['name'], track['track']['artists'][0]['name'])
         list_of_tracks.append(Song(track['track']['id'], track['track']['name'], track['track']['artists'][0]['name'], lyrics))
-    return PlaylistWithTracks(Playlist(playlist_id, playlist_tracks['name'], playlist_tracks['total']), list_of_tracks)
+    return PlaylistWithTracks(playlist=Playlist(id=playlist_id, name=playlist_tracks['name'], num_tracks=playlist_tracks['total']), tracks=list_of_tracks)
 
 show_specific_Spotify_playlist_tracks_tool = FunctionTool.from_defaults(fn=show_specific_Spotify_playlist_tracks, return_direct=False)
 
@@ -186,7 +186,7 @@ def get_artist_Spotify(id: str):
     """
     sp = spotify_object.get_spotify_object()
     artist = sp.artist(id)
-    return Artist(artist['id'], artist['name'])
+    return Artist(id=artist['id'], name=artist['name'])
 
 get_artist_Spotify_tool = FunctionTool.from_defaults(fn=get_artist_Spotify, return_direct=False)
 
