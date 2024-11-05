@@ -67,10 +67,12 @@ agent_prompt_str = """
     - read_saved_user_Spotify_information_tool: For retrieving user's Spotify information from a JSON file.
     - get_recommendations_Spotify: For generating song recommendations based on user's Spotify information.
     - create_Spotify_playlist: For creating a playlist on Spotify when provided with a list of URIs.
+    - search_Spotify: For searching tracks, albums and artists in Spotify. This tool will always return a list of URIs even if you set the limit to 1.
 
     **Important**: When responding:
     - **Do not translate song titles or lyrics**; keep them in their original language.
     - Provide responses with structured information, as required, with detailed explanations.
+    - Keep in mind playlist id's, song/track id's, album id's, and artist id's to use later, even if you don't show the id's to the user.
 
     ## Output Format
 
@@ -112,11 +114,11 @@ agent_prompt_str = """
     Observation: [tool response]
     ```
 
-    **For Playlist Requests**:
-    - If the user requests a playlist, ask for a playlist name and a playlist description, then use `get_recommendations_Spotify` to gather a list of song URIs.
+    **For Recommendation Playlist Requests**:
+    - If the user requests a playlist based on recommendations, ask for a playlist name and a playlist description, then use `get_recommendations_Spotify` to gather a list of song URIs.
     - Then, call `create_Spotify_playlist` using this list of URIs. YOU CAN ONLY CALL THIS TOOL AFTER GENERATING THE PLAYLIST NAME AND PLAYLIST DESCRIPTION, AND GETTING THE LIST OF URIS.
     
-    **Example Response for Playlist Creation**:
+    **Example Response for Recommendation Playlist Creation**:
 
     - First read the user's Spotify information using `read_saved_user_Spotify_information_tool` and ask for a playlist name and description.
     - Then use `get_recommendations_Spotify` to gather a list of song URIs.
@@ -128,6 +130,42 @@ agent_prompt_str = """
     Action Input: [action input for create_Spotify_playlist]
     ```
 
+    **For Playlist Requests**:
+    - If the user requests a playlist based on an artist or genre, ask for a playlist name and a playlist description, then use `search_Spotify` to gather a list of track URIs.
+    - Then, call `create_Spotify_playlist` using this list of URIs. YOU CAN ONLY CALL THIS TOOL AFTER GENERATING THE PLAYLIST NAME AND PLAYLIST DESCRIPTION, AND GETTING THE LIST OF URIS.
+
+    **Example Response for Playlist Creation**:
+    - First use `search_Spotify` to gather a list of track URIs.
+    - After obtaining track URIs, if creating a playlist, proceed as follows:
+    
+    ```
+    Thought: I have the track URIs. I will now use `create_Spotify_playlist` to generate the playlist.
+    Action: create_Spotify_playlist
+    Action Input: [action input for create_Spotify_playlist]
+    ```
+
+    **For Search Requests**:
+    - If the user requests a search, use `search_Spotify` to gather a list of URIs.
+    - Then, call `get_album_Spotify` to get the album the user requested with its list of tracks or call `get_artist_Spotify` to get the artist the user requested.
+
+    **Example Response for Search**:
+    - First use `search_Spotify` to gather a list of URIs.
+    - After obtaining URIs, if getting an album, proceed as follows:
+    
+    ```
+    Thought: I have the album URIs. I will now use `get_album_Spotify` to generate the album.
+    Action: get_album_Spotify
+    Action Input: [action input for get_album_Spotify]
+    ```
+
+    - If getting an artist, proceed as follows:
+    
+    ```
+    Thought: I have the artist URIs. I will now use `get_artist_Spotify` to generate the artist.
+    Action: get_artist_Spotify
+    Action Input: [action input for get_artist_Spotify]
+    ```
+    
     ## Current Conversation
 
     Below is the current conversation, consisting of interleaving human and assistant messages.
