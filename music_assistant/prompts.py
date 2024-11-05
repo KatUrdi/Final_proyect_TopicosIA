@@ -89,6 +89,10 @@ agent_prompt_str = """
     NEVER surround your response with markdown code markers. You may use code markers within your response if needed.
 
     Use valid JSON formatting for the Action Input. Do NOT use an incorrect format, like {{'input': 'Adele'}}.
+    
+    Do not forget to execute the tools you know you have to use. Do not show the user your Action or Action Input. Execute the tools.
+    
+    ALWAYS use at least one tool to respond to the user query. You will never be able to respond by yourself.
 
     After each tool action, expect the following format from the user:
 
